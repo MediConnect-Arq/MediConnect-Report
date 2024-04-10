@@ -2,10 +2,15 @@
  ![Universidad Aplicada de Ciencias Aplicadas](https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png) 
 
  Universidad: Universidad Peruana de Ciencias Aplicadas
+
  Carrera: Ingeniería de Software
+
  Ciclo: VIII
+
  Nombre del Curso: Arquitectura de Software Emergentes
+
  Sección: WX82
+ 
  Nombre del Profesor: Christian Luis de los Rios Fernandez
 
  "Informe del Trabajo Final"
@@ -22,5 +27,5 @@
 
 Mes y Año: Abril 2024
 
-Ciclo: 2024-1
+Ciclo: 2024-1   
 
