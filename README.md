@@ -29,6 +29,10 @@ Ciclo: 2024-1
 
 # Registro de Versiones del Informe
 
+| Version | Fecha | Autor | Descripcion de la Modificación  | 
+|---------- | ----- |------ | ----------------| 
+
+
 ## Project Report Collaboration Insights 
 **Enlace del Project Report:** [https://github.com/MediConnect-Arq/MediConnect-Report/tree/main] 
 
@@ -93,3 +97,4 @@ Ciclo: 2024-1
     - 4.3.2. Software Architecture Context Level Diagrams
     - 4.3.3. Software Architecture Container Level Diagrams
     - 4.3.4. Software Architecture Deployment Diagrams
+  
