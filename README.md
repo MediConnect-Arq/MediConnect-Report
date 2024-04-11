@@ -335,3 +335,4 @@ En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra apli
 ## 3.3. Impact Mapping 
 ![Impact Map](/Images/Impact%20map%201.png)
 ## 3.4. Product Backlog
+
