@@ -229,6 +229,21 @@ Para nosotros este es otro segmento fundamental dado que representan a las perso
   9. ¿Consideras que nuestro aplicativo podría satisfacer tus necesidades de mejorar tu salud mental? Caso contrario, ¿Qué mejoras le darías a nuestro producto para cumplir con este objetivo?
  
 ### 2.2.2. Registro de Entrevistas
+
+**Especialistas de la Salud Mental**
+
+| Foto de la Entrevista    | Descripción |
+| -----------------------  | ----------- |
+| ![Entrevista 1](/Images/entrevista%201.png) | Enlace: https://www.youtube.com/watch?v=w8fwZyjWcBc&ab_channel=D%C3%A9nnisPieroQuevedo <br/> Entrevistado: Alvaro Garcia Pinto <br/> Entrevistador: Dennis Piero Quevedo |
+| ![Entrevista 2](/Images/entrevista%202.jpg) | Enlace:  <br/> Entrevistado: Antonella Del Carmen <br/> Entrevistador: Diego Osorio |
+
+**Paciente o Usuario**
+
+| Foto de la Entrevista    | Descripción |
+| ------------------------ | ----------- |
+| ![Entrevista 3](/Images/entrevista%203.jpg) | Enlace: https://www.youtube.com/watch?v=XSzqqVFpn9U&ab_channel=GabrielaNombertoRamos <br/> Entrevistado: Gabriel Aragón <br/> Entrevistador: Gabriela Nomberto |
+| ![Entrevista 4](/Images/entrevista%204.png) | Enlace: https://www.youtube.com/watch?v=Y-awOdihQfY&ab_channel=D%C3%A9nnisPieroQuevedo <br/> Entrevistado: Fiorella Quevedo Mestanza <br/> Entrevistador: Dennis Piero Quevedo |
+
 ### 2.2.3. Análisis de Entrevistas
 
 ## 2.3. Needfinding
