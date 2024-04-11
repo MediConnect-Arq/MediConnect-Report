@@ -299,9 +299,11 @@ En general, esta solución parece estar bien alineada con las necesidades y preo
 ### 2.3.1. User Persona
 
 **Usuario que busca ayuda o pacientes**
+
 El fin que nosotros buscamos no es vender más o solo buscar ganancias económicas, sino crear un impacto significativo en la forma en que los jóvenes experimentan sus vidas y mejoran el estado de su salud mental. La relación entre los artefactos a presentar con el user persona será fundamental para que nuestros usuarios sean los principales beneficiados <br/> ![User Persona paciente](/Images/User%20Persona%20paciente.png)
 
 **Medico Especialista en al salud mental**
+
 En este apartado, buscamos que los médicos tengan una mejor organización en sus agendas asi para poder tener un mejor control de los tratamientos que les puedan prescribir a sus pacientes. Tenemos en cuenta que todo esto es fundamental para que se permita una mejor atención al cliente o paciente. <br/> ![User Persona medico](/Images/User%20Persona%20medico.png)
 
 ### 2.3.2. User Task Matrix
