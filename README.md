@@ -191,10 +191,43 @@ Para nosotros este es otro segmento fundamental dado que representan a las perso
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 ### 2.1.1. Análisis Competitivo
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas 
 ### 2.2.1. Diseño de Entrevistas
+
+- Al comienzo de la entrevista
+    - Al empezar la entrevista, nos presentaremos de manera correcta utilizando un lenguaje amical y breve para no perjudicar la comunicación con el usuario.
+    - Deberemos solicitar la aprobación del usuario con la entrevista, mencionándole que lo sucedido en la entrevista será para recopilación de datos para uso académico y confidencial.
+  
+- Durante la entrevista
+    - Se respetará la decisión del entrevistado si no quiere responder alguna pregunta para mantener el clima agradable y pueda expresarse de mejor forma sus opiniones.
+    - Como entrevistador, debemos recaudar toda la información necesaria para poder lograr el objetivo del trabajo presente, debemos dirigir la entrevista por si llega haber una leve desviación del tema.
+  
+- Después de la entrevista
+    - Siendo el entrevistador, debemos agradecer la participación y el tiempo brindado por el entrevistado, asimismo pediremos una conclusión del entrevistado y procederemos a cerrar la entrevista.
+
+- Relación de preguntas (Médicos de la salud mental)
+  1. ¿Cuál es su nombre, edad y ocupación?
+  2. Usted que trabaja en un centro de salud o de manera independiente, ¿Qué deficiencias ha podido evidenciar al momento de registrar o revisar historiales clínicos?
+  3. En algún momento y durante su horario de trabajo, ¿el sistema de registro con el cual trabaja no respondía o presentaba errores?
+  4. Con lo dicho, ¿llego a tener problemas con los pacientes debido a los errores del sistema?
+  5. Comentándole sobre nuestra aplicación web ¿Le sería de mayor utilidad y tendría la seguridad de usarlo? ¿Le podría ayudar a no cometer errores que en su campo laboral pueda ser básico?
+  6. ¿Cuánto estaría dispuesto a pagar por la aplicación dándole mejoras a su atención al cliente? ¿Por qué?
+  7. ¿Consideras que nuestro aplicativo podría satisfacer tus necesidades de mejorar tu salud mental? Caso contrario, ¿Qué mejoras le darías a nuestro producto para cumplir con este objetivo? 
+
+- Relación de preguntas (Pacientes y/o personas necesiten ayuda para mejorar su salud mental)
+  1. ¿Cuál es su nombre y edad?
+  2. ¿Cuánto tiempo dedica en sacar una cita? ¿En algún momento tuvo errores o demoras en el sistema?
+  3. ¿Cree que las deficiencias del sistema puedan mejorar y tener un mejor control propio de su avance médico?
+  4. ¿De qué forma consideras que tu salud mental ha impactado en tu vida diaria durante los últimos años?
+  5. ¿Qué aspectos crees que no se están tomando en cuenta al momento de hablar sobre la salud mental?
+  6. ¿Qué esperarías encontrar en una aplicación que se dedique a mejorar la salud mental?
+  7. Con lo comentado de nuestra aplicación web, ¿Estaría dispuesto a utilizar la aplicación que le dé una mejor atención y no encuentre errores al momento de registrarse o visualizar sus datos?
+  8. ¿Cuánto estaría dispuesto a pagar por la aplicación por una mejor atención, asi como poder visualizar su historial médico?
+  9. ¿Consideras que nuestro aplicativo podría satisfacer tus necesidades de mejorar tu salud mental? Caso contrario, ¿Qué mejoras le darías a nuestro producto para cumplir con este objetivo?
+ 
 ### 2.2.2. Registro de Entrevistas
 ### 2.2.3. Análisis de Entrevistas
 
