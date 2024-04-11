@@ -328,5 +328,10 @@ En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra apli
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
+| User Stoy ID  | Título | Descripción del US | Criterios de Aceptación | Relacionados con (EPIC ID) |
+| ------------- | ------ | ------------------ | ----------------| ------------| 
+| US01 | Realizar y compartir actividades relajantes | Como un joven con estrés quiero compartir por redes sociales mi propio listado de actividades favoritas para comunicarlo con mis familiares interesados. | Escenario 1: Usuario ingresa al apartado “Compartir” <br/> Dado que el usuario se encuentra en el apartado “Mi espacio” <br/> Y el usuario entra en el apartado “Compartir” <br/>Cuando el usuario presione el botón “A donde compartir”. <br/> Entonces el sistema muestra las redes sociales disponibles para que el usuario comparta su actividad favorita. <br/><br/> Escenario 2: Usuario comparte actividades mediante redes sociales <br/> Dado que el usuario escoge una red social donde desea compartir su actividad <br/> Cuando el usuario selecciona la foto de su actividad favorita que desea compartir <br/>Entonces el aplicativo publica la foto de la actividad seleccionada en la red social del usuario por medio de un post. | |
+
 ## 3.3. Impact Mapping 
+![Impact Map](/Images/Impact%20map%201.png)
 ## 3.4. Product Backlog
