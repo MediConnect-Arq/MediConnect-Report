@@ -186,4 +186,22 @@ Nos dirigimos a este segmento dado que requieren una solución segura y de confi
 
 **Usuarios que necesiten un apoyo:**
 
-Para nosotros este es otro segmento fundamental dado que representan a las personas que buscan una atención médica de salud mental de calidad asi como de administrar y acceder a su información medica como lo es su historial de manera segura y sencilla
+Para nosotros este es otro segmento fundamental dado que representan a las personas que buscan una atención médica de salud mental de calidad asi como de administrar y acceder a su información medica como lo es su historial de manera segura y sencilla.
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores
+### 2.1.1. Análisis Competitivo
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+## 2.2. Entrevistas 
+### 2.2.1. Diseño de Entrevistas
+### 2.2.2. Registro de Entrevistas
+### 2.2.3. Análisis de Entrevistas
+
+## 2.3. Needfinding
+### 2.3.1. User Persona
+### 2.3.2. User Task Matrix
+### 2.3.3. Empathy Mapping 
+### 2.3.4. AS-IS Scenario Mapping
+
+## 2.4. Ubiquitous Language
