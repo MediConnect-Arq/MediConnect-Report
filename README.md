@@ -259,6 +259,8 @@ Para nosotros este es otro segmento fundamental dado que representan a las perso
  
 ### 2.2.2. Registro de Entrevistas
 
+
+
 **Especialistas de la Salud Mental**
 
 | Foto de la Entrevista    | Descripción |
@@ -295,8 +297,24 @@ En general, esta solución parece estar bien alineada con las necesidades y preo
 
 ## 2.3. Needfinding
 ### 2.3.1. User Persona
+
+**Usuario que busca ayuda o pacientes**
+El fin que nosotros buscamos no es vender más o solo buscar ganancias económicas, sino crear un impacto significativo en la forma en que los jóvenes experimentan sus vidas y mejoran el estado de su salud mental. La relación entre los artefactos a presentar con el user persona será fundamental para que nuestros usuarios sean los principales beneficiados <br/> ![User Persona paciente](/Images/User%20Persona%20paciente.png)
+
+**Medico Especialista en al salud mental**
+En este apartado, buscamos que los médicos tengan una mejor organización en sus agendas asi para poder tener un mejor control de los tratamientos que les puedan prescribir a sus pacientes. Tenemos en cuenta que todo esto es fundamental para que se permita una mejor atención al cliente o paciente. <br/> ![User Persona medico](/Images/User%20Persona%20medico.png)
+
 ### 2.3.2. User Task Matrix
 ### 2.3.3. Empathy Mapping 
+
+El Empathy Map fue realizado con la intención que nos ayude a planificar cómo llegar mucho más a nuestro público objetivo, se sientan escuchados y que nosotros como Startup buscamos lo mejor para nuestros usuarios. Para su realización nos basamos en los datos e información brindados por el User Persona durante las entrevistas. Para ello su implementación, se desarrolló el cuadro de manera grupal teniendo como puntos principales “Think and Feel”, “Hear”, “See”, “Say and Do”, “Pain Points y “Gain points”.
+
+**Segmento 1: Pacientes o personas que se atiendan con un profesional de salud mental**
+![EM Pacientes](/Images/EM%20Pacientes.jpg)
+
+**Segmento 2: Profesionales de la salud mental**
+![EM Medicos](/Images/EM%20Medicos.jpg)
+
 ### 2.3.4. AS-IS Scenario Mapping
 En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra aplicación, es decir cómo esta persona puede llegar a calmar su estrés normalmente con otras aplicaciones. Es por ello que nos basamos de las manifestaciones de nuestros entrevistados para identificar de esta manera las fases en las cuales están conformes o no.
 
