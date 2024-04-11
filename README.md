@@ -177,8 +177,8 @@ Para esta parte haremos uso de la técnica de 5W’s y 2H’s para resaltar la p
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos Objetivos
-<div style="text-align: justify">
-Identificamos dos segmentos objetivos claves para este startup que son los médicos que necesitan registrar de forma segura los tratamientos y/o citas; y los pacientes que necesitan saber que sus reservas, datos personales, historial médico, etc. se encuentren seguros y lo puedan visualizar de una forma sencilla.
+Identificamos dos segmentos objetivos claves para este startup que son los médicos que necesitan registrar de forma segura los tratamientos y/o citas; y los pacientes que necesitan saber que sus reservas, datos personales, historial médico, etc. se encuentren seguros y lo puedan visualizar de una forma sencilla. 
+
 
 **Profesionales de la salud mental:**
 
@@ -187,4 +187,3 @@ Nos dirigimos a este segmento dado que requieren una solución segura y de confi
 **Usuarios que necesiten un apoyo:**
 
 Para nosotros este es otro segmento fundamental dado que representan a las personas que buscan una atención médica de salud mental de calidad asi como de administrar y acceder a su información medica como lo es su historial de manera segura y sencilla
-</div>
