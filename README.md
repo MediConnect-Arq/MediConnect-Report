@@ -192,6 +192,35 @@ Para nosotros este es otro segmento fundamental dado que representan a las perso
 ## 2.1. Competidores
 ### 2.1.1. Análisis Competitivo
 
+**Perfil del Startup**
+| Startup | MedPro | Calm | Wysa | Simple Habit |
+| ------- | ------ | ---- | ---- | -------------|
+| Logo    | ![MedPro](/Images/medpro.png) | ![Calm](/Images/calm.png) | ![Wysa](/Images/wysa.png) | ![Simple Habit](/Images/shabit.png) |
+| Overview | Nuestra StarpUp ayuda al sector médico a encontrar nuevas soluciones digitales. Dentro de la gestión del rubro como dentro de la propia medicina | Calm es una aplicación móvil y web que se dedica a disminuir los niveles de estrés de sus usuarios mediante la meditación con sonidos especiales. | Wysa es un aplicativo móvil que apoya a sus usuarios a que puedan gestionar sus factores estresantes por medio de una I.A y un chatbot que permite calmar su ansiedad. | Simple Habit es una aplicación de meditación en pequeñas capsulas guiadas y presentan videos que facilitan a los usuarios a conciliar el sueño en un día ajetreado. |
+| Ventaja Competitiva <br/> ¿Qué valor ofrece a los clientes? | Nuestra StarpUp ayuda al sector médico a encontrar nuevas soluciones digitales. Dentro de la gestión del rubro como dentro de la propia medicina | Es un aplicativo que aparte de instalarse en dispositivos móviles también es para uso con el computador. Además, ofrece una serie de sonidos para la meditación y relajación auditiva. | Chat-Bot especializado en varias áreas de la salud mental, lo cual permite desestresarse de diferentes maneras. Se caracteriza por ser una app anónima y realiza sus actividades manteniendo privada los datos del usuario. | App móvil que permite aliviar los cuadros de estrés en 5 minutos todos los días |
+
+**Perfil de Marketing**
+| Startup | MedPro | Calm | Wysa | Simple Habit |
+| ------- | ------ | ---- | ---- | -------------|
+| Mercado Objetivo | Mayores de 15 años que presentan problemas de estrés. | Mayores de 10 años que presenten cuadros de estrés. | El uso es para mayores de 18 años, entre usuarios normales y trabajadores. | Para todo público que desee desestresarse. | 
+| Estrategias de Marketing | Influencia por redes sociales como Instagram, Facebook, Twitter. | Influencia por redes sociales como Instagram, Facebook, Twitter. | Influencia por redes sociales Instagram, YouTube y Facebook. | Influencia por redes sociales (Facebook y YouTube) ofreciendo la app de manera gratuita totalmente. | 
+
+
+**Perfil de Producto**
+| Startup | MedPro | Calm | Wysa | Simple Habit |
+| ------- | ------ | ---- | ---- | -------------|
+| Productos & Servicios | Conexión con médicos especialistas en problemas de depresión, ansiedad y estrés. | Espacios virtuales que ayudan a aliviar el estrés a través de la meditación en tan solo 5 minutos | Espacios virtuales que ayudan a aliviar la frustración a través de consejos de profesionales. Asimismo, ofrecen el servicio de supervisión por medio de I.A. |  Espacios virtuales que ayudan a aliviar el estrés y ansiedad con la meditación.|
+| Precios y Costos | Suscripción mensual dentro de la aplicación. | Planes anuales y de por vida, con 40% de descuento de 69.99 US$ USD | Planes gratuitos, diarios y anuales. con costos de $29,99 y $68,99 respectivamente. | Planes anuales por $49.99 y sea personales, familiar o para empresas. | 
+| Canales de distribución (Web y/o Móvil) |   Web y Móvil | Web y Móvil | Móvil | Móvil | 
+
+**Análisis SWOT**
+| Startup | MedPro | Calm | Wysa | Simple Habit |
+| ------- | ------ | ---- | ---- | -------------|
+| Fortaleza | -Iniciación gratuita <br/> -Múltiples planes asequibles <br/> -Médicos muy profesionales y reconocidos | -Instalación gratuita <br/> -Ofrece múltiples herramientas para tener un mejor tiempo de sueño <br/> -El tiempo de alivio del estrés es de solo 5 minutos. | -Instalación gratuita <br/> -La aplicación puede ser utilizada a cualquier hora del día <br/> -Cuenta con especialistas que brindan conferencias internacionales para conocer más acerca de la salud mental | -Instalación gratuita <br/> -Puede ser descargado en móviles Android o IOS | 
+| Debilidades | -Poca popularidad acerca de la aplicación | El tiempo de las sesiones gratuitas son muy limitadas | Los profesionales no están conectados al 100% durante las noches y la respuesta es muy tardía. | La aplicación está todo en inglés y no facilita su uso. | 
+| Oportunidades | Importancia en la salud mental en los últimos años por parte de los jóvenes | Aumento del índice de estrés en la sociedad durante los últimos años |  Aumento del índice de estrés en los jóvenes a partir de la pandemia del Coronavirus <br/> Se necesita que las personas conozcan más sobre su salud mental | Aumento del índice de estrés en la población mundial a partir de la pandemia del Coronavirus | 
+| Amenazas | La competencia empresarial está constantemente innovando. | Existe diversos competidores con la misma idea de negocio ya que no usan nuevas tecnologías | La competencia empresarial está constantemente innovando | Existe un alto índice de personas hispanohablante que tienen estrés, pero no cuentan con conocimientos del idioma inglés. | 
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas 
@@ -264,11 +293,13 @@ La entrevistada de 23 años nos comenta que ha llevado sesiones con un coach par
 
 En general, esta solución parece estar bien alineada con las necesidades y preocupaciones expresadas por la entrevistada.
 
-
 ## 2.3. Needfinding
 ### 2.3.1. User Persona
 ### 2.3.2. User Task Matrix
 ### 2.3.3. Empathy Mapping 
 ### 2.3.4. AS-IS Scenario Mapping
+En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra aplicación, es decir cómo esta persona puede llegar a calmar su estrés normalmente con otras aplicaciones. Es por ello que nos basamos de las manifestaciones de nuestros entrevistados para identificar de esta manera las fases en las cuales están conformes o no.
+
+![AS-IS Scenario](/Images/AS-IS.jpg)
 
 ## 2.4. Ubiquitous Language
