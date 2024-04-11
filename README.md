@@ -323,3 +323,10 @@ En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra apli
 ![AS-IS Scenario](/Images/AS-IS.jpg)
 
 ## 2.4. Ubiquitous Language
+
+
+# Capítulo III: Requirements Specification
+## 3.1. To-Be Scenario Mapping
+## 3.2. User Stories
+## 3.3. Impact Mapping 
+## 3.4. Product Backlog
