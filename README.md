@@ -311,6 +311,33 @@ El fin que nosotros buscamos no es vender más o solo buscar ganancias económic
 En este apartado, buscamos que los médicos tengan una mejor organización en sus agendas asi para poder tener un mejor control de los tratamientos que les puedan prescribir a sus pacientes. Tenemos en cuenta que todo esto es fundamental para que se permita una mejor atención al cliente o paciente. <br/> ![User Persona medico](/Images/User%20Persona%20medico.png)
 
 ### 2.3.2. User Task Matrix
+
+**Paciente**
+
+Se ha considerado como primer segmento objetivo los usuarios de Lima entre los 18 y 30 años que puedan sufrir de estrés debido a múltiples problemas surgidos en los tiempos actuales. Para este caso, utilizaremos a nuestro usuario Juan Aaron Rodriguez Chaves.
+
+| User Task | Frecuencia | Importancia |
+| --------- | ---------- | ----------- |
+| Disponen de un tiempo durante su día para poder usar un chatbot de pre diagnostico | Media | Alta | 
+| Separa una cita con nuestros médicos especializados | Media | Baja |
+| Realizar actividades de relajamiento por un tiempo que hayan determinado | Media | Media |
+|Toman contacto con grupos de apoyo para desestresarse | Media | Media |
+| Analizan y ven cómo va la situación de progreso de su salud mental gracias al chatbot | Baja | Alta | 
+
+**Medico**
+Se ha considerado como segundo segmento objetivo los medicos especialistas en la salud mental. Para este caso, utilizamos a Javier Mendoza que ya cuenta con una especialidadd de la salud mental.
+
+| User Task | Frecuencia | Importancia |
+| --------- | ---------- | ----------- |
+| Realizar evaluaciones iniciales de los pacientes para determinar sus necesidades de atención | Alta | Alta | 
+|Diseñar planes de tratamiento personalizados para cada paciente, incluyendo terapias y posibles medicaciones | Media | Alta |
+| Conducir sesiones de terapia individual o grupal para abordar problemas de salud mental de los pacientes | Alta | Alta |
+| Realizar un seguimiento regular del progreso de los pacientes a lo largo del tiempo mediante el chatbot | Alta | Alta |
+| Mantenerse actualizado sobre los avances en el campo de la salud mental y la psicología | Alta | Media 
+| Colaborar con otros profesionales de la salud en casos de pacientes con necesidades médicas y psicológicas complejas | Media | Alta |
+| Proporcionar apoyo y orientación a los pacientes en crisis o situaciones de emergencia | Baja | Alta |
+| Documentar de manera precisa el progreso, los diagnósticos y los planes de tratamiento de los pacientes | Alta | Alta   
+
 ### 2.3.3. Empathy Mapping 
 
 El Empathy Map fue realizado con la intención que nos ayude a planificar cómo llegar mucho más a nuestro público objetivo, se sientan escuchados y que nosotros como Startup buscamos lo mejor para nuestros usuarios. Para su realización nos basamos en los datos e información brindados por el User Persona durante las entrevistas. Para ello su implementación, se desarrolló el cuadro de manera grupal teniendo como puntos principales “Think and Feel”, “Hear”, “See”, “Say and Do”, “Pain Points y “Gain points”.
@@ -327,3 +354,24 @@ En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra apli
 ![AS-IS Scenario](/Images/AS-IS.jpg)
 
 ## 2.4. Ubiquitous Language
+
+Entendemos que, para este trabajo, todos los participantes tenemos que tener un lenguaje común para poder tener una mejor comunicación durante todo el avance de los proyectos y así también poder brindar una mejor experiencia al usuario, algunos conceptos que tenemos que tener en cuenta en el grupo es:
+
+1.	Pacientes: Usuario que utilizará la aplicación web y quisiera informarse más o ayudarse en el problema que presenta
+Síntomas: frustración, estrés, ansiedad, etc
+Emociones: felicidad, tristeza, enojo, etc
+Historial médico: medicinas, alergias 
+
+2.	Médicos de la salud mental: Usuarios que conectarán con los pacientes, les dará tratamientos y diagnósticos, además de un seguimiento
+Transtorno Mentales: TDAH, depresión, ansiedad, etc
+Seguimiento: avances del progreso del paciente
+Plan de tratamiento: terapias, medicación, ajustes en el estilo de vida del paciente, etc
+3.	Chatbot: servicio que ofrece la plataforma para que el paciente tenga un pre diagnostico de lo que esta sintiendo en el día
+Evaluación: preguntas de pruebas psicológicas automatizadas
+Pre-diagnostico: depresión, ansiedad, etc
+Severidad: leve, moderado, grave
+Recomendaciones: ayuda psicológica
+
+4.	Aplicación Web: entorno donde el paciente y el médico interactúan y usan los servicios que están a disposición de cada usuario
+Interfaz de usuario: intuitiva, llamativa, accesible para el usuario
+Seguridad: encriptación de datos sensibles y conexión privada entre paciente y médico. 
