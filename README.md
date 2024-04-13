@@ -278,6 +278,7 @@ Para nosotros este es otro segmento fundamental dado que representan a las perso
 | ------------------------ | ----------- |
 | ![Entrevista 3](/Images/entrevista%203.jpg) | N°: 3 <br/> Enlace: https://www.youtube.com/watch?v=XSzqqVFpn9U&ab_channel=GabrielaNombertoRamos <br/> Entrevistado: Gabriel Aragón <br/> Entrevistador: Gabriela Nomberto |
 | ![Entrevista 4](/Images/entrevista%204.png) | N°: 4 <br/> Enlace: https://www.youtube.com/watch?v=Y-awOdihQfY&ab_channel=D%C3%A9nnisPieroQuevedo <br/> Entrevistado: Fiorella Quevedo Mestanza <br/> Entrevistador: Dennis Piero Quevedo |
+| | N°: 5 <br/> Enlace: <br/> Entrevistado: Diego Merino Mas <br/> Entrevistador: Andrea Sofia Alfaro Salinas | 
 
 ### 2.2.3. Análisis de Entrevistas
 
@@ -296,6 +297,11 @@ Durante la entrevista, Gabriel nos comenta que la aplicación utilizada tiene y 
 **Entrevista 4: Dennis Piero Quevedo (Paciente)**
 
 La entrevistada de 23 años nos comenta que ha llevado sesiones con un coach para poder mejorar en su vida diaria en el entorno laboral y social. Ella cree que la salud mental es importante y que influye bastante en cada acción que realiza e incentiva a los demás a tomar sesiones con un couch o psicólogo para aliviar algún problema que tengan. También, menciona que las gestiones de reservas en las entidades de salud mental tienen problemas al asignar algún especialista y demora mucho el proceso para obtener una cita. Además, considera que la aplicación podría contribuir a la salud mental de los pacientes, pero sugiere colaboración con profesionales especializados para lograr un enfoque integral y personalizado.
+
+**Entrevista 5: Andrea Sofia Alfaro Salinas (Paciente)**
+
+Durante la entrevista, Diego, un paciente preocupado por la gestión de citas médicas, compartió sus experiencias y opiniones sobre el proceso de programación de citas y la atención a la salud mental. Diego expresó frustración por las demoras y errores en el sistema al sacar citas médicas, destacando la necesidad de una mejor gestión y control de su historial médico. Además, señaló el impacto significativo de la salud mental en su vida diaria, resaltando la importancia de abordar adecuadamente estos problemas. Juan mostró interés en encontrar una aplicación que mejore su experiencia, brinde herramientas para gestionar el estrés y ofrezca acceso a profesionales de la salud mental. Estuvo dispuesto a pagar por una aplicación que le brinde una mejor atención y facilidad para acceder a su historial médico, enfatizando la importancia de una solución integral para mejorar su salud mental y bienestar general.
+
 
 En general, esta solución parece estar bien alineada con las necesidades y preocupaciones expresadas por la entrevistada.
 
