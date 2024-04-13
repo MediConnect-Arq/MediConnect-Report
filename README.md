@@ -222,6 +222,10 @@ Para nosotros este es otro segmento fundamental dado que representan a las perso
 | Amenazas | La competencia empresarial está constantemente innovando. | Existe diversos competidores con la misma idea de negocio ya que no usan nuevas tecnologías | La competencia empresarial está constantemente innovando | Existe un alto índice de personas hispanohablante que tienen estrés, pero no cuentan con conocimientos del idioma inglés. | 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+- 1.	Identificar el entorno que nos rodea en este caso identificar los competidores que tenemos que brindan el mismo servicio que nosotros en este caso un sistema que une pacientes con medicos de la salud mental, además de preveer un chatbot con un pre diagnostico definido.
+- 2. Crear un cuadro para ver que estrategias utilizan cada una de ellas que es lo que ofrecen para diferenciarse cada una de ellas y también nuestro sistema web
+- 3. Nosotros ofreceremos una prueba gratis de un mes para que prueben nuestro sistema.
+- 4. Como táctica utilizaremos la penetración de mercado, lo cual consiste en promover en todas las redes sociales sobre nuestro sistema de control y atencion al cliente ofreciendo un programa de fidelidad.
 
 ## 2.2. Entrevistas 
 ### 2.2.1. Diseño de Entrevistas
