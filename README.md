@@ -327,6 +327,12 @@ En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra apli
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
+
+Para realizar el To-Be Scenario Mapping hemos pasado por diversas fases y procesos para su correcta realización. Primero hemos rectificado que para brindar una mejor solución a nuestros usuarios en un futuro era necesario identificar todas las fases que realizan y cómo podemos mejorarlos en cada aspecto (doing, thinking and Feeling). Luego, revisamos el As-Is Scenario y nos enfocamos principalmente en las las áreas por negativas y blank áreas para que de esta forma nuestra solución MediConnect sí pueda satisfacer con todo lo que nuestros usuarios necesitan para su mejora en sus niveles de estrés.
+
+![TO-BE Scenario](/Images/To-be.jpg)
+
+
 ## 3.2. User Stories
 | User Stoy ID  | Título | Descripción del US | Criterios de Aceptación | Relacionados con (EPIC ID) |
 | ------------- | ------ | ------------------ | ----------------| ------------| 
