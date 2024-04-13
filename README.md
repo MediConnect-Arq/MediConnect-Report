@@ -325,6 +325,7 @@ Se ha considerado como primer segmento objetivo los usuarios de Lima entre los 1
 | Analizan y ven cómo va la situación de progreso de su salud mental gracias al chatbot | Baja | Alta | 
 
 **Medico**
+
 Se ha considerado como segundo segmento objetivo los medicos especialistas en la salud mental. Para este caso, utilizamos a Javier Mendoza que ya cuenta con una especialidadd de la salud mental.
 
 | User Task | Frecuencia | Importancia |
