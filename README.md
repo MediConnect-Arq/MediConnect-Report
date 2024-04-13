@@ -137,7 +137,7 @@ Finalmente, le agregaremos un chatbot predictivo que a traves de pruebas psicolo
 | Gabriela Nomberto Ramos | Soy Gabriela Nomberto, pertenezco a la carrera de Ingeniería de Software en el 8vo ciclo de esta.<br/> Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión. | ![Gaby](/Images/Gaby.jpg) |
 | Dennis Quevedo Yucra    | Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 8vo ciclo. Tengo conocimientos de múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible | ![Dennis](/Images/Dennis.jpg) |
 | Diego Osorio Horna      | Soy un estudiante de la carrera de Software de la UPC en Monterrico, actualmente estoy cursando el 8vo ciclo. Mi afición es la programación de aplicaciones web front-end y lenguaje favorito es JavaScript | ![Diego](/Images/Diego.jpg) | 
-| Andrea Alfaro Salinas   |  |  | 
+| Andrea Alfaro Salinas   | Mi nombre es Andrea Alfaro, estudiante de la carrera de Ingeniería de Software. Mi motivación radica en enfrentar desafíos que requieran soluciones creativas e innovadoras. A lo largo de mi carrera, he demostrado ser proactiva y colaborativa, comprometida con el éxito de cada proyecto. Mi enfoque se centra en un aprendizaje constante y la mejora continua de mis habilidades de programación, explorando siempre nuevas herramientas y tecnologías | ![Sofia](/Images/Sofia.jpg) | 
 
 
 ## 1.2. Solution Profile
@@ -183,9 +183,72 @@ Para esta parte haremos uso de la técnica de 5W’s y 2H’s para resaltar la p
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+
+•	Los centros de salud enfrentan dificultades para brindar una atención eficiente y de calidad debido a problemas en los sistemas informáticos y fallos en el registro de pacientes. ¿Cómo podemos optimizar los procesos de atención al cliente en los centros de salud para garantizar una experiencia sin demoras y con un sistema fiable?
+
+•	Muchos pacientes experimentan pérdida de tiempo y frustración al no saber a qué especialidad médica acudir para abordar sus problemas de salud de manera efectiva. ¿Cómo podemos facilitar a los pacientes la identificación de la especialidad médica adecuada y agilizar el proceso de programación de citas para optimizar su tiempo y mejorar su experiencia en los centros de salud?
+
+•	Percibimos que existe un problema en los centros de salud al momento de dar una atención de calidad a los pacientes, puede demorar por fallos en el sistema, no haber un buen registro o equivocaciones que pueden provocar molestias. Con lo antes mencionado ¿Como podemos disminuir la deficiente atención al cliente, no tener problemas de espera y mejor rendimiento del sistema?
+
+•	Identificamos que al momento de los registros de los pacientes o médicos existe una dificultad y no se almacena correspondientemente los datos ingresados tanto por los pacientes como los médicos, además los pacientes no pueden visualizar su historial médico y tener más a detalle su salud física. Con esto nos preguntamos ¿Cómo podemos mejorar estos registros y se guarden de manera segura y satisfactoriamente para evitar problemas futuros a los pacientes, médicos y establecimientos de salud?
+
+
 #### 1.2.2.2. Lean UX Assumptions 
+
+**Business Outcomes**
+
+•	Lograr ser reconocidos por los centros de salud como una aplicación principal para poder manejar la gestión y registro entre pacientes y médicos de la salud.
+•	Lograr que los establecimientos de salud que nos contraten sientan una satisfacción mayor las 80% en el uso de la aplicación y sientan la confiabilidad que contiene.
+•	Lograr que el más 90% de las personas que utilicen nuestra aplicación logren entenderla y sea intuitivo para ellos mismos.
+•	Ser reconocidos entre nuestros segmentos objetivos como una aplicación confiable y segura para mantener sus datos personales asi como médicos para que puedan llevar su propio seguimiento.
+
+**Users** 
+
+Nuestros usuarios están categorizados en 2 grupos
+•	Médicos de la salud mental: Priorizan un sistema donde les permita registrar y gestionar de mejor forma para brindar una atención de calidad.
+•	Pacientes: Interesados en una aplicación web que busquen saber de forma precisa el historial médico brindado por los médicos asi como la reserva de sus citas médicas y/o tratamientos.
+
+**User Outcomes Médico del centro de salud:**
+
+- Esperan acceder a un sistema que les ayude a registrar de manera adecuada el análisis médico dado a los pacientes sin problema alguno. Buscan una navegación sencilla e intuitiva en nuestra aplicación para que puedan gestionar de manera precisa los tratamientos en los pacientes que lo necesitan.
+- Poder ser capaces de hacer modificaciones a lo largo de los tratamientos de los pacientes y poder gestionarlo de manera rápida y segura al registrar datos personales.
+
+**Paciente y/o usuario que se registre por primera vez en un centro de salud**
+
+- Busca lograr registrar sus datos personales satisfactoriamente en la aplicación web realizada
+- Lograr ver su historial médico actualizado para que este en constante precaución y este al tanto de lo que pueda o ha acontecido
+- Conseguir seguridad al utilizar una pagina web de manera segura al momento de registrarse y no se arriesgue en que puedan perderse datos importantes
+
+**Features**
+
+- Los usuarios médicos y pacientes podrán visualizar, editar o modificar el registro hecho por ellos mismos
+- Los usuarios médicos podrán visualizar resultados, prescripciones, medicamentos y registrarlos adecuadamente
+- Los usuarios pacientes podrán gestionar su historial médico, así como filtrar las fechas que busquen visualizar
+- Los usuarios médicos podrán gestionar y filtrar según criterio propio para saber el avance de sus pacientes y poder actuar con antelación al caso si es necesario con urgencias.
+
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+- Creemos que al ofrecer una aplicación web que permita a los médicos y pacientes registrar, gestionar y modificar adecuadamente las citas y/o tratamientos, tendremos una mejora amplia de centros de salud contratándonos para la implementación de nuestra aplicación web además de que ofrecemos seguridad y constante modificación por si suceden fallos en el sistema.
+- Creemos que al poder ofrecer nuestra aplicación web, los pacientes o usuarios que por primera vez lleguen a atenderse en su salud mental sabrán que sus datos personales asi como los datos detallados de las citas, tratamientos y medicamentos están registrados cuidadosamente y con seguridad. Asimismo, se harán pruebas de manera que podamos mantener la eficiencia y seguridad del sistema.
+- Creemos que al diseñar una interfaz de usuario intuitiva y de fácil uso permita a los usuarios gestionar de manera rápida la acción que deba realizar, además de que, al ser de fácil uso y manejo, los usuarios podrán dirigirse a los apartados de manera sencilla y sin ningún problema alguno.
+- Creemos que al implementar una aplicación web que facilite la interacción entre médicos y pacientes, agilizando el proceso de registro y gestión de citas y tratamientos, conseguiremos una adopción más amplia por parte de los centros de salud.
+- Creemos que al ofrecer una solución tecnológica que garantice la seguridad y privacidad de los datos médicos y personales de los pacientes, aumentaremos la confianza de estos en nuestra aplicación.
+
 #### 1.2.2.4. Lean UX Canvas
+
+| Business Problem | Solutions | Business Outcomes |
+| --- | --- | --- |
+| Los centros de salud enfrentan dificultades para brindar una atención eficiente y de calidad debido a problemas en los sistemas informáticos y fallos en el registro de pacientes. ¿Cómo podemos optimizar los procesos de atención al cliente en los centros de salud para garantizar una experiencia sin demoras y con un sistema fiable? <br/> <br/> Muchos pacientes experimentan pérdida de tiempo y frustración al no saber a qué especialidad médica acudir para abordar sus problemas de salud de manera efectiva. ¿Cómo podemos facilitar a los pacientes la identificación de la especialidad médica adecuada y agilizar el proceso de programación de citas para optimizar su tiempo y mejorar su experiencia en los centros de salud? | Los pacientes usuarios podrán gestionar su historial médico, así como filtrar las fechas que busquen visualizar <br/> <br/> Contener una base de datos segura y actualizada Brindar un seguimiento actualizado entre los médicos y los pacientes para un mejor tratamiento. <br/> <br/>   Implementar un chatbot de consulta para ahorrar el tiempo de espera de los pacientes. | Aumento del 70% en la eficiencia administrativa de los centros de salud. <br/> <br/> Reducción del 30% en los costos operativos.<br/> <br/> Aumento del 15% en la rentabilidad mediante la oferta de servicios premium <br/> <br/> Incremento del 20% en la satisfacción del cliente y fidelidad del 10% hacia los centros de salud. |
+
+| Users |  | Users Outcomes & Benefits |
+| --- | --- | --- | 
+| Profesionales de la salud mental:<br/>Personas con estudios en medicina que laboran en un centro de atención médica. <br/> <br/> Pacientes: <br/>Personas que necesitan atención médica. | | Reducción del tiempo de espera para que los atiendan. <br/><br/> Mayor seguridad y confianza al acudir a un centro médico. <br/><br/> Acceso a información actualizada sobre los pacientes.<br/><br/> Facilidad para saber a qué especialidad acudir mediante el chatbot. |
+
+| Hypotheses | What is the most important thing we need to learn first? | What’s the least amount of work we need to do to learn the next most important thing? |
+| --- | --- | --- |
+| Creemos que al ofrecer una aplicación web que permita a los médicos y pacientes registrar, gestionar y modificar adecuadamente las citas y/o tratamientos, tendremos una mejora amplia de centros de salud contratándonos para la implementación de nuestra aplicación web además de que ofrecemos seguridad y constante modificación por si suceden fallos en el sistema. <br/><br/> Creemos que al poder ofrecer nuestra aplicación web, los pacientes o usuarios que por primera vez lleguen a atenderse en su salud mental sabrán que sus datos personales, así como los datos detallados de las citas, tratamientos y medicamentos están registrados cuidadosamente y con seguridad. Asimismo, se harán pruebas de manera que podamos mantener la eficiencia y seguridad del sistema. <br/><br/> Creemos que al diseñar una interfaz de usuario intuitiva y de fácil uso permita a los usuarios gestionar de manera rápida la acción que deba realizar, además de que, al ser de fácil uso y manejo, los usuarios podrán dirigirse a los apartados de manera sencilla y sin ningún problema alguno. <br/><br/> Creemos que al implementar una aplicación web que facilite la interacción entre médicos y pacientes, agilizando el proceso de registro y gestión de citas y tratamientos, conseguiremos una adopción más amplia por parte de los centros de salud. <br/><br/> Creemos que al ofrecer una solución tecnológica que garantice la seguridad y privacidad de los datos médicos y personales de los pacientes, aumentaremos la confianza de estos en nuestra aplicación. | La aceptación del mercado hacia la nueva aplicación web para optimizar los procesos de atención en centros de salud. <br/><br/> Las principales necesidades y preferencias de los usuarios de centros de salud en Lima. <br/><br/> La disposición de los médicos para adoptar nuevas herramientas de monitoreo y mejorar la atención a sus pacientes. <br/><br/> La viabilidad de implementar un servicio premium y la disposición de los usuarios a pagar por características adicionales. <br/><br/> La eficacia de la aplicación web en mejorar la experiencia general del usuario de centros de salud. | Realizar encuestas rápidas a pacientes y médicos para evaluar su disposición a utilizar una nueva aplicación web. <br/><br/> Organizar grupos focales con pacientes para discutir la implementación de la herramienta de chatbot. <br/><br/> Lanzar una versión piloto de la aplicación web con funcionalidades básicas para recopilar comentarios de los usuarios sobre su utilidad y usabilidad. <br/><br/> Realizar análisis de mercado para identificar la demanda potencial de un servicio premium y evaluar la disposición de los usuarios a pagar por características adicionales. <br/><br/> Observar el comportamiento de los usuarios de clínicas y hospitales en cuanto a su interacción con las aplicaciones web existentes y analizar las áreas de mejora identificadas. | 
+
 
 ## 1.3. Segmentos Objetivos
 Identificamos dos segmentos objetivos claves para este startup que son los médicos que necesitan registrar de forma segura los tratamientos y/o citas; y los pacientes que necesitan saber que sus reservas, datos personales, historial médico, etc. se encuentren seguros y lo puedan visualizar de una forma sencilla. 
