@@ -129,9 +129,9 @@ Finalmente, le agregaremos un chatbot predictivo ....
 
 | Nombre | Descripción | Foto |
 | ----- | ------- |  ----  |    
-| Gabriela Nomberto Ramos |  |  |
-| Dennis Quevedo Yucra    |  |  |
-| Diego Osorio Horna      |  |  | 
+| Gabriela Nomberto Ramos | Soy Gabriela Nomberto, pertenezco a la carrera de Ingeniería de Software en el 8vo ciclo de esta.<br/> Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión | ![Gaby](/Images/Gaby.jpg) |
+| Dennis Quevedo Yucra    | Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 8vo ciclo. Tengo conocimientos de múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible | ![Dennis](/Images/Dennis.jpg) |
+| Diego Osorio Horna      | Soy un estudiante de la carrera de Software de la UPC en Monterrico, actualmente estoy cursando el 8vo ciclo. Mi afición es la programación de aplicaciones web front-end y lenguaje favorito es JavaScript | ![Diego](/Images/Diego.jpg) | 
 | Andrea Alfaro Salinas   |  |  | 
 
 
@@ -193,6 +193,3 @@ Nos dirigimos a este segmento dado que requieren una solución segura y de confi
 **Usuarios que necesiten un apoyo:**
 
 Para nosotros este es otro segmento fundamental dado que representan a las personas que buscan una atención médica de salud mental de calidad asi como de administrar y acceder a su información medica como lo es su historial de manera segura y sencilla
-
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores
