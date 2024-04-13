@@ -193,6 +193,3 @@ Nos dirigimos a este segmento dado que requieren una solución segura y de confi
 **Usuarios que necesiten un apoyo:**
 
 Para nosotros este es otro segmento fundamental dado que representan a las personas que buscan una atención médica de salud mental de calidad asi como de administrar y acceder a su información medica como lo es su historial de manera segura y sencilla
-
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores
