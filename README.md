@@ -31,7 +31,11 @@ Ciclo: 2024-1
 
 | Version | Fecha | Autor | Descripcion de la Modificación  | 
 |---------- | ----- |------ | ----------------| 
-
+| 1.0  | 9/04/2024 | Gabriela Nomberto | Estructuracion del archivo en un repositorio |
+| 1.1  | 10/04/2024 | Gabriela Nomberto | Creacion de ramas por capitulos | 
+| 1.2  | 11/04/2024 | Dennis Quevedo | Completar contenido ya tenido en todos los capítulos |
+| 1.3  | 12/04/2024 | Todos los participantes | Completar contenido que se tenia que modificar, además de finalizar otros nuevos puntos |
+| 1.4  | 13/04/2024 | Todos los participantes | Mejora continua del trabajo antes de poder enviar | 
 
 ## Project Report Collaboration Insights 
 **Enlace del Project Report:** [https://github.com/MediConnect-Arq/MediConnect-Report/tree/main] 
@@ -110,7 +114,8 @@ Ciclo: 2024-1
 
 | Criterio Especíico | Acciones Realizadas | Conclusiones|
 | ------------------ | ------------------- | ----------- |
-
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería | | | 
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | | | 
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -122,14 +127,14 @@ Como grupo hemos reconocido que existe un aumento desmedido en la mala salud men
 Observamos que en la actualidad es común encontrar jóvenes entre 18 y 30 años que padecen de sentimientos frustrantes relacionados a temas laborales, académicos, familiares, económicos, etc. En la mayoría de estas situaciones hemos evidenciado que no se toma en cuenta la importancia que tiene la salud mental en la vida de las personas. Por esta razón, nuestro equipo de trabajo, al ver el grave estado de la salud mental de los jóvenes en la ciudad de Lima, nos juntamos para crear una solución de software eficaz que pueda aliviar y reducir los mencionados cuadros emocionales.
 
 Decidimos crear nuestra Startup MediConnect, de esta forma conectaremos profesionales de la salud mental con personas que requieran, busquen o necesiten una ayuda para poder avanzar en aspectos de su vida diaria y no lleguen a encontrar una salida o solución, además contaremos con una línea de emergencia para el momento en que las personas lo requieran y a cualquier momento del día. 
-Finalmente, le agregaremos un chatbot predictivo ....
+Finalmente, le agregaremos un chatbot predictivo que a traves de pruebas psicologicas automatizadas tendremos un pre diagnostico en el cual el paciente podrá presentar a su médico de la salud mental.
 </div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
 | Nombre | Descripción | Foto |
 | ----- | ------- |  ----  |    
-| Gabriela Nomberto Ramos | Soy Gabriela Nomberto, pertenezco a la carrera de Ingeniería de Software en el 8vo ciclo de esta.<br/> Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión | ![Gaby](/Images/Gaby.jpg) |
+| Gabriela Nomberto Ramos | Soy Gabriela Nomberto, pertenezco a la carrera de Ingeniería de Software en el 8vo ciclo de esta.<br/> Tengo experiencia amplia en diversos lenguajes de programación, así como el uso de servidores cloud, soy muy organizada, responsable y sobre todo puntual. Soy bailarina de caporales en una agrupación externa a la universidad. Todo ello me enseñó a como trabajar en equipo, apoyar e investigar temas que me emocionan como lo es ciberseguridad y bases de datos, mis mejores habilidades es la comunicación en grupo y solucionar problemas bajo presión. | ![Gaby](/Images/Gaby.jpg) |
 | Dennis Quevedo Yucra    | Soy Dennis Piero Quevedo, estudiante de la carrera de Ingeniería de Software y estoy cursando el 8vo ciclo. Tengo conocimientos de múltiples lenguajes de programación. Así mismo, me encuentro realizando mis prácticas pre-profesionales aplicando todos los conocimientos adquiridos a lo largo de la carrera. Me considero una persona responsable y sobre todo puntual. Por otro lado, soy ciclista aficionado, me gusta mucho aprender por cuenta propia y una de mis mejores habilidades es solucionar los problemas a la brevedad posible | ![Dennis](/Images/Dennis.jpg) |
 | Diego Osorio Horna      | Soy un estudiante de la carrera de Software de la UPC en Monterrico, actualmente estoy cursando el 8vo ciclo. Mi afición es la programación de aplicaciones web front-end y lenguaje favorito es JavaScript | ![Diego](/Images/Diego.jpg) | 
 | Andrea Alfaro Salinas   |  |  | 
