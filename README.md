@@ -591,3 +591,18 @@ El diagrama de paisaje representa la organizacion del software y su contexto de 
 ### 4.3.3. Software Architecture Deployment Diagrams
 
 ![deploymen](/Images/Deployment.png)
+
+
+# Conclusiones y Recomendaciones 
+
+- La especificación de nuestro problema a partir de los 5w y 2H nos permitió reconocer e identificar la problemática que abordamos en general. Nos ayudó a implementar acciones estratégicas con el fin de que nuestra solución de software sea eficiente y abarque en todos los sentidos el problema identificado.
+
+- La descripción de los Problem Statement fue de suma ayuda ya que nos permitió a identificar si nuestra solución que queremos brindar era la adecuada. Los resultados que llegamos a partir de la especificación fueron que a partir del análisis de los Problem Statement identificamos que era necesario agregar más ideas de solución a las que ya habíamos propuesto en un inicio. Había algunas ideas que no habíamos tomado en cuenta, pero para nuestros usuarios eran aspectos primordiales. Lo cual al realizar este ítem decidimos incluir más ideas de solución porque queríamos atender todas las necesidades que nuestro público objetivo desea satisfacer.
+
+- La declaración de nuestros Assumptions y Hypotheses Statements lo pudimos confirmar al momento de realizar las entrevistas. Los tres de nuestros entrevistados confirmaron que las suposiciones y las hipótesis que habíamos realizado eran situaciones que realmente nuestro público objetivo pasaba. De esta manera, confirmamos que las idas de solución que teníamos planteadas eran aquellas que cumplían con los objetivos de los jóvenes con estrés.
+
+- En nuestra primera etapa, los criterios de éxito especificados en nuestro Lean UX canvas nos permitieron establecer estrategias a aprovechar y a la vez featueres de la app como administrativas importantes para que nuestra solución sea completa en todos sus campos.
+  
+- Asimismo, los Requeriments Specification nos ayudó a analizar la información obtenida en las entrevistas. El resultado que obtuvimos fue mucho más allegado a las necesidades de nuestros usuarios ya que se describió en su totalidad las características necesarias que nuestra app necesita. 
+
+- Finalmente, con las validaciones de nuestra solución confirmamos que las especificaciones descritas anteriormente a manera de posibles soluciones son las eficientes para satisfacer el problema. Específicamente, a partir de la implementación de las pruebas de aceptación pudimos conocer más a fondo que la app Revia sí cumple con el objetivo de mitigar el estrés de los jóvenes, nos permitió reconocer que nuestro aplicativo contiene una buena eficiencia tanto en contenido como en features no funcionales. Es decir, completa y dispuesta al usuario cuando lo necesite.
