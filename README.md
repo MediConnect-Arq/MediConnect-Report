@@ -436,6 +436,27 @@ En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra apli
 
 ## 2.4. Ubiquitous Language
 
+Entendemos que, para este trabajo, todos los participantes tenemos que tener un lenguaje común para poder tener una mejor comunicación durante todo el avance de los proyectos y así también poder brindar una mejor experiencia al usuario, algunos conceptos que tenemos que tener en cuenta en el grupo es:
+
+1.	Pacientes: Usuario que utilizará la aplicación web y quisiera informarse más o ayudarse en el problema que presenta
+Síntomas: frustración, estrés, ansiedad, etc
+Emociones: felicidad, tristeza, enojo, etc
+Historial médico: medicinas, alergias 
+
+2.	Médicos de la salud mental: Usuarios que conectarán con los pacientes, les dará tratamientos y diagnósticos, además de un seguimiento
+Transtorno Mentales: TDAH, depresión, ansiedad, etc
+Seguimiento: avances del progreso del paciente
+Plan de tratamiento: terapias, medicación, ajustes en el estilo de vida del paciente, etc
+3.	Chatbot: servicio que ofrece la plataforma para que el paciente tenga un pre diagnostico de lo que esta sintiendo en el día
+Evaluación: preguntas de pruebas psicológicas automatizadas
+Pre-diagnostico: depresión, ansiedad, etc
+Severidad: leve, moderado, grave
+Recomendaciones: ayuda psicológica
+
+4.	Aplicación Web: entorno donde el paciente y el médico interactúan y usan los servicios que están a disposición de cada usuario
+Interfaz de usuario: intuitiva, llamativa, accesible para el usuario
+Seguridad: encriptación de datos sensibles y conexión privada entre paciente y médico. 
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 
@@ -487,60 +508,274 @@ Para realizar el To-Be Scenario Mapping hemos pasado por diversas fases y proces
 ![Impact Map](/Images/Impact%20map%201.png)
 ## 3.4. Product Backlog
 
-|**#Orden**|**User Story ID**|**Título**|**Descripción**|**Story Points** |
-| - | - | - | - | - |
-|1|<p> </p><p>US01</p>|<p> </p><p>**Realizar y compartir actividades relajantes.**</p>|<p> </p><p>**Como** un joven con estrés **quiero** compartir por redes sociales mi propio listado de actividades favoritas **para** comunicarlo con mis familiares interesados.</p>|2|
-|2|<p> </p><p>US02</p>|<p> </p><p>**Actividades relajantes**</p>|<p> </p><p>**Como** un joven con estrés **quiero** actividades que tengan concordancia con los hobbies que hago en mis tiempos libres **para** desestresarme con los que más me gusta hacer.</p>|8|
-|3|<p> </p><p>US03</p>|<p> </p><p>**Recordatorios diarios**</p>|<p> </p><p>**Como** joven con estrés **quiero** tener recordatorios hacia mi celular de mis sesiones de relajación **para** no olvidarme de disponer de un tiempo para desestresarme.</p>|3|
-|4|<p> </p><p>US04</p>|<p> </p><p>**Conocer progreso**</p>|<p> </p><p>**Como** un joven con estrés **quiero** tener una estimación de los niveles de estrés **para** conocer mis actividades relajantes ideales.</p><p> </p>|5|
-|5|<p> </p><p>US05</p>|<p>** </p><p>**Buscar grupos de apoyo**</p>|<p> </p><p>**Como** un joven con estrés **quiero** encontrar todos los grupos de apoyo **para** poder sentirme en confianza.</p>|8|
-|6|<p> </p><p>US06</p>|<p> </p><p>**Entrar a un grupo de apoyo**</p>|<p> </p><p>**Como** joven con estrés **quiero** unirme a un grupo de apoyo en específico según preferencias similares, **para que** podamos compartir experiencias e intercambiar consejos</p>|5|
-|7|<p> </p><p>US07</p>|<p> </p><p>**Ambiente tranquilo**</p>|<p> </p><p>**Como** un joven con estrés **deseo** **que**, a la hora de reunirme con otras personas, nos encontremos en un ambiente relajante y del gusto de todos **para** poder hablar tranquilamente</p><p> </p>|2|
-|8|<p> </p><p> </p><p>US08</p>|<p>** </p><p>** </p><p>**Escuchar sonidos tranquilizantes**</p>|<p> </p><p> </p><p>**Como** un joven con estrés **quiero** escuchar un ruido blanco **para** poder sentirme relajado inmediatamente.</p><p> </p>|3|
-|9|<p> </p><p>US09</p>|**Ver imágenes que mitiguen estrés**|<p> </p><p>**Como** un joven con estrés **quiero** visualizar imágenes de animales dentro del espacio virtual **para** despejar mi mente.</p><p> </p>|8|
-|10|<p> </p><p>US10</p>|<p> </p><p>**Diversas técnicas de meditación**</p>|<p> </p><p>**Como** un joven con estrés **quiero** tener un listado de distintas técnicas de meditación **para** tener mayor variedad de mecanismos de cómo aliviar mis cuadros de estrés.</p><p> </p>|5|
-|11|<p> </p><p>US11</p>|<p> </p><p>**Meditaciones grupales**</p>|<p> </p><p>**Como** un joven con estrés **quiero** meditar con otras personas por medio del espacio virtual **para** sentirme acompañado.</p><p> </p>|5|
-|12|<p> </p><p>US12</p>|<p>** </p><p>**Disponibilidad de la aplicación**</p><p>** </p>|<p> </p><p>**Como** joven con estrés **quiero** que la app esté disponible el 99.90% del tiempo que intento acceder a ella **para** poder desestresarme en el momento que lo requiera.</p>|8|
-|13|<p> </p><p>US13</p>|<p>** </p><p>**App operativa 24 horas**</p>|<p> </p><p>**Como** joven con estrés **quiero** que la app sea capaz de operar hasta con 10,000 usuarios a la vez **para** poder compartir actividades juntos.</p><p> </p>|5|
-|14|<p> </p><p>US14</p>|<p> </p><p>**Usabilidad de la app**</p>|<p> </p><p>**Como** joven con estrés **quiero** que la tasa de errores sea menor al 1% de las transacciones totales ejecutadas en el sistema **para** poder tener una mejor experiencia en el sistema.</p><p> </p>|5|
-|15|<p> </p><p>US15</p>|<p>** </p><p>**Disponibilidad de manual de usuario**</p>|<p> </p><p>**Como** joven con estrés **quiero** que el sistema cuente con un manual de usuario **para** entender la funcionalidad de la app en su totalidad.</p><p> </p>|2|
-|16|US25|<p>**Evaluación de Salud Mental a través de Chatbot**</p><p></p>|**Como** usuario preocupado por mi bienestar mental, **quiero** poder interactuar con un chatbot **para** describir mis síntomas y recibir una evaluación preliminar de posibles problemas de salud mental.|8|
-|17|US26|<p>**Guía de Chatbot para Ansiedad y Depresión**</p><p></p>|<p>**Como** persona que experimenta síntomas de ansiedad y depresión, **quiero** utilizar un chatbot que me guíe a través de una serie de preguntas **para** identificar mis preocupaciones y recibir recomendaciones sobre si debo buscar ayuda profesional de un psicólogo o un psiquiatra.</p><p></p>|8|
-|18|US30|**Seguir una rutina de autocuidado con chatbot**|Como un joven con estrés, quiero poder establecer una rutina de autocuidado con la ayuda de un chatbot, que me proporcione consejos personalizados para mantener mi salud mental.|8|
-|19|US31|**Gestionar crisis y emergencias con chatbot**|Como un joven con estrés, quiero poder acceder a un chatbot que me brinde apoyo inmediato y me guíe en la búsqueda de recursos de ayuda profesional, para recibir atención oportuna.|8|
-|20|US32|**Seguir un progreso terapéutico a través de chatbot**|Como un joven con estrés, quiero poder registrar mi progreso y emociones diarias utilizando un chatbot para mejorar mi proceso de recuperación.|8|
-|21|US33|**Educar sobre salud mental a través de chatbot**|Como un joven con estrés, quiero interactuar con un chatbot que me proporcione información educativa y recursos sobre diferentes trastornos, para mejorar mi conocimiento y comprensión.|8|
-|22|US34|**Apoyar la prevención del suicidio con chatbot**|Como un joven con estrés, quiero tener acceso a un chatbot que me proporcione información sobre los signos de advertencia, recursos de apoyo y consejos para ayudar a alguien en crisis, y que pueda conectar con líneas de ayuda o servicios de emergencia cuando sea necesario.|8|
-|23|<p> </p><p>US16</p>|<p>** </p><p>**Disponible en Windows**</p>|<p> </p><p>**Como** joven con estrés **quiero** ejecutar la app en sistema operativo Windows **para** acceder desde cualquier lugar a través de mi dispositivo portátil.</p><p> </p>|8|
-|24|US17|<p>** </p><p>**Poco peso de aplicativo**</p>|<p> </p><p>**Como** joven con estrés **quiero** que el aplicativo tenga un peso no mayor de 290 MB **para** que esté accesible a el espacio de mi dispositivo.</p><p> </p>|5|
-|25|<p> </p><p>US18</p>|<p>** </p><p>**Gestión de promociones**</p>|<p> </p><p>**Como** administrador **quiero** gestionar ofertas y promociones **para** que el usuario se sienta satisfecho con las oportunidades que le brindamos.</p><p> </p>|5|
-|26|US27|<p>**Detección de Burnout con Asistencia de Chatbot**</p><p></p>|**Como** individuo que está experimentando episodios de estrés y agotamiento emocional, **quiero** tener acceso a un chatbot que me ayude a reconocer los signos de quemado laboral **para** que me sugiera consultar con un terapeuta especializado en salud mental ocupacional.|8|
-|27|US28|<p>**Orientación para Cuidadores mediante Chatbot**</p><p></p>|**Como** persona preocupada por la salud mental de un ser querido, **quiero** poder utilizar un chatbot que me permita describir los comportamientos observados **para** recibir orientación sobre cómo abordar la situación con el individuo afectado.|8|
-|28|US19|<p>** </p><p>**Gestión de usuarios**</p>|<p> </p><p>**Como** administrador **quiero** gestionar una base de datos de las cuentas de los usuarios finales **para** mantenerlos en nuestra app fielmente.</p><p> </p>|8|
-|29|US20|**Seguimiento de Progreso del Paciente**|Como médico especializado en salud mental, quiero poder realizar un seguimiento del progreso de mis pacientes para ajustar sus planes de tratamiento de manera efectiva|8|
-|30|US21|**Colaboración con Otros Profesionales de la Salud**|<p>Como médico especializado en salud mental, quiero colaborar con otros profesionales de la salud cuando los pacientes presenten necesidades médicas y psicológicas complejas</p><p> </p>|3|
-|31|US22|**Colaboración entre médicos para la ayuda de un paciente**|Como médico especializado en salud mental, W quiero colaborar con otros profesionales de la salud cuando los pacientes presenten necesidades médicas y psicológicas complejas|5|
-|32|US29|<p>**Apoyo de Chatbot para Estudiantes Universitarios**</p><p></p>|<p>**Como** estudiante universitario enfrentando dificultades emocionales durante mi transición a la vida universitaria, **quiero** interactuar con un chatbot que me ayude a identificar recursos y servicios de apoyo **para** poder llevar una adecuada vida educativa.</p><p></p>|8|
-|33|US23|**Registrar satisfactoriamente la cita.**|Como especialista de la salud mental, deseo que los registros de mis citas agendadas sean adecuados a mi horario para tener una mejor organización de mi agenda.|8|
-|34|US24|**Iniciar o reprogramar una cita**|Como especialista de la salud mental, deseo que mis citas agendadas sean respetadas para así llevar un mejor control de los pacientes|5|
-=======
-Entendemos que, para este trabajo, todos los participantes tenemos que tener un lenguaje común para poder tener una mejor comunicación durante todo el avance de los proyectos y así también poder brindar una mejor experiencia al usuario, algunos conceptos que tenemos que tener en cuenta en el grupo es:
 
-1.	Pacientes: Usuario que utilizará la aplicación web y quisiera informarse más o ayudarse en el problema que presenta
-Síntomas: frustración, estrés, ansiedad, etc
-Emociones: felicidad, tristeza, enojo, etc
-Historial médico: medicinas, alergias 
+# Capítulo IV: Strategic-level Software Design
+## 4.1. Strategic-Level Attribute-Driven Design
+### 4.1.1. Design Purpose
+El diseño propuesto mediate los factores recopilados en los capítulos anteriores nos aseguran que la aplicación sea funcional y acorde a las necesidades y expectativas del usuario final. Además, mediante una recopilacion de mejoras continua podremos lograr el alcance del negocio 
+### 4.1.2. Attribute-Driven Design Inputs
+#### 4.1.2.1. Primary Functionality (Primary User Stories)
 
-2.	Médicos de la salud mental: Usuarios que conectarán con los pacientes, les dará tratamientos y diagnósticos, además de un seguimiento
-Transtorno Mentales: TDAH, depresión, ansiedad, etc
-Seguimiento: avances del progreso del paciente
-Plan de tratamiento: terapias, medicación, ajustes en el estilo de vida del paciente, etc
-3.	Chatbot: servicio que ofrece la plataforma para que el paciente tenga un pre diagnostico de lo que esta sintiendo en el día
-Evaluación: preguntas de pruebas psicológicas automatizadas
-Pre-diagnostico: depresión, ansiedad, etc
-Severidad: leve, moderado, grave
-Recomendaciones: ayuda psicológica
+|USER STORY ID|DESCRIPCION DEL US|
+| :- | :- |
+|<p> </p><p>US01 </p>|<p> </p><p>**Como** un joven con estrés **quiero** compartir por redes sociales mi propio listado de actividades favoritas **para** comunicarlo con mis familiares interesados. </p>|
+|<p> </p><p>US02 </p>|<p> </p><p>**Como** un joven con estrés **quiero** actividades que tengan concordancia con los hobbies que hago en mis tiempos libres **para** desestresarme con los que más me gusta hacer. </p>|
+|<p> </p><p>US03 </p>|<p> </p><p>**Como** joven con estrés **quiero** tener recordatorios hacia mi celular de mis sesiones de relajación **para** no olvidarme de disponer de un tiempo para desestresarme. </p>|
+|<p> </p><p>US04 </p>|<p> </p><p>**Como** un joven con estrés **quiero** tener una estimación de los niveles de estrés **para** conocer mis actividades relajantes ideales. </p><p> </p>|
+|<p> </p><p>US05 </p>|<p> </p><p>**Como** un joven con estrés **deseo** encontrar todos los grupos de apoyo **para** poder sentirme en confianza. </p>|
+|<p> </p><p>US06 </p>|<p> </p><p>**Como** joven con estrés **quiero** unirme a un grupo de apoyo en específico según preferencias similares, **para que** podamos compartir experiencias e intercambiar consejos </p>|
+|<p> </p><p>US07 </p>|<p> </p><p>**Como** un joven con estrés **deseo** **que**, a la hora de reunirme con otras personas, nos encontremos en un ambiente relajante y del gusto de todos **para** poder hablar tranquilamente </p><p> </p>|
+|<p> </p><p> </p><p>US08 </p>|<p> </p><p> </p><p>**Como** un joven con estrés **quiero** escuchar un ruido blanco **para** poder sentirme relajado inmediatamente. </p><p> </p>|
+|<p> </p><p>US09 </p>|<p> </p><p>**Como** un joven con estrés **quiero** visualizar imágenes de animales dentro del espacio virtual **para** despejar mi mente. </p><p> </p>|
+|<p> </p><p>US10 </p>|<p> </p><p>**Como** un joven con estrés **quiero** tener un listado de distintas técnicas de meditación **para** tener mayor variedad de mecanismos de cómo aliviar mis cuadros de estrés. </p><p> </p>|
+|<p> </p><p>US11 </p>|<p> </p><p>**Como** un joven con estrés **quiero** meditar con otras personas por medio del espacio virtual **para** sentirme acompañado. </p><p> </p>|
+|<p> </p><p>US12 </p>|<p> </p><p>**Como** joven con estrés **quiero** que la app esté disponible el 99.90% del tiempo que intento acceder a ella **para** poder desestresarme en el momento que lo requiera. </p>|
+|<p> </p><p>US13 </p>|<p> </p><p>**Como** joven con estrés **quiero** que la app sea capaz de operar hasta con 10,000 usuarios a la vez **para** poder compartir actividades juntos. </p><p> </p>|
+|<p> </p><p>US14 </p>|<p> </p><p>**Como** joven con estrés **quiero** que la tasa de errores sea menor al 1% de las transacciones totales ejecutadas en el sistema **para** poder tener una mejor experiencia en el sistema. </p><p> </p>|
+|<p> </p><p>US15 </p>|<p> </p><p>**Como** joven con estrés **quiero** que el sistema cuente con un manual de usuario **para** entender la funcionalidad de la app en su totalidad. </p><p> </p>|
+|<p> </p><p>US16 </p>|<p> </p><p>**Como** joven con estrés **quiero** ejecutar la app en sistema operativo Windows **para** acceder desde cualquier lugar a través de mi dispositivo portátil. </p><p> </p>|
+|US17 |<p> </p><p>**Como** joven con estrés **quiero** que el aplicativo tenga un peso no mayor de 290 MB **para** que esté accesible a el espacio de mi dispositivo. </p><p> </p>|
+|<p> </p><p>US18 </p>|<p> </p><p>**Como** administrador **quiero** gestionar ofertas y promociones **para** que el usuario se sienta satisfecho con las oportunidades que le brindamos. </p><p> </p>|
+|US19 |<p> </p><p>**Como** administrador **quiero** gestionar una base de datos de las cuentas de los usuarios finales **para** mantenerlos en nuestra app fielmente. </p><p> </p>|
+|US20 |**Como** médico especializado en salud mental, **quiero** poder realizar un seguimiento del progreso de mis pacientes **para** ajustar sus planes de tratamiento de manera efectiva |
+|US21 |<p>**Como** médico especializado en salud mental, **quiero** colaborar con otros profesionales de la salud **cuando** los pacientes presenten necesidades médicas y psicológicas complejas </p><p> </p>|
+|US22 |**Como** médico especializado en salud mental, **quiero** colaborar con otros profesionales de la salud **cuando** los pacientes presenten necesidades médicas y psicológicas complejas |
+|US23 |**Como** especialista de la salud mental, **deseo** que los registros de mis citas agendadas sean adecuados a mi horario **para** tener una mejor organización de mi agenda. |
+|US24 |**Como** especialista de la salud mental, **deseo** que mis citas agendadas sean respetadas **para** así llevar un mejor control de los pacientes |
 
-4.	Aplicación Web: entorno donde el paciente y el médico interactúan y usan los servicios que están a disposición de cada usuario
-Interfaz de usuario: intuitiva, llamativa, accesible para el usuario
-Seguridad: encriptación de datos sensibles y conexión privada entre paciente y médico. 
+#### 4.1.2.2. Quality attribute Scenarios
+
+|Atributo|Fuente|Estímulo |Artefacto|Entorno|Respuesta|Medida|
+| :- | :- | :- | :- | :- | :- | :- |
+|Mantenibilidad|Usuario|Cambios legales sobre la salud mental o funcionalidades nuevas.|Aplicacion Web MediConnect|Dispositivos del usuario|Adaptabilidad en la aplicación para insertar nuevos cambios.|El tiempo y costo de las actualizaciones|
+|Escalabilidad|Desarrollador|Aumento en el numero de nuestros usuario|Servidor de la aplicacion MediConnect|Entorno de produccion|Manejar el aumento significativo de nuestros usuarios|Mejorar el servitor para el manejo masivo de usuarios |
+|Seguridad |Usuario|Los accesos indebidos o no autorizados.|Aplicacion Web MediConnect|Dispositivos del usuario|Garantizar la seguridad de nuestra base de datos para protección y privacidad del usuario.|Cifrado de los datos para detener a intrusos.|
+|Rendimiento|Usuario|Carga de uso por parte de nuestros usuarios|Aplicacion Web MediConnect|Dispositivos del usuario|Debemos proporcionar una respuesta inmediata para que los retrasos no sean perceptivos.|Mejorar el tiempo de carga para el manejo de gran proporción de nuestros usuarios|  
+
+#### 4.1.2.3. Constraints
+
+En el proceso de diseño de la arquitectura de nuestro producto, hemos identificado diversas restricciones que han influido en nuestras decisiones de diseño. Estas restricciones son fundamentales para asegurar que nuestra solución sea viable y cumpla con los objetivos del proyecto.  
+
+A continuación, se detallan las restricciones clave que hemos considerado: 
+
+**Requisitos de Seguridad:**
+
+Dada la naturaleza de nuestra aplicación, que manejará datos de salud mental confidenciales, estamos sujetos a restricciones rigurosas en cuanto a la seguridad. Deberemos cumplir con las regulaciones de privacidad de datos. 
+
+
+**Requisitos de Rendimiento:**
+
+Para garantizar una experiencia de usuario óptima, hemos establecido restricciones en cuanto al tiempo de respuesta máximo de la aplicación y los umbrales de rendimiento que deben mantenerse incluso en condiciones de carga elevada.
+
+
+**Plataforma de Implementación:**
+
+Debido a consideraciones de infraestructura existente y acuerdos de alojamiento, estamos restringidos a implementar nuestra solución (aplicación MedPro) en la plataforma de alojamiento en cualquiera de las siguientes opciones (nube): Amazon Web Services (AWS), Microsoft Azure o Google Cloud Platform (GCP), utilizando el sistema operativo Windows como entorno de servidor. 
+
+
+**Cumplimiento de Estándares y Regulaciones:**
+
+Nuestro producto, MedPro, está diseñado con el compromiso de cumplir con los estándares de la industria de la salud mental y las regulaciones gubernamentales relevantes en la ciudad de Lima y sus alrededores. Esto incluye el cumplimiento de los siguientes estándares y regulaciones: 
+  - Estándares de Privacidad de Datos.
+  - Regulaciones de Salud Mental. 
+  - Estándares de Seguridad. 
+
+Estos compromisos con los estándares de la industria y las regulaciones gubernamentales son fundamentales para garantizar la calidad, seguridad y legalidad de MedPro como una solución de salud mental confiable para los jóvenes en Lima.
+
+
+**Requisitos de Interoperabilidad:**
+
+La aplicación debe ser capaz de interoperar con sistemas externos, lo que nos impone restricciones en términos de protocolos de comunicación y formatos de datos. 
+
+
+**Requisitos de Escalabilidad:**
+
+Anticipamos un crecimiento significativo en el número de usuarios, por lo que debemos diseñar la arquitectura con restricciones relacionadas con la escalabilidad, asegurando que la aplicación pueda manejar la carga adicional de manera eficiente. 
+
+
+**Requisitos de Mantenimiento:**
+
+La facilidad de mantenimiento y actualización es una restricción importante. Deberemos diseñar la arquitectura de manera que las futuras actualizaciones puedan implementarse de manera rápida y con un impacto mínimo en la operación continua. 
+
+Estas restricciones se han tenido en cuenta de manera integral en el diseño de la arquitectura del producto MedPro, garantizando que nuestra solución sea robusta, segura y capaz de cumplir con los objetivos del proyecto en el marco de estas restricciones  
+
+
+### 4.1.3. Architectural Drivers Backlog
+
+| Drive ID | Titulo del Driver | Descripcion | IMPORTANCIA PARA STAKEHOLDERS (HIGH, MEDIUM, LOW) | IMPACTO EN ARCHITECTURE TECHNICAL COMPLEXITY (HIGH, MEDIUM, LOW) |
+| -- | -- | -- | -- | -- |
+| Q1 | Mantenibilidad | Efectuar que la aplicación tenga disponibilidad | HIGH | HIGH | 
+| Q2 | Escalabilidad | Encargarnos de que la aplicación sea operativa todos los dias las 24 horas | HIGH | HIGH |
+| Q3 | Seguridad | Mejorar y mantener la seguridad de datos de nuestros usuario | MEDIUM | HIGH |
+
+### 4.1.4. Architectural Design Decisions
+
+| DRIVE ID  | TITULO DEL DRIVE | 
+| -- | -- |
+| Q1 | MANTENIBILIDAD | 
+ 
+**MVC**
+
+PRO: Mejora la flexibilidad de la aplicación siendo asi mas adaptable a nuevas funciones que el usuario pueda pedir
+
+CONTRA: Presenta una mayor complejidad en la aplicación, complicando la comprensión del codigo
+
+**CAPAS** 
+
+PRO: Mejora el intercambio de componentes sin afectarse una con otra, además permite un desarrollo incremental
+
+CONTRA: Si las capas no están bien diseñadas se puede generar un acoplamiento excesivo entre ellas
+
+**SERVICIO**
+
+PRO: Facilita los cambios de la aplicación web asi como su menor costo en el mantenimiento
+
+CONTRA: Tiene un mayor tiempo de desarrolllo y un mayor tiempo de dearrollo
+
+| DRIVE ID | TITULO DEL DRIVE | 
+| -- | -- |
+| Q2 | ESCALABILIDAD | 
+
+**MVC**
+
+PRO:  Nos brinda mejor flexibilidad permitiendo la reutilizacion de los componentes reduciendo el tiempo en las justificciones
+
+CONTRA: Necesitamos comprender la creación del modelo MVC  para asi poder amenorar costos al momento de crear la infraestrucutra de la aplicacopm
+
+**CAPAS**
+
+PRO: Tener mejor capacidad para poder atender a los pacientes y guardar a los usuarios masivamente
+
+CONTRA: Puede dificultarse la gestión de datos para que nuestros usuarios tengan acceso a su cuenta previamente creada
+
+**SERVICIO**
+
+PRO: Nos sirve para manejar de mayor forma la cantidad de usuarios
+
+CONTRA: Para poder administrar el servidor necesitaremos de una experiencia
+
+| DRIVE ID | TITULO DEL DRIVE | 
+| -- | -- |
+| Q3 | SEGURIDAD | 
+
+**MVC**
+
+PRO: Podemos mejorar la seguridad  a través de la separación que tienen el modelo MVC
+
+CONTRA: Necesidad de un conocimiento especializado en ciberseguridad
+
+**CAPAS**
+
+PRO: Nos brinda el cifrado de extremo a extremo, de esta forma se le brinda mayor control de inicio de sesiond
+
+CONTRA: Capaz pueda tener un impacto significativo en la aplicación como lo puede ser la autenticacion
+
+**SERVICIO**
+
+PRO: Podemos proteger de mejor forma sus datos de los usuarios cumpliendo las normas, protegiendo asi los datos de los ciberataques
+
+CONTRA: Podrían haber inconvenientes en los usuarios para permitir el acceso o el control de los datos sensibles que nos puedas brindar
+
+### 4.1.5. Quality Attribute Scenario Refinements
+
+<table><tr><th colspan="3">Scenario Refinemet for Scenario 01</th></tr>
+<tr><td colspan="2">Scenario(s):</td><td>Efectuar que la aplicación tenga disponibilidad</td></tr>
+<tr><td colspan="2">Business Goals:</td><td>Conectar a jóvenes que padecen trastornos mentales con profesionales de la salud mental.</td></tr>
+<tr><td colspan="2">Relevant Quality Attributes:</td><td>Accesibilidad, Privacidad, Eficiencia</td></tr>
+<tr><td rowspan="6">Scenario Components</td><td>Stimulus:</td><td>Un joven con ansiedad busca apoyo psicológico en la aplicación</td></tr>
+<tr><td>Stimulus Source:</td><td valign="bottom">Usuario con trastorno mental</td></tr>
+<tr><td>Environment:</td><td valign="bottom">Aplicación web en operación normal</td></tr>
+<tr><td>Artifact(if known)</td><td valign="bottom">Chatbot de IA dentro de la aplicación web</td></tr>
+<tr><td>Response:</td><td valign="bottom">El chatbot proporciona apoyo inicial y recomienda profesionales de la salud mental según sea necesario</td></tr>
+<tr><td>Response Measure:</td><td valign="bottom">Tiempo que tarda el chatbot en responder y satisfacción del usuario con las recomendaciones proporcionadas</td></tr>
+<tr><td colspan="2" valign="bottom">Questions:</td><td valign="bottom"><p>¿Cómo se garantiza la privacidad y seguridad de los datos del usuario?</p><p>¿Cómo se evalúa la efectividad del chatbot?</p></td></tr>
+<tr><td colspan="2" valign="bottom">Issues:</td><td valign="bottom">Necesidad de garantizar que el chatbot proporciona respuestas precisas y útiles</td></tr>
+</table>
+
+<table><tr><th colspan="3">Scenario Refinemet for Scenario 01</th></tr>
+<tr><td colspan="2">Scenario(s):</td><td>Encargarnos de que la aplicación sea operativa todos los dias las 24 horas</td></tr>
+<tr><td colspan="2">Business Goals:</td><td>Proporcionar un servicio ininterrumpido para conectar a jóvenes con trastornos mentales con profesionales de la salud mental.</td></tr>
+<tr><td colspan="2">Relevant Quality Attributes:</td><td><p>Disponibilidad</p><p>Confiabilidad</p><p>Seguridad</p></td></tr>
+<tr><td rowspan="6">Scenario Components</td><td>Stimulus:</td><td>Un usuario necesita apoyo psicológico y accede a la aplicación</td></tr>
+<tr><td>Stimulus Source:</td><td valign="bottom">Usuario de la aplicación</td></tr>
+<tr><td>Environment:</td><td valign="bottom">Aplicación web en operación continua (24/7).</td></tr>
+<tr><td>Artifact(if known)</td><td valign="bottom">Chatbot de IA dentro de la aplicación web</td></tr>
+<tr><td>Response:</td><td valign="bottom">El chatbot proporciona apoyo inicial y recomienda profesionales de la salud mental según sea necesario</td></tr>
+<tr><td>Response Measure:</td><td valign="bottom">Tiempo que tarda el chatbot en responder y satisfacción del usuario con la ayuda recibida</td></tr>
+<tr><td colspan="2" valign="bottom">Questions:</td><td valign="bottom"><p>¿Cómo se garantiza que la aplicación esté operativa las 24 horas del día, los 7 días de la semana?</p><p>¿Cómo se manejan los problemas técnicos o interrupciones del servicio?</p></td></tr>
+<tr><td colspan="2" valign="bottom">Issues:</td><td valign="bottom"><p>Asegurar la disponibilidad y confiabilidad del servicio.</p><p>Mantenimiento y soporte técnico para resolver problemas e interrupciones.</p></td></tr>
+</table>
+
+## 4.2. Strategic-Level Domain-Driven Design
+
+**Bounded Contexts Identificados**
+
+- Gestión de Usuarios: Incluye todo lo relacionado con la administración de perfiles de usuarios, tanto pacientes como médicos
+- Reserva de Citas: Permite a los usuarios reservar, cancelar y reprogramar citas con profesionales de salud mental.
+- Gestión de Sesiones de Terapia: Administra la información y seguimiento de las sesiones terapéuticas.
+- Interacciones Comunitarias: Cubre las funcionalidades de apoyo comunitario, incluyendo grupos de apoyo y foros de discusión.
+- Monitoreo y Reportes de Salud Mental: Permite a los profesionales y a los pacientes seguir la evolución de los tratamientos y el estado de salud mental.
+- Autenticación y Seguridad: Asegura el acceso a la plataforma y protege la privacidad de los datos.
+
+**Subdominios**
+
+- Subdominio Core: Gestión de Sesiones de Terapia y Monitoreo y Reportes de Salud Mental, ya que son críticos para la propuesta de valor del servicio.
+- Subdominio de Soporte: Gestión de Usuarios y Reserva de Citas, facilitan la operación pero no son diferenciadores clave.
+- Subdominio Genérico: Autenticación y Seguridad, esencial pero no específico al dominio de la salud mental, puede ser externalizado o implementado usando soluciones estándar.
+
+**Estrategias y Tácticas**
+
+- Integración y Modularidad: Asegúrate de que los sistemas pueden interactuar a través de APIs bien definidas, permitiendo flexibilidad y escalabilidad.
+- Seguridad por Diseño: Dada la sensibilidad de los datos manejados, incorpora la seguridad como una prioridad en todas las fases de diseño y desarrollo.
+- UX Orientada al Usuario: Diseña interfaces que sean intuitivas y accesibles para todos los usuarios, basándote en investigaciones y pruebas de usabilidad.
+
+
+### 4.2.1. EventStorming
+
+![eventstorming](/Images/eventstorminh.png)
+
+### 4.2.2. Candidate Context Discovery
+
+![candidate](/Images/candidate%20context.png)
+
+### 4.2.3. Domain Message Flows Modeling
+
+![domain](/Images/domain%20message.png)
+
+### 4.2.4. Bounded Context Canvases
+
+![bounded](/Images/bounded%20context%20canvas.jpg)
+
+### 4.2.5. Context Mapping
+
+![context](/Images/context%20mapping.png)
+
+## 4.3. Software Architecture
+### 4.3.1. Software Architecture System Landscape Diagram
+
+El diagrama de paisaje representa la organizacion del software y su contexto de operacion. Además, se observa los componentes del siste y sus interacciones con los servicios y sistemas externos.
+
+![landscape](/Images/landscape.png)
+
+### 4.3.1. Software Architecture Context Level Diagrams
+![Context Level](/Images/Context%20Diagram.png)
+### 4.3.2. Software Architecture Container Level Diagrams
+![Container Level](/Images/Container%20Diagram.png)
+### 4.3.3. Software Architecture Deployment Diagrams
+
+![deploymen](/Images/Deployment.png)
+
+
+# Conclusiones y Recomendaciones 
+
+- La especificación de nuestro problema a partir de los 5w y 2H nos permitió reconocer e identificar la problemática que abordamos en general. Nos ayudó a implementar acciones estratégicas con el fin de que nuestra solución de software sea eficiente y abarque en todos los sentidos el problema identificado.
+
+- La descripción de los Problem Statement fue de suma ayuda ya que nos permitió a identificar si nuestra solución que queremos brindar era la adecuada. Los resultados que llegamos a partir de la especificación fueron que a partir del análisis de los Problem Statement identificamos que era necesario agregar más ideas de solución a las que ya habíamos propuesto en un inicio. Había algunas ideas que no habíamos tomado en cuenta, pero para nuestros usuarios eran aspectos primordiales. Lo cual al realizar este ítem decidimos incluir más ideas de solución porque queríamos atender todas las necesidades que nuestro público objetivo desea satisfacer.
+
+- La declaración de nuestros Assumptions y Hypotheses Statements lo pudimos confirmar al momento de realizar las entrevistas. Los tres de nuestros entrevistados confirmaron que las suposiciones y las hipótesis que habíamos realizado eran situaciones que realmente nuestro público objetivo pasaba. De esta manera, confirmamos que las idas de solución que teníamos planteadas eran aquellas que cumplían con los objetivos de los jóvenes con estrés.
+
+- En nuestra primera etapa, los criterios de éxito especificados en nuestro Lean UX canvas nos permitieron establecer estrategias a aprovechar y a la vez featueres de la app como administrativas importantes para que nuestra solución sea completa en todos sus campos.
+  
+- Asimismo, los Requeriments Specification nos ayudó a analizar la información obtenida en las entrevistas. El resultado que obtuvimos fue mucho más allegado a las necesidades de nuestros usuarios ya que se describió en su totalidad las características necesarias que nuestra app necesita. 
+
+- Finalmente, con las validaciones de nuestra solución confirmamos que las especificaciones descritas anteriormente a manera de posibles soluciones son las eficientes para satisfacer el problema. Específicamente, a partir de la implementación de las pruebas de aceptación pudimos conocer más a fondo que la app Revia sí cumple con el objetivo de mitigar el estrés de los jóvenes, nos permitió reconocer que nuestro aplicativo contiene una buena eficiencia tanto en contenido como en features no funcionales. Es decir, completa y dispuesta al usuario cuando lo necesite.
