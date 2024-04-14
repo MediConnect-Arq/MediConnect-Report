@@ -342,19 +342,209 @@ En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra apli
 El diseño propuesto mediate los factores recopilados en los capítulos anteriores nos aseguran que la aplicación sea funcional y acorde a las necesidades y expectativas del usuario final. Además, mediante una recopilacion de mejoras continua podremos lograr el alcance del negocio 
 ### 4.1.2. Attribute-Driven Design Inputs
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
+
+|USER STORY ID|DESCRIPCION DEL US|
+| :- | :- |
+|<p> </p><p>US01 </p>|<p> </p><p>**Como** un joven con estrés **quiero** compartir por redes sociales mi propio listado de actividades favoritas **para** comunicarlo con mis familiares interesados. </p>|
+|<p> </p><p>US02 </p>|<p> </p><p>**Como** un joven con estrés **quiero** actividades que tengan concordancia con los hobbies que hago en mis tiempos libres **para** desestresarme con los que más me gusta hacer. </p>|
+|<p> </p><p>US03 </p>|<p> </p><p>**Como** joven con estrés **quiero** tener recordatorios hacia mi celular de mis sesiones de relajación **para** no olvidarme de disponer de un tiempo para desestresarme. </p>|
+|<p> </p><p>US04 </p>|<p> </p><p>**Como** un joven con estrés **quiero** tener una estimación de los niveles de estrés **para** conocer mis actividades relajantes ideales. </p><p> </p>|
+|<p> </p><p>US05 </p>|<p> </p><p>**Como** un joven con estrés **deseo** encontrar todos los grupos de apoyo **para** poder sentirme en confianza. </p>|
+|<p> </p><p>US06 </p>|<p> </p><p>**Como** joven con estrés **quiero** unirme a un grupo de apoyo en específico según preferencias similares, **para que** podamos compartir experiencias e intercambiar consejos </p>|
+|<p> </p><p>US07 </p>|<p> </p><p>**Como** un joven con estrés **deseo** **que**, a la hora de reunirme con otras personas, nos encontremos en un ambiente relajante y del gusto de todos **para** poder hablar tranquilamente </p><p> </p>|
+|<p> </p><p> </p><p>US08 </p>|<p> </p><p> </p><p>**Como** un joven con estrés **quiero** escuchar un ruido blanco **para** poder sentirme relajado inmediatamente. </p><p> </p>|
+|<p> </p><p>US09 </p>|<p> </p><p>**Como** un joven con estrés **quiero** visualizar imágenes de animales dentro del espacio virtual **para** despejar mi mente. </p><p> </p>|
+|<p> </p><p>US10 </p>|<p> </p><p>**Como** un joven con estrés **quiero** tener un listado de distintas técnicas de meditación **para** tener mayor variedad de mecanismos de cómo aliviar mis cuadros de estrés. </p><p> </p>|
+|<p> </p><p>US11 </p>|<p> </p><p>**Como** un joven con estrés **quiero** meditar con otras personas por medio del espacio virtual **para** sentirme acompañado. </p><p> </p>|
+|<p> </p><p>US12 </p>|<p> </p><p>**Como** joven con estrés **quiero** que la app esté disponible el 99.90% del tiempo que intento acceder a ella **para** poder desestresarme en el momento que lo requiera. </p>|
+|<p> </p><p>US13 </p>|<p> </p><p>**Como** joven con estrés **quiero** que la app sea capaz de operar hasta con 10,000 usuarios a la vez **para** poder compartir actividades juntos. </p><p> </p>|
+|<p> </p><p>US14 </p>|<p> </p><p>**Como** joven con estrés **quiero** que la tasa de errores sea menor al 1% de las transacciones totales ejecutadas en el sistema **para** poder tener una mejor experiencia en el sistema. </p><p> </p>|
+|<p> </p><p>US15 </p>|<p> </p><p>**Como** joven con estrés **quiero** que el sistema cuente con un manual de usuario **para** entender la funcionalidad de la app en su totalidad. </p><p> </p>|
+|<p> </p><p>US16 </p>|<p> </p><p>**Como** joven con estrés **quiero** ejecutar la app en sistema operativo Windows **para** acceder desde cualquier lugar a través de mi dispositivo portátil. </p><p> </p>|
+|US17 |<p> </p><p>**Como** joven con estrés **quiero** que el aplicativo tenga un peso no mayor de 290 MB **para** que esté accesible a el espacio de mi dispositivo. </p><p> </p>|
+|<p> </p><p>US18 </p>|<p> </p><p>**Como** administrador **quiero** gestionar ofertas y promociones **para** que el usuario se sienta satisfecho con las oportunidades que le brindamos. </p><p> </p>|
+|US19 |<p> </p><p>**Como** administrador **quiero** gestionar una base de datos de las cuentas de los usuarios finales **para** mantenerlos en nuestra app fielmente. </p><p> </p>|
+|US20 |**Como** médico especializado en salud mental, **quiero** poder realizar un seguimiento del progreso de mis pacientes **para** ajustar sus planes de tratamiento de manera efectiva |
+|US21 |<p>**Como** médico especializado en salud mental, **quiero** colaborar con otros profesionales de la salud **cuando** los pacientes presenten necesidades médicas y psicológicas complejas </p><p> </p>|
+|US22 |**Como** médico especializado en salud mental, **quiero** colaborar con otros profesionales de la salud **cuando** los pacientes presenten necesidades médicas y psicológicas complejas |
+|US23 |**Como** especialista de la salud mental, **deseo** que los registros de mis citas agendadas sean adecuados a mi horario **para** tener una mejor organización de mi agenda. |
+|US24 |**Como** especialista de la salud mental, **deseo** que mis citas agendadas sean respetadas **para** así llevar un mejor control de los pacientes |
+
 #### 4.1.2.2. Quality attribute Scenarios
+
+|Atributo|Fuente|Estímulo |Artefacto|Entorno|Respuesta|Medida|
+| :- | :- | :- | :- | :- | :- | :- |
+|Mantenibilidad|Usuario|Cambios legales sobre la salud mental o funcionalidades nuevas.|Aplicacion Web MediConnect|Dispositivos del usuario|Adaptabilidad en la aplicación para insertar nuevos cambios.|El tiempo y costo de las actualizaciones|
+|Escalabilidad|Desarrollador|Aumento en el numero de nuestros usuario|Servidor de la aplicacion MediConnect|Entorno de produccion|Manejar el aumento significativo de nuestros usuarios|Mejorar el servitor para el manejo masivo de usuarios |
+|Seguridad |Usuario|Los accesos indebidos o no autorizados.|Aplicacion Web MediConnect|Dispositivos del usuario|Garantizar la seguridad de nuestra base de datos para protección y privacidad del usuario.|Cifrado de los datos para detener a intrusos.|
+|Rendimiento|Usuario|Carga de uso por parte de nuestros usuarios|Aplicacion Web MediConnect|Dispositivos del usuario|Debemos proporcionar una respuesta inmediata para que los retrasos no sean perceptivos.|Mejorar el tiempo de carga para el manejo de gran proporción de nuestros usuarios|  
+
 #### 4.1.2.3. Constraints
+
+En el proceso de diseño de la arquitectura de nuestro producto, hemos identificado diversas restricciones que han influido en nuestras decisiones de diseño. Estas restricciones son fundamentales para asegurar que nuestra solución sea viable y cumpla con los objetivos del proyecto.  
+
+A continuación, se detallan las restricciones clave que hemos considerado: 
+
+**Requisitos de Seguridad:**
+
+Dada la naturaleza de nuestra aplicación, que manejará datos de salud mental confidenciales, estamos sujetos a restricciones rigurosas en cuanto a la seguridad. Deberemos cumplir con las regulaciones de privacidad de datos. 
+
+
+**Requisitos de Rendimiento:**
+
+Para garantizar una experiencia de usuario óptima, hemos establecido restricciones en cuanto al tiempo de respuesta máximo de la aplicación y los umbrales de rendimiento que deben mantenerse incluso en condiciones de carga elevada.
+
+
+**Plataforma de Implementación:**
+
+Debido a consideraciones de infraestructura existente y acuerdos de alojamiento, estamos restringidos a implementar nuestra solución (aplicación MedPro) en la plataforma de alojamiento en cualquiera de las siguientes opciones (nube): Amazon Web Services (AWS), Microsoft Azure o Google Cloud Platform (GCP), utilizando el sistema operativo Windows como entorno de servidor. 
+
+
+**Cumplimiento de Estándares y Regulaciones:**
+
+Nuestro producto, MedPro, está diseñado con el compromiso de cumplir con los estándares de la industria de la salud mental y las regulaciones gubernamentales relevantes en la ciudad de Lima y sus alrededores. Esto incluye el cumplimiento de los siguientes estándares y regulaciones: 
+  - Estándares de Privacidad de Datos.
+  - Regulaciones de Salud Mental. 
+  - Estándares de Seguridad. 
+
+Estos compromisos con los estándares de la industria y las regulaciones gubernamentales son fundamentales para garantizar la calidad, seguridad y legalidad de MedPro como una solución de salud mental confiable para los jóvenes en Lima.
+
+
+**Requisitos de Interoperabilidad:**
+
+La aplicación debe ser capaz de interoperar con sistemas externos, lo que nos impone restricciones en términos de protocolos de comunicación y formatos de datos. 
+
+
+**Requisitos de Escalabilidad:**
+
+Anticipamos un crecimiento significativo en el número de usuarios, por lo que debemos diseñar la arquitectura con restricciones relacionadas con la escalabilidad, asegurando que la aplicación pueda manejar la carga adicional de manera eficiente. 
+
+
+**Requisitos de Mantenimiento:**
+
+La facilidad de mantenimiento y actualización es una restricción importante. Deberemos diseñar la arquitectura de manera que las futuras actualizaciones puedan implementarse de manera rápida y con un impacto mínimo en la operación continua. 
+
+Estas restricciones se han tenido en cuenta de manera integral en el diseño de la arquitectura del producto MedPro, garantizando que nuestra solución sea robusta, segura y capaz de cumplir con los objetivos del proyecto en el marco de estas restricciones  
+
+
 ### 4.1.3. Architectural Drivers Backlog
+
+| Drive ID | Titulo del Driver | Descripcion | IMPORTANCIA PARA STAKEHOLDERS (HIGH, MEDIUM, LOW) | IMPACTO EN ARCHITECTURE TECHNICAL COMPLEXITY (HIGH, MEDIUM, LOW) |
+| -- | -- | -- | -- | -- |
+| Q1 | Mantenibilidad | Efectuar que la aplicación tenga disponibilidad | HIGH | HIGH | 
+| Q2 | Escalabilidad | Encargarnos de que la aplicación sea operativa todos los dias las 24 horas | HIGH | HIGH |
+| Q3 | Seguridad | Mejorar y mantener la seguridad de datos de nuestros usuario | MEDIUM | HIGH |
+
 ### 4.1.4. Architectural Design Decisions
+
+| DRIVE ID  | TITULO DEL DRIVE | 
+| -- | -- |
+| Q1 | MANTENIBILIDAD | 
+ 
+**MVC**
+
+PRO: Mejora la flexibilidad de la aplicación siendo asi mas adaptable a nuevas funciones que el usuario pueda pedir
+
+CONTRA: Presenta una mayor complejidad en la aplicación, complicando la comprensión del codigo
+
+**CAPAS** 
+
+PRO: Mejora el intercambio de componentes sin afectarse una con otra, además permite un desarrollo incremental
+
+CONTRA: Si las capas no están bien diseñadas se puede generar un acoplamiento excesivo entre ellas
+
+**SERVICIO**
+
+PRO: Facilita los cambios de la aplicación web asi como su menor costo en el mantenimiento
+
+CONTRA: Tiene un mayor tiempo de desarrolllo y un mayor tiempo de dearrollo
+
+| DRIVE ID | TITULO DEL DRIVE | 
+| -- | -- |
+| Q2 | ESCALABILIDAD | 
+
+**MVC**
+
+PRO:  Nos brinda mejor flexibilidad permitiendo la reutilizacion de los componentes reduciendo el tiempo en las justificciones
+
+CONTRA: Necesitamos comprender la creación del modelo MVC  para asi poder amenorar costos al momento de crear la infraestrucutra de la aplicacopm
+
+**CAPAS**
+
+PRO: Tener mejor capacidad para poder atender a los pacientes y guardar a los usuarios masivamente
+
+CONTRA: Puede dificultarse la gestión de datos para que nuestros usuarios tengan acceso a su cuenta previamente creada
+
+**SERVICIO**
+
+PRO: Nos sirve para manejar de mayor forma la cantidad de usuarios
+
+CONTRA: Para poder administrar el servidor necesitaremos de una experiencia
+
+| DRIVE ID | TITULO DEL DRIVE | 
+| -- | -- |
+| Q3 | SEGURIDAD | 
+
+**MVC**
+
+PRO: Podemos mejorar la seguridad  a través de la separación que tienen el modelo MVC
+
+CONTRA: Necesidad de un conocimiento especializado en ciberseguridad
+
+**CAPAS**
+
+PRO: Nos brinda el cifrado de extremo a extremo, de esta forma se le brinda mayor control de inicio de sesiond
+
+CONTRA: Capaz pueda tener un impacto significativo en la aplicación como lo puede ser la autenticacion
+
+**SERVICIO**
+
+PRO: Podemos proteger de mejor forma sus datos de los usuarios cumpliendo las normas, protegiendo asi los datos de los ciberataques
+
+CONTRA: Podrían haber inconvenientes en los usuarios para permitir el acceso o el control de los datos sensibles que nos puedas brindar
+
 ### 4.1.5. Quality Attribute Scenario Refinements
+
+<table><tr><th colspan="3">Scenario Refinemet for Scenario 01</th></tr>
+<tr><td colspan="2">Scenario(s):</td><td>Efectuar que la aplicación tenga disponibilidad</td></tr>
+<tr><td colspan="2">Business Goals:</td><td>Conectar a jóvenes que padecen trastornos mentales con profesionales de la salud mental.</td></tr>
+<tr><td colspan="2">Relevant Quality Attributes:</td><td>Accesibilidad, Privacidad, Eficiencia</td></tr>
+<tr><td rowspan="6">Scenario Components</td><td>Stimulus:</td><td>Un joven con ansiedad busca apoyo psicológico en la aplicación</td></tr>
+<tr><td>Stimulus Source:</td><td valign="bottom">Usuario con trastorno mental</td></tr>
+<tr><td>Environment:</td><td valign="bottom">Aplicación web en operación normal</td></tr>
+<tr><td>Artifact(if known)</td><td valign="bottom">Chatbot de IA dentro de la aplicación web</td></tr>
+<tr><td>Response:</td><td valign="bottom">El chatbot proporciona apoyo inicial y recomienda profesionales de la salud mental según sea necesario</td></tr>
+<tr><td>Response Measure:</td><td valign="bottom">Tiempo que tarda el chatbot en responder y satisfacción del usuario con las recomendaciones proporcionadas</td></tr>
+<tr><td colspan="2" valign="bottom">Questions:</td><td valign="bottom"><p>¿Cómo se garantiza la privacidad y seguridad de los datos del usuario?</p><p>¿Cómo se evalúa la efectividad del chatbot?</p></td></tr>
+<tr><td colspan="2" valign="bottom">Issues:</td><td valign="bottom">Necesidad de garantizar que el chatbot proporciona respuestas precisas y útiles</td></tr>
+</table>
+
+<table><tr><th colspan="3">Scenario Refinemet for Scenario 01</th></tr>
+<tr><td colspan="2">Scenario(s):</td><td>Encargarnos de que la aplicación sea operativa todos los dias las 24 horas</td></tr>
+<tr><td colspan="2">Business Goals:</td><td>Proporcionar un servicio ininterrumpido para conectar a jóvenes con trastornos mentales con profesionales de la salud mental.</td></tr>
+<tr><td colspan="2">Relevant Quality Attributes:</td><td><p>Disponibilidad</p><p>Confiabilidad</p><p>Seguridad</p></td></tr>
+<tr><td rowspan="6">Scenario Components</td><td>Stimulus:</td><td>Un usuario necesita apoyo psicológico y accede a la aplicación</td></tr>
+<tr><td>Stimulus Source:</td><td valign="bottom">Usuario de la aplicación</td></tr>
+<tr><td>Environment:</td><td valign="bottom">Aplicación web en operación continua (24/7).</td></tr>
+<tr><td>Artifact(if known)</td><td valign="bottom">Chatbot de IA dentro de la aplicación web</td></tr>
+<tr><td>Response:</td><td valign="bottom">El chatbot proporciona apoyo inicial y recomienda profesionales de la salud mental según sea necesario</td></tr>
+<tr><td>Response Measure:</td><td valign="bottom">Tiempo que tarda el chatbot en responder y satisfacción del usuario con la ayuda recibida</td></tr>
+<tr><td colspan="2" valign="bottom">Questions:</td><td valign="bottom"><p>¿Cómo se garantiza que la aplicación esté operativa las 24 horas del día, los 7 días de la semana?</p><p>¿Cómo se manejan los problemas técnicos o interrupciones del servicio?</p></td></tr>
+<tr><td colspan="2" valign="bottom">Issues:</td><td valign="bottom"><p>Asegurar la disponibilidad y confiabilidad del servicio.</p><p>Mantenimiento y soporte técnico para resolver problemas e interrupciones.</p></td></tr>
+</table>
+
 ## 4.2. Strategic-Level Domain-Driven Design
 ### 4.2.1. EventStorming
 ### 4.2.2. Candidate Context Discovery
 ### 4.2.3. Domain Message Flows Modeling
 ### 4.2.4. Bounded Context Canvases
 ### 4.2.5. Context Mapping
+
 ## 4.3. Software Architecture
 ### 4.3.1. Software Architecture System Landscape Diagram
+
+
+
 ### 4.3.1. Software Architecture Context Level Diagrams
 ![Context Level](/Images/Context%20Diagram.png)
 ### 4.3.2. Software Architecture Container Level Diagrams
