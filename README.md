@@ -580,10 +580,14 @@ CONTRA: Podrían haber inconvenientes en los usuarios para permitir el acceso o 
 ## 4.3. Software Architecture
 ### 4.3.1. Software Architecture System Landscape Diagram
 
+El diagrama de paisaje representa la organizacion del software y su contexto de operacion. Además, se observa los componentes del siste y sus interacciones con los servicios y sistemas externos.
 
+![landscape](/Images/landscape.png)
 
 ### 4.3.1. Software Architecture Context Level Diagrams
 ![Context Level](/Images/Context%20Diagram.png)
 ### 4.3.2. Software Architecture Container Level Diagrams
 ![Container Level](/Images/Container%20Diagram.png)
 ### 4.3.3. Software Architecture Deployment Diagrams
+
+![deploymen](/Images/Deployment.png)
