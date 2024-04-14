@@ -534,11 +534,48 @@ CONTRA: Podrían haber inconvenientes en los usuarios para permitir el acceso o 
 </table>
 
 ## 4.2. Strategic-Level Domain-Driven Design
+
+**Bounded Contexts Identificados**
+
+- Gestión de Usuarios: Incluye todo lo relacionado con la administración de perfiles de usuarios, tanto pacientes como médicos
+- Reserva de Citas: Permite a los usuarios reservar, cancelar y reprogramar citas con profesionales de salud mental.
+- Gestión de Sesiones de Terapia: Administra la información y seguimiento de las sesiones terapéuticas.
+- Interacciones Comunitarias: Cubre las funcionalidades de apoyo comunitario, incluyendo grupos de apoyo y foros de discusión.
+- Monitoreo y Reportes de Salud Mental: Permite a los profesionales y a los pacientes seguir la evolución de los tratamientos y el estado de salud mental.
+- Autenticación y Seguridad: Asegura el acceso a la plataforma y protege la privacidad de los datos.
+
+**Subdominios**
+
+- Subdominio Core: Gestión de Sesiones de Terapia y Monitoreo y Reportes de Salud Mental, ya que son críticos para la propuesta de valor del servicio.
+- Subdominio de Soporte: Gestión de Usuarios y Reserva de Citas, facilitan la operación pero no son diferenciadores clave.
+- Subdominio Genérico: Autenticación y Seguridad, esencial pero no específico al dominio de la salud mental, puede ser externalizado o implementado usando soluciones estándar.
+
+**Estrategias y Tácticas**
+
+- Integración y Modularidad: Asegúrate de que los sistemas pueden interactuar a través de APIs bien definidas, permitiendo flexibilidad y escalabilidad.
+- Seguridad por Diseño: Dada la sensibilidad de los datos manejados, incorpora la seguridad como una prioridad en todas las fases de diseño y desarrollo.
+- UX Orientada al Usuario: Diseña interfaces que sean intuitivas y accesibles para todos los usuarios, basándote en investigaciones y pruebas de usabilidad.
+
+
 ### 4.2.1. EventStorming
+
+![eventstorming](/Images/eventstorminh.png)
+
 ### 4.2.2. Candidate Context Discovery
+
+![candidate](/Images/candidate%20context.png)
+
 ### 4.2.3. Domain Message Flows Modeling
+
+![domain](/Images/domain%20message.png)
+
 ### 4.2.4. Bounded Context Canvases
+
+![bounded](/Images/bounded%20context%20canvas.jpg)
+
 ### 4.2.5. Context Mapping
+
+![context](/Images/context%20mapping.png)
 
 ## 4.3. Software Architecture
 ### 4.3.1. Software Architecture System Landscape Diagram
