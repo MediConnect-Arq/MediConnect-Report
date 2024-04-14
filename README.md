@@ -278,7 +278,7 @@ Para nosotros este es otro segmento fundamental dado que representan a las perso
 | ------------------------ | ----------- |
 | ![Entrevista 3](/Images/entrevista%203.jpg) | N°: 3 <br/> Enlace: https://www.youtube.com/watch?v=XSzqqVFpn9U&ab_channel=GabrielaNombertoRamos <br/> Entrevistado: Gabriel Aragón <br/> Entrevistador: Gabriela Nomberto |
 | ![Entrevista 4](/Images/entrevista%204.png) | N°: 4 <br/> Enlace: https://www.youtube.com/watch?v=Y-awOdihQfY&ab_channel=D%C3%A9nnisPieroQuevedo <br/> Entrevistado: Fiorella Quevedo Mestanza <br/> Entrevistador: Dennis Piero Quevedo |
-| | N°: 5 <br/> Enlace: <br/> Entrevistado: Diego Merino Mas <br/> Entrevistador: Andrea Sofia Alfaro Salinas | 
+| ![Entrevista 5](/Images/entrevista%205.png)  | N°: 5 <br/> Enlace: https://drive.google.com/file/d/1csyi7TDGSX8RiheFRhher-0YvZQGoYno/view?usp=sharing  <br/> Entrevistado: Diego Merino Mas <br/> Entrevistador: Andrea Sofia Alfaro Salinas | 
 
 ### 2.2.3. Análisis de Entrevistas
 
