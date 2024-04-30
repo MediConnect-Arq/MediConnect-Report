@@ -1,31 +1,31 @@
 # MediConnect-Report
  ![Universidad Aplicada de Ciencias Aplicadas](https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png) 
 
- Universidad: Universidad Peruana de Ciencias Aplicadas
+**Universidad:** Universidad Peruana de Ciencias Aplicadas
 
- Carrera: Ingeniería de Software
+**Carrera:** Ingeniería de Software
 
- Nombre del Curso: Arquitectura de Software Emergentes
+**Nombre del Curso:** Arquitectura de Software Emergentes
 
- Sección: WX82
+**Sección:** WX82
 
- Nombre del Profesor: Christian Luis de los Rios Fernandez
+**Nombre del Profesor:** Christian Luis de los Rios Fernandez
 
- "Informe del Trabajo Final"
+**"Informe del Trabajo Final"**
 
- Nombre de la startup: "MediConnect"
+**Nombre de la startup:** "MediConnect"
 
- Nombre del Producto: "MedPro"
+**Nombre del Producto:** "MedPro"
 
- Relacion de Integrantes:
+**Relacion de Integrantes:**
   - Gabriela Soledad Nomberto Ramos (U202113876)
   - Dennis Piero Quevedo Yucra (U201619823)
   - Diego Enrique Osorio Horna (U201913822)
   - Andrea Sofia Alfaro Salinas (U202115862)
 
-Mes y Año: Abril 2024
+**Mes y Año:** Mayo 2024
 
-Ciclo: 2024-1   
+**Ciclo:** 2024-1   
 
 # Registro de Versiones del Informe
 
@@ -36,6 +36,7 @@ Ciclo: 2024-1
 | 1.2  | 11/04/2024 | Dennis Quevedo | Completar contenido ya tenido en todos los capítulos |
 | 1.3  | 12/04/2024 | Todos los participantes | Completar contenido que se tenia que modificar, además de finalizar otros nuevos puntos |
 | 1.4  | 13/04/2024 | Todos los participantes | Mejora continua del trabajo antes de poder enviar | 
+| 2.0  | 29/04/2024 | Andrea Alfaro | Corrección y revisión del capítulo I | 
 
 ## Project Report Collaboration Insights 
 **Enlace del Project Report:** [https://github.com/MediConnect-Arq/MediConnect-Report/tree/main] 
@@ -101,6 +102,34 @@ Ciclo: 2024-1
     - 4.3.2. Software Architecture Context Level Diagrams
     - 4.3.3. Software Architecture Container Level Diagrams
     - 4.3.4. Software Architecture Deployment Diagrams
+
+### Capítulo V: Tactical-Level Software Design.
+- #### 5.X. Bounded Context: <Bounded Context Name>
+  - 5.X.1. Domain Layer.
+  - 5.X.2. Interface Layer.
+  - 5.X.3. Application Layer.
+  - 5.X.4. Infrastructure Layer.
+  - 5.X.6. Bounded Context Software Architecture Component Level Diagrams.
+  - 5.X.7. Bounded Context Software Architecture Code Level Diagrams.
+      - 5.X.7.1. Bounded Context Domain Layer Class Diagrams.
+      - 5.X.7.2. Bounded Context Database Design Diagram.
+
+### Capítulo VI: Solution UX Design.
+- #### 6.1. Style Guidelines.
+  - 6.1.1. General Style Guidelines.
+  - 6.1.2. Web, Mobile & Devices Style Guidelines.
+- #### 6.2. Information Architecture.
+  - 6.2.2. Labeling Systems.
+  - 6.2.3. Searching Systems.
+  - 6.2.4. SEO Tags and Meta Tags.
+  - 6.2.5. Navigation Systems.
+- #### 6.3. Landing Page UI Design.
+  - 6.3.1. Landing Page Wireframe.
+  - 6.3.2. Landing Page Mock-up.
+- #### 6.4. Applications UX/UI Design.
+  - 6.4.1. Applications Wireframes.
+  - 6.4.2. Applications Wireflow Diagrams.
+
 ### Conclusiones 
   - #### Conclusiones y Recomendaciones
   - #### Video About-the-Team
@@ -118,17 +147,16 @@ Ciclo: 2024-1
 | Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br/> Andrea Alfaro <br/> Participé en la revisión y edición de documentos técnicos escritos por otros miembros del equipo, brindando retroalimentación constructiva para mejorar la claridad y objetividad de la comunicación escrita. <br/><br/> Gabriela Nomberto <br> Participé en la construccion de las arquitecturas de la aplicacion web, asi como el desarrollo del reporte en R Markdown <br/><br/> Dennis Quevedo <br/> Realicé mejoras en los capítulos 1, 2 y 3 para que cumpla con el alcance del curso <br/><br/> Diego Osorio <br/> Realicé tecnicas y clasificacion para obtener una mejor vision del startup presentado | Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos  entre todos | 
 
 # Capítulo I: Introducción
+
 ## 1.1. Startup Profile
+
 ### 1.1.1. Descripción de la Startup
 
-<div style="text-align: justify">
-Como grupo hemos reconocido que existe un aumento desmedido en la mala salud mental que padecen los jóvenes durante los últimos años en el país.
+Nuestro equipo ha observado un alarmante aumento en los problemas de salud mental entre los jóvenes en los últimos años en nuestro país. Es frecuente encontrar a personas de entre 18 y 30 años lidiando con sentimientos de frustración en diversas áreas de sus vidas, como trabajo, estudios, familia y finanzas, entre otros. Lamentablemente, muchos de estos casos no reciben la atención necesaria para abordar adecuadamente su salud mental. Motivados por esta situación, hemos decidido unirnos para crear una solución de software que pueda contribuir a aliviar y reducir estos problemas emocionales. Así nació MediConnect, nuestra startup dedicada a conectar a profesionales de la salud mental con aquellas personas que necesiten apoyo y orientación para enfrentar los desafíos de la vida diaria.
 
-Observamos que en la actualidad es común encontrar jóvenes entre 18 y 30 años que padecen de sentimientos frustrantes relacionados a temas laborales, académicos, familiares, económicos, etc. En la mayoría de estas situaciones hemos evidenciado que no se toma en cuenta la importancia que tiene la salud mental en la vida de las personas. Por esta razón, nuestro equipo de trabajo, al ver el grave estado de la salud mental de los jóvenes en la ciudad de Lima, nos juntamos para crear una solución de software eficaz que pueda aliviar y reducir los mencionados cuadros emocionales.
+**Misión:** Nuestra misión en MediConnect es proporcionar acceso fácil y seguro a servicios de salud mental de alta calidad, conectando a profesionales capacitados con aquellos que necesitan apoyo para superar los desafíos de la vida diaria. Nos comprometemos a liderar la innovación en el campo de la salud mental y promover el bienestar emocional y psicológico de individuos de todas las edades.
 
-Decidimos crear nuestra Startup MediConnect, de esta forma conectaremos profesionales de la salud mental con personas que requieran, busquen o necesiten una ayuda para poder avanzar en aspectos de su vida diaria y no lleguen a encontrar una salida o solución, además contaremos con una línea de emergencia para el momento en que las personas lo requieran y a cualquier momento del día. 
-Finalmente, le agregaremos un chatbot predictivo que a traves de pruebas psicologicas automatizadas tendremos un pre diagnostico en el cual el paciente podrá presentar a su médico de la salud mental.
-</div>
+**Visión:** En MediConnect, visualizamos un mundo donde la salud mental sea una prioridad global. Nos esforzamos por crear una sociedad donde todas las personas tengan acceso a los recursos necesarios para cuidar su salud emocional y vivir una vida plena y satisfactoria. A través de nuestra plataforma MedPro, aspiramos a ofrecer ayuda, esperanza y un camino hacia una vida más saludable y feliz para todos.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -141,35 +169,38 @@ Finalmente, le agregaremos un chatbot predictivo que a traves de pruebas psicolo
 
 
 ## 1.2. Solution Profile
+
+Desarrollaremos MedPro, una aplicación web líder en el mercado que revolucionará la forma en que se aborda la salud mental. MedPro permitirá a los usuarios acceder fácilmente a una amplia red de profesionales de la salud mental altamente calificados, eliminando las barreras tradicionales y proporcionando una plataforma segura y confiable para recibir apoyo emocional y psicológico. Además de facilitar la conexión entre profesionales y pacientes, MedPro ofrecerá una línea de emergencia disponible las 24 horas del día, los 7 días de la semana, para brindar ayuda inmediata en momentos de crisis. Con MedPro, estamos comprometidos a proporcionar una solución completa y efectiva para promover la salud mental y el bienestar emocional en nuestra comunidad.
+
 ### 1.2.1. Antecedentes y Problemática
-<div style="text-align: justify">
+
 Para esta parte haremos uso de la técnica de 5W’s y 2H’s para resaltar la problemática y poder solucionarlo.
 
-  - Who?
+  - **Who?**
   
     En principio, están involucrados en esta problemática un buen porcentaje de los jóvenes de 18 a 30 años pertenecientes a la cuidad de Lima, Perú. Quienes pasan por diversos problemas de tensión laboral, educativa, familiar, económica, etc.
 
-  - What?
+  - **What?**
 
     La problemática que nosotros estamos enfrentando con nuestra solución es el alto índice del mal estado de la salud mental que se encuentra presente en gran cantidad de la población joven de 18 a 30 años de la ciudad de Lima, Perú. Este problema evidencia que la salud mental en nuestro país no es tomada en cuenta por el valor que tiene. Asimismo, la dificultad que existe para aliviar estos comportamientos son en su mayoría muy difíciles ya que los jóvenes le dedican un tiempo mínimo a su estabilidad emocional, evidenciando un aumento desmedido de cuadros de estrés, que en muchos casos suelen llegar a situaciones de ansiedad, depresión y problemas de aprendizaje en la población limeña.
     
-  - When?
+  - **When?**
   
     Este problema es de hace bastante tiempo atrás, pero se ha hecho notar más a partir de los años 2000 en adelante. En la actualidad, los casos suelen suscitarse mucho más y evidencia que la mayoría de los jóvenes pueden pasar por cuadros de estrés, frustración o ataques en cualquier hora del día, dependerá mucho de la persona, de su entorno y de los problemas que este pasando.
 
-  - Why?
+  - **Why?**
   
     Sabemos que a raíz de la pandemia se vio una deficiencia notoria en los sistemas de los centros de salud y se debe mejorar para no presentar errores que puedan afectar a los pacientes, médicos y el mismo centro de salud.
 
-  - Where? 
+  - **Where?**
 
     Los problemas de salud mental suelen presentarse en cualquier lugar. En la etapa de la juventud, los problemas se pueden presentar en lugares concurridos donde uno puede socializar, como en la universidad, trabajo, hasta en el mismo hogar. Este problema no depende tanto del lugar donde se encuentre sino de las circunstancias en cómo suceden.
 
-  - How?
+  - **How?**
   
     Lo que llevó a estos jóvenes a llegar a esta situación son los diversos factores familiares, sociales, académicos que están pasando. Muchos de ellos, lo toman como problemas sin solución lo que causa frustración en ellos. Además, al no tomar en cuenta el valor que tiene su salud mental suelen dejar pasar esta sensación de estrés y evitan programar una cita con un psicólogo por falta de disponibilidad. Ante ello, los cuadros de frustración y problemas sin precedentes van en aumento llegando así a un punto grave.
 
-  - How Much?
+  - **How Much?**
   
     Según fuentes confiables, a lo largo de este tiempo se ha evidenciado en los jóvenes que el problema de la falta de salud mental es un problema grave, confirmando según lo siguiente:
     - Según la Asociación Americana de Psicología, el 39% de las personas entre 18 y 33 años se declaran estresados. El estrés que sufren los jóvenes los hace más propensos a cuadros de irritabilidad y a sufrir de ansiedad o depresión.
@@ -179,61 +210,135 @@ Para esta parte haremos uso de la técnica de 5W’s y 2H’s para resaltar la p
     - De acuerdo con el Instituto Nacional de la Salud, cerca de 1 de cada 3 jóvenes entre las edades de 18 años puede tener un trastorno de ansiedad y estrés. El número va en aumento; entre el 2007 y el 2012, los trastornos de ansiedad en los jóvenes aumentaron un 20 %.
     - Hoy en día, se sabe que el Colegio de Psicólogos y las facultades luchan para mantener a flote la importancia de la salud mental, así como erradicar a los llamados “falsos psicólogos” que existen en Lima Perú. Asimismo, buscan que haya una mejor expansión y concientización sobre la salud mental hacia las personas. 
 
-</div>
-
 ### 1.2.2. Lean UX Process
+
 #### 1.2.2.1. Lean UX Problem Statements
 
-•	Los centros de salud enfrentan dificultades para brindar una atención eficiente y de calidad debido a problemas en los sistemas informáticos y fallos en el registro de pacientes. ¿Cómo podemos optimizar los procesos de atención al cliente en los centros de salud para garantizar una experiencia sin demoras y con un sistema fiable?
+- **Problem Statement 01**:
 
-•	Muchos pacientes experimentan pérdida de tiempo y frustración al no saber a qué especialidad médica acudir para abordar sus problemas de salud de manera efectiva. ¿Cómo podemos facilitar a los pacientes la identificación de la especialidad médica adecuada y agilizar el proceso de programación de citas para optimizar su tiempo y mejorar su experiencia en los centros de salud?
+  Al enfrentarse a problemas en los sistemas informáticos y fallos en el registro de pacientes, los centros de salud luchan por brindar una atención eficiente y de calidad. Este desafío resulta en experiencias deficientes para los pacientes, demoras en la atención y una falta de fiabilidad en el sistema.
 
-•	Percibimos que existe un problema en los centros de salud al momento de dar una atención de calidad a los pacientes, puede demorar por fallos en el sistema, no haber un buen registro o equivocaciones que pueden provocar molestias. Con lo antes mencionado ¿Como podemos disminuir la deficiente atención al cliente, no tener problemas de espera y mejor rendimiento del sistema?
+  ¿Cómo podemos optimizar los procesos de atención al cliente en los centros de salud para garantizar una experiencia sin demoras y con un sistema fiable?
 
-•	Identificamos que al momento de los registros de los pacientes o médicos existe una dificultad y no se almacena correspondientemente los datos ingresados tanto por los pacientes como los médicos, además los pacientes no pueden visualizar su historial médico y tener más a detalle su salud física. Con esto nos preguntamos ¿Cómo podemos mejorar estos registros y se guarden de manera segura y satisfactoriamente para evitar problemas futuros a los pacientes, médicos y establecimientos de salud?
+- **Problem Statement 02**:
 
+  La falta de información clara sobre qué especialidad médica buscar y los obstáculos en la programación de citas contribuyen a la pérdida de tiempo y frustración para los pacientes. Esta situación afecta negativamente la experiencia del paciente y puede llevar a una atención médica ineficaz.
+
+  ¿Cómo podemos facilitar a los pacientes la identificación de la especialidad médica adecuada y agilizar el proceso de programación de citas para optimizar su tiempo y mejorar su experiencia en los centros de salud?
+
+- **Problem Statement 03**:
+
+  La deficiente atención al cliente, las demoras en la atención y los problemas de rendimiento del sistema son desafíos comunes enfrentados por los centros de salud debido a fallos en el sistema y errores en el registro de datos. Estos problemas afectan tanto a los pacientes como al personal médico y contribuyen a una experiencia de atención insatisfactoria.
+
+  ¿Cómo podemos disminuir la deficiente atención al cliente, evitar las demoras en la atención y mejorar el rendimiento del sistema en los centros de salud?
+
+- **Problem Statement 04**:
+
+  Identificamos que al momento de los registros de los pacientes o médicos existe una dificultad y no se almacena correspondientemente los datos ingresados tanto por los pacientes como los médicos, además los pacientes no pueden visualizar su historial médico y tener más a detalle su salud física.
+
+  ¿Cómo podemos mejorar estos registros y se guarden de manera segura y satisfactoriamente para evitar problemas futuros a los pacientes, médicos y establecimientos de salud?
+
+- **Problem Statement 05**:
+
+  La falta de recursos para proporcionar orientación y apoyo psicológico a los pacientes de manera oportuna y efectiva es un desafío común en muchos centros de salud. La ausencia de personal capacitado y la carga de trabajo existente pueden dificultar la atención adecuada a las necesidades emocionales de los pacientes.
+
+  ¿Cómo podemos implementar un chatbot predictivo en los centros de salud para proporcionar orientación y apoyo psicológico a los pacientes de manera eficiente y oportuna, mejorando así su experiencia de atención médica y reduciendo la carga sobre el personal médico?
 
 #### 1.2.2.2. Lean UX Assumptions 
 
 **Business Outcomes**
 
-•	Lograr ser reconocidos por los centros de salud como una aplicación principal para poder manejar la gestión y registro entre pacientes y médicos de la salud.
-•	Lograr que los establecimientos de salud que nos contraten sientan una satisfacción mayor las 80% en el uso de la aplicación y sientan la confiabilidad que contiene.
-•	Lograr que el más 90% de las personas que utilicen nuestra aplicación logren entenderla y sea intuitivo para ellos mismos.
-•	Ser reconocidos entre nuestros segmentos objetivos como una aplicación confiable y segura para mantener sus datos personales asi como médicos para que puedan llevar su propio seguimiento.
+- Lograr ser reconocidos por los centros de salud como una aplicación principal para poder manejar la gestión y registro entre pacientes y médicos de la salud.
+  - *Métrica:* Número de centros de salud que adoptan MediConnect como su principal solución de gestión.
+  
+- Lograr que los establecimientos de salud que nos contraten sientan una satisfacción mayor las 80% en el uso de la aplicación y sientan la confiabilidad que contiene.
+   - *Métrica:* Porcentaje de satisfacción del cliente en encuestas posteriores al uso de la aplicación.
+
+- Lograr que el más 90% de las personas que utilicen nuestra aplicación logren entenderla y sea intuitivo para ellos mismos.
+   - *Métrica:* Porcentaje de usuarios que completan una tarea clave en la aplicación sin necesidad de asistencia o soporte.
+     
+- Ser reconocidos entre nuestros segmentos objetivos como una aplicación confiable y segura para mantener sus datos personales asi como médicos para que puedan llevar su propio seguimiento.
+   - *Métrica:* Número de usuarios que confían en la seguridad de la aplicación para almacenar su información personal y médica.
 
 **Users** 
 
 Nuestros usuarios están categorizados en 2 grupos
-•	Médicos de la salud mental: Priorizan un sistema donde les permita registrar y gestionar de mejor forma para brindar una atención de calidad.
-•	Pacientes: Interesados en una aplicación web que busquen saber de forma precisa el historial médico brindado por los médicos asi como la reserva de sus citas médicas y/o tratamientos.
+
+- *Médicos de la salud mental:* Priorizan un sistema donde les permita registrar y gestionar de mejor forma para brindar una atención de calidad.
+
+- *Pacientes:* Interesados en una aplicación web que busquen saber de forma precisa el historial médico brindado por los médicos asi como la reserva de sus citas médicas y/o tratamientos.
 
 **User Outcomes Médico del centro de salud:**
 
 - Esperan acceder a un sistema que les ayude a registrar de manera adecuada el análisis médico dado a los pacientes sin problema alguno. Buscan una navegación sencilla e intuitiva en nuestra aplicación para que puedan gestionar de manera precisa los tratamientos en los pacientes que lo necesitan.
+   - *Métrica:* Tiempo promedio dedicado por médico al registro y gestión de tratamientos.
+  
 - Poder ser capaces de hacer modificaciones a lo largo de los tratamientos de los pacientes y poder gestionarlo de manera rápida y segura al registrar datos personales.
+   - *Métrica:* Porcentaje de tratamientos que se modifican o actualizan en un período de tiempo determinado.
 
 **Paciente y/o usuario que se registre por primera vez en un centro de salud**
 
 - Busca lograr registrar sus datos personales satisfactoriamente en la aplicación web realizada
+    - *Métrica:* Porcentaje de usuarios que completan el registro en la aplicación.
+      
 - Lograr ver su historial médico actualizado para que este en constante precaución y este al tanto de lo que pueda o ha acontecido
+    - *Métrica:* Frecuencia de acceso al historial médico por parte de los usuarios.
+      
 - Conseguir seguridad al utilizar una pagina web de manera segura al momento de registrarse y no se arriesgue en que puedan perderse datos importantes
+   - *Métrica:* Nivel de confianza del usuario en la seguridad de la aplicación.
 
 **Features**
 
 - Los usuarios médicos y pacientes podrán visualizar, editar o modificar el registro hecho por ellos mismos
+ 
 - Los usuarios médicos podrán visualizar resultados, prescripciones, medicamentos y registrarlos adecuadamente
+
 - Los usuarios pacientes podrán gestionar su historial médico, así como filtrar las fechas que busquen visualizar
+  
 - Los usuarios médicos podrán gestionar y filtrar según criterio propio para saber el avance de sus pacientes y poder actuar con antelación al caso si es necesario con urgencias.
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-- Creemos que al ofrecer una aplicación web que permita a los médicos y pacientes registrar, gestionar y modificar adecuadamente las citas y/o tratamientos, tendremos una mejora amplia de centros de salud contratándonos para la implementación de nuestra aplicación web además de que ofrecemos seguridad y constante modificación por si suceden fallos en el sistema.
-- Creemos que al poder ofrecer nuestra aplicación web, los pacientes o usuarios que por primera vez lleguen a atenderse en su salud mental sabrán que sus datos personales asi como los datos detallados de las citas, tratamientos y medicamentos están registrados cuidadosamente y con seguridad. Asimismo, se harán pruebas de manera que podamos mantener la eficiencia y seguridad del sistema.
-- Creemos que al diseñar una interfaz de usuario intuitiva y de fácil uso permita a los usuarios gestionar de manera rápida la acción que deba realizar, además de que, al ser de fácil uso y manejo, los usuarios podrán dirigirse a los apartados de manera sencilla y sin ningún problema alguno.
-- Creemos que al implementar una aplicación web que facilite la interacción entre médicos y pacientes, agilizando el proceso de registro y gestión de citas y tratamientos, conseguiremos una adopción más amplia por parte de los centros de salud.
-- Creemos que al ofrecer una solución tecnológica que garantice la seguridad y privacidad de los datos médicos y personales de los pacientes, aumentaremos la confianza de estos en nuestra aplicación.
+- **Hypothesis Statement 01**:
+
+  Creemos que al ofrecer una aplicación web que permita a los médicos y pacientes registrar, gestionar y modificar adecuadamente las citas y/o tratamientos, tendremos una mejora amplia de centros de salud contratándonos para la implementación de nuestra aplicación web además de que ofrecemos seguridad y constante modificación por si suceden fallos en el sistema.
+
+  Sabremos que hemos tenido éxito.
+
+  Cuando hayamos conseguido una adopción del 80% de los centros de salud en nuestra área de mercado objetivo
+  
+- **Hypothesis Statement 02**:
+  
+  Creemos que al poder ofrecer nuestra aplicación web, los pacientes o usuarios que por primera vez lleguen a atenderse en su salud mental sabrán que sus datos personales asi como los datos detallados de las citas, tratamientos y medicamentos están registrados cuidadosamente y con seguridad. Asimismo, se harán pruebas de manera que podamos mantener la eficiencia y seguridad del sistema.
+
+  Sabremos que hemos tenido éxito.
+
+  Cuando el 90% de los pacientes que utilicen nuestra aplicación informen una satisfacción del 90% o más en términos de seguridad y facilidad de uso.
+  
+- **Hypothesis Statement 03**:
+  
+  Creemos que al diseñar una interfaz de usuario intuitiva y de fácil uso permita a los usuarios gestionar de manera rápida la acción que deba realizar, además de que, al ser de fácil uso y manejo, los usuarios podrán dirigirse a los apartados de manera sencilla y sin ningún problema alguno.
+
+  Sabremos que hemos tenido éxito.
+
+  Cuando el 95% de los usuarios encuentren la interfaz de usuario fácil de usar y satisfactoria en términos de navegación y acceso a funciones.
+  
+- **Hypothesis Statement 04**:
+  
+  Creemos que al implementar una aplicación web que facilite la interacción entre médicos y pacientes, agilizando el proceso de registro y gestión de citas y tratamientos, conseguiremos una adopción más amplia por parte de los centros de salud.
+
+  Sabremos que hemos tenido éxito.
+
+  Cuando logremos una adopción del 70% entre los médicos de salud mental y los pacientes que utilizan nuestra plataforma para la gestión de citas y tratamientos.
+  
+- **Hypothesis Statement 05**:
+
+  Creemos que al ofrecer una solución tecnológica que garantice la seguridad y privacidad de los datos médicos y personales de los pacientes, aumentaremos la confianza de estos en nuestra aplicación.
+
+  Sabremos que hemos tenido éxito.
+
+  Cuando el 80% de los pacientes que utilicen nuestra aplicación informen una mejora en su confianza en la seguridad y privacidad de sus datos médicos y personales.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -251,14 +356,15 @@ Nuestros usuarios están categorizados en 2 grupos
 
 
 ## 1.3. Segmentos Objetivos
+
 Identificamos dos segmentos objetivos claves para este startup que son los médicos que necesitan registrar de forma segura los tratamientos y/o citas; y los pacientes que necesitan saber que sus reservas, datos personales, historial médico, etc. se encuentren seguros y lo puedan visualizar de una forma sencilla. 
 
 
-**Profesionales de la salud mental:**
+**Especialistas de la salud mental**
 
 Nos dirigimos a este segmento dado que requieren una solución segura y de confianza que les ayude a gestionar y registrar de manera segura los tratamientos, citas y algún aspecto clínico extra de los pacientes que atiendan y quieran sus servicios. 
 
-**Usuarios que necesiten un apoyo:**
+**Paciente:**
 
 Para nosotros este es otro segmento fundamental dado que representan a las personas que buscan una atención médica de salud mental de calidad asi como de administrar y acceder a su información medica como lo es su historial de manera segura y sencilla.
 
