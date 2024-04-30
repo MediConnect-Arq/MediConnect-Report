@@ -535,13 +535,17 @@ El análisis de las respuestas refleja una preocupación generalizada entre los 
 
 ### 2.3.1. User Persona
 
-**Usuario que busca ayuda o pacientes**
+**Paciente**
 
-El fin que nosotros buscamos no es vender más o solo buscar ganancias económicas, sino crear un impacto significativo en la forma en que los jóvenes experimentan sus vidas y mejoran el estado de su salud mental. La relación entre los artefactos a presentar con el user persona será fundamental para que nuestros usuarios sean los principales beneficiados <br/> ![User Persona paciente](/Images/User%20Persona%20paciente.png)
+El fin que nosotros buscamos no es vender más o solo buscar ganancias económicas, sino crear un impacto significativo en la forma en que los jóvenes experimentan sus vidas y mejoran el estado de su salud mental. La relación entre los artefactos a presentar con el user persona será fundamental para que nuestros usuarios sean los principales beneficiados
 
-**Medico Especialista en al salud mental**
+![User Persona paciente](/Images/User%20Persona%20paciente.png)
 
-En este apartado, buscamos que los médicos tengan una mejor organización en sus agendas asi para poder tener un mejor control de los tratamientos que les puedan prescribir a sus pacientes. Tenemos en cuenta que todo esto es fundamental para que se permita una mejor atención al cliente o paciente. <br/> ![User Persona medico](/Images/User%20Persona%20medico.png)
+**Especialistas de la salud mental**
+
+En este apartado, buscamos que los médicos tengan una mejor organización en sus agendas asi para poder tener un mejor control de los tratamientos que les puedan prescribir a sus pacientes. Tenemos en cuenta que todo esto es fundamental para que se permita una mejor atención al cliente o paciente. 
+
+![User Persona medico](/Images/User%20Persona%20medico.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -557,7 +561,7 @@ Se ha considerado como primer segmento objetivo los usuarios de Lima entre los 1
 |Toman contacto con grupos de apoyo para desestresarse | Media | Media |
 | Analizan y ven cómo va la situación de progreso de su salud mental gracias al chatbot | Baja | Alta | 
 
-**Medico**
+**Especialistas de la salud mental**
 
 Se ha considerado como segundo segmento objetivo los medicos especialistas en la salud mental. Para este caso, utilizamos a Javier Mendoza que ya cuenta con una especialidadd de la salud mental.
 
@@ -576,39 +580,28 @@ Se ha considerado como segundo segmento objetivo los medicos especialistas en la
 
 El Empathy Map fue realizado con la intención que nos ayude a planificar cómo llegar mucho más a nuestro público objetivo, se sientan escuchados y que nosotros como Startup buscamos lo mejor para nuestros usuarios. Para su realización nos basamos en los datos e información brindados por el User Persona durante las entrevistas. Para ello su implementación, se desarrolló el cuadro de manera grupal teniendo como puntos principales “Think and Feel”, “Hear”, “See”, “Say and Do”, “Pain Points y “Gain points”.
 
-**Segmento 1: Pacientes o personas que se atiendan con un profesional de salud mental**
+**Segmento 1: Pacientes**
+
 ![EM Pacientes](/Images/EM%20Pacientes.jpg)
 
-**Segmento 2: Profesionales de la salud mental**
+**Segmento 2: Especialistas de la salud mental**
+
 ![EM Medicos](/Images/EM%20Medicos.jpg)
 
 ### 2.3.4. AS-IS Scenario Mapping
 En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra aplicación, es decir cómo esta persona puede llegar a calmar su estrés normalmente con otras aplicaciones. Es por ello que nos basamos de las manifestaciones de nuestros entrevistados para identificar de esta manera las fases en las cuales están conformes o no.
 
-![AS-IS Scenario](/Images/AS-IS.jpg)
+**Segmento 1: Pacientes**
+
+![AS-IS Scenario](/Images/as-is-pacientes.jpg)
+
+**Segmento 2: Especialistas de la salud mental**
+
+![AS-IS Scenario](/Images/as-is-especialista.jpg)
 
 ## 2.4. Ubiquitous Language
 
-Entendemos que, para este trabajo, todos los participantes tenemos que tener un lenguaje común para poder tener una mejor comunicación durante todo el avance de los proyectos y así también poder brindar una mejor experiencia al usuario, algunos conceptos que tenemos que tener en cuenta en el grupo es:
 
-1.	Pacientes: Usuario que utilizará la aplicación web y quisiera informarse más o ayudarse en el problema que presenta
-Síntomas: frustración, estrés, ansiedad, etc
-Emociones: felicidad, tristeza, enojo, etc
-Historial médico: medicinas, alergias 
-
-2.	Médicos de la salud mental: Usuarios que conectarán con los pacientes, les dará tratamientos y diagnósticos, además de un seguimiento
-Transtorno Mentales: TDAH, depresión, ansiedad, etc
-Seguimiento: avances del progreso del paciente
-Plan de tratamiento: terapias, medicación, ajustes en el estilo de vida del paciente, etc
-3.	Chatbot: servicio que ofrece la plataforma para que el paciente tenga un pre diagnostico de lo que esta sintiendo en el día
-Evaluación: preguntas de pruebas psicológicas automatizadas
-Pre-diagnostico: depresión, ansiedad, etc
-Severidad: leve, moderado, grave
-Recomendaciones: ayuda psicológica
-
-4.	Aplicación Web: entorno donde el paciente y el médico interactúan y usan los servicios que están a disposición de cada usuario
-Interfaz de usuario: intuitiva, llamativa, accesible para el usuario
-Seguridad: encriptación de datos sensibles y conexión privada entre paciente y médico. 
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
