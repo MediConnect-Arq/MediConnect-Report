@@ -369,7 +369,9 @@ Nos dirigimos a este segmento dado que requieren una solución segura y de confi
 Para nosotros este es otro segmento fundamental dado que representan a las personas que buscan una atención médica de salud mental de calidad asi como de administrar y acceder a su información medica como lo es su historial de manera segura y sencilla.
 
 # Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1. Competidores
+
 ### 2.1.1. Análisis Competitivo
 
 **Perfil del Startup**
@@ -402,12 +404,17 @@ Para nosotros este es otro segmento fundamental dado que representan a las perso
 | Amenazas | La competencia empresarial está constantemente innovando. | Existe diversos competidores con la misma idea de negocio ya que no usan nuevas tecnologías | La competencia empresarial está constantemente innovando | Existe un alto índice de personas hispanohablante que tienen estrés, pero no cuentan con conocimientos del idioma inglés. | 
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
-- 1.	Identificar el entorno que nos rodea en este caso identificar los competidores que tenemos que brindan el mismo servicio que nosotros en este caso un sistema que une pacientes con medicos de la salud mental, además de preveer un chatbot con un pre diagnostico definido.
-- 2. Crear un cuadro para ver que estrategias utilizan cada una de ellas que es lo que ofrecen para diferenciarse cada una de ellas y también nuestro sistema web
-- 3. Nosotros ofreceremos una prueba gratis de un mes para que prueben nuestro sistema.
-- 4. Como táctica utilizaremos la penetración de mercado, lo cual consiste en promover en todas las redes sociales sobre nuestro sistema de control y atencion al cliente ofreciendo un programa de fidelidad.
+
+- Identificar el entorno que nos rodea en este caso identificar los competidores que tenemos que brindan el mismo servicio que nosotros en este caso un sistema que une pacientes con medicos de la salud mental, además de preveer un chatbot con un pre diagnostico definido.
+     
+- Crear un cuadro para ver que estrategias utilizan cada una de ellas que es lo que ofrecen para diferenciarse cada una de ellas y también nuestro sistema web
+     
+- Nosotros ofreceremos una prueba gratis de un mes para que prueben nuestro sistema.
+     
+- Como táctica utilizaremos la penetración de mercado, lo cual consiste en promover en todas las redes sociales sobre nuestro sistema de control y atencion al cliente ofreciendo un programa de fidelidad.
 
 ## 2.2. Entrevistas 
+
 ### 2.2.1. Diseño de Entrevistas
 
 - Al comienzo de la entrevista
@@ -443,58 +450,102 @@ Para nosotros este es otro segmento fundamental dado que representan a las perso
  
 ### 2.2.2. Registro de Entrevistas
 
+**Entrevista N°1**
 
+- **Segmento objetivo:** Especialistas de la salud mental
+- **Nombres y apellidos:** Alvaro Garcia Pinto
+- **Edad:** 30
+- **Ocupación:** Psicólogo
 
-**Especialistas de la Salud Mental**
+  ![Entrevista 1](/Images/entrevista%201.png)
 
-| Foto de la Entrevista    | Descripción |
-| -----------------------  | ----------- |
-| ![Entrevista 1](/Images/entrevista%201.png) | N°: 1 <br/> Enlace: https://www.youtube.com/watch?v=w8fwZyjWcBc&ab_channel=D%C3%A9nnisPieroQuevedo <br/> Entrevistado: Alvaro Garcia Pinto <br/> Entrevistador: Dennis Piero Quevedo |
-| ![Entrevista 2](/Images/entrevista%202.jpg) | N°: 2 <br/> Enlace:  <br/> Entrevistado: Antonella Del Carmen <br/> Entrevistador: Diego Osorio |
+- **Enlace del video:** https://www.youtube.com/watch?v=w8fwZyjWcBc&ab_channel=D%C3%A9nnisPieroQuevedo
+- **Resumen:** En la entrevista, un profesional de la salud que trabaja en un centro médico expone deficiencias en la gestión de historiales clínicos, resaltando la falta de consistencia y detalles completos. Problemas con sistemas de registro lentos y errores al guardar datos han afectado la eficiencia y la calidad de la atención, generando frustración en los pacientes. El entrevistado ve una oportunidad en una aplicación web que evite errores y aumente la precisión en el registro. Estaría dispuesto a pagar por mejoras que beneficien a los pacientes y reduzcan errores. Además, considera que la aplicación podría contribuir a la salud mental de los pacientes, pero sugiere colaboración con profesionales especializados para lograr un enfoque integral y personalizado.
 
-**Paciente o Usuario**
+**Entrevista N°2**
 
-| Foto de la Entrevista    | Descripción |
-| ------------------------ | ----------- |
-| ![Entrevista 3](/Images/entrevista%203.jpg) | N°: 3 <br/> Enlace: https://www.youtube.com/watch?v=XSzqqVFpn9U&ab_channel=GabrielaNombertoRamos <br/> Entrevistado: Gabriel Aragón <br/> Entrevistador: Gabriela Nomberto |
-| ![Entrevista 4](/Images/entrevista%204.png) | N°: 4 <br/> Enlace: https://www.youtube.com/watch?v=Y-awOdihQfY&ab_channel=D%C3%A9nnisPieroQuevedo <br/> Entrevistado: Fiorella Quevedo Mestanza <br/> Entrevistador: Dennis Piero Quevedo |
-| ![Entrevista 5](/Images/entrevista%205.png)  | N°: 5 <br/> Enlace: https://drive.google.com/file/d/1csyi7TDGSX8RiheFRhher-0YvZQGoYno/view?usp=sharing  <br/> Entrevistado: Diego Merino Mas <br/> Entrevistador: Andrea Sofia Alfaro Salinas | 
+- **Segmento objetivo:** Especialistas de la salud mental
+- **Nombres y apellidos:** Antonella Del Carmen
+- **Edad:** 
+- **Ocupación:** 
+
+![Entrevista 2](/Images/entrevista%202.jpg)
+
+- **Enlace del video:** 
+- **Resumen:** En esta entrevista, Antonella nos comenta que la aplicación les ayuda como profesionales de la salud a buscar personas que necesiten ayuda o aumentar su campo laboral. Nos comenta que para ella a sido muy difícil la inserción al campo laboral dado que no tiene recomendaciones por el momento pero que poco a poco lo ha ido teniendo.
+
+**Entrevista N°3**
+
+- **Segmento objetivo:** Paciente
+- **Nombres y apellidos:** Gabriel Aragón
+- **Edad:** 22
+- **Ocupación:** Estudiante universitario
+
+![Entrevista 3](/Images/entrevista%203.jpg)
+
+- **Enlace del video:** https://www.youtube.com/watch?v=XSzqqVFpn9U&ab_channel=GabrielaNombertoRamos
+- **Resumen:** Durante la entrevista, Gabriel nos comenta que la aplicación utilizada tiene y cumple su propósito dado que a medida que busca un profesional para ayudarse puede ver las valoraciones que le dan al médico en cuestión y esto le da cierta confianza para que confíe en nosotros asi como también para que sus datos sean seguros. Nos comenta que las secciones adicionales le ayudarían demasiado, además que al ver su avance personal publicado le dará una cierta motivación para mejorar sesión tras sesión.
+
+**Entrevista N°4**
+
+- **Segmento objetivo:** Paciente
+- **Nombres y apellidos:** Fiorella Quevedo Mestanza
+- **Edad:** 23
+- **Ocupación:** Estudiante universitaria
+
+![Entrevista 4](/Images/entrevista%204.png)
+
+- **Enlace del video:** https://www.youtube.com/watch?v=Y-awOdihQfY&ab_channel=D%C3%A9nnisPieroQuevedo
+- **Resumen:** La entrevistada de 23 años nos comenta que ha llevado sesiones con un coach para poder mejorar en su vida diaria en el entorno laboral y social. Ella cree que la salud mental es importante y que influye bastante en cada acción que realiza e incentiva a los demás a tomar sesiones con un couch o psicólogo para aliviar algún problema que tengan. También, menciona que las gestiones de reservas en las entidades de salud mental tienen problemas al asignar algún especialista y demora mucho el proceso para obtener una cita. Además, considera que la aplicación podría contribuir a la salud mental de los pacientes, pero sugiere colaboración con profesionales especializados para lograr un enfoque integral y personalizado.
+
+**Entrevista N°5**
+
+- **Segmento objetivo:** Paciente
+- **Nombres y apellidos:** Renzo Casafranca Carrascal
+- **Edad:** 23
+- **Ocupación:** Estudiante universitario
+
+![Entrevista 5](/Images/entrevista%205.png)
+
+- **Enlace del video:** https://drive.google.com/file/d/1csyi7TDGSX8RiheFRhher-0YvZQGoYno/view?usp=sharing
+- **Resumen:** Durante la entrevista, Renzo, un paciente preocupado por la gestión de citas médicas, compartió sus experiencias y opiniones sobre el proceso de programación de citas y la atención a la salud mental. Diego expresó frustración por las demoras y errores en el sistema al sacar citas médicas, destacando la necesidad de una mejor gestión y control de su historial médico. Además, señaló el impacto significativo de la salud mental en su vida diaria, resaltando la importancia de abordar adecuadamente estos problemas. Juan mostró interés en encontrar una aplicación que mejore su experiencia, brinde herramientas para gestionar el estrés y ofrezca acceso a profesionales de la salud mental. Estuvo dispuesto a pagar por una aplicación que le brinde una mejor atención y facilidad para acceder a su historial médico, enfatizando la importancia de una solución integral para mejorar su salud mental y bienestar general.
+
 
 ### 2.2.3. Análisis de Entrevistas
 
-**Entrevista 1: Dennis Piero Quevedo (Especialista)**
+En la sección de análisis se identifica con sustento estadístico todas las características objetivas y subjetivas que representan los aspectos más comunes de cada segmento, para sacar las tendencias de los usuarios.
 
-En la entrevista, un profesional de la salud que trabaja en un centro médico expone deficiencias en la gestión de historiales clínicos, resaltando la falta de consistencia y detalles completos. Problemas con sistemas de registro lentos y errores al guardar datos han afectado la eficiencia y la calidad de la atención, generando frustración en los pacientes. El entrevistado ve una oportunidad en una aplicación web que evite errores y aumente la precisión en el registro. Estaría dispuesto a pagar por mejoras que beneficien a los pacientes y reduzcan errores. Además, considera que la aplicación podría contribuir a la salud mental de los pacientes, pero sugiere colaboración con profesionales especializados para lograr un enfoque integral y personalizado.
+**Segmento pacientes**
 
-**Entrevista 2: Diego Osorio (Especialista)**
+- **¿Cuánto tiempo dedica en sacar una cita? ¿En algún momento tuvo errores o demoras en el sistema?:** El 90% de los entrevistados reportaron que dedican más de 10 minutos en sacar una cita, y el 70% indicó haber experimentado errores o demoras en el sistema durante el proceso de reserva de citas.
+- **¿Cree que las deficiencias del sistema puedan mejorar y tener un mejor control propio de su avance médico?:** El 85% de los encuestados expresaron que creen que las deficiencias del sistema pueden mejorar significativamente y permitirles tener un mejor control sobre su avance médico.
+- **¿Estaría dispuesto a utilizar la aplicación que le dé una mejor atención y no encuentre errores al momento de registrarse o visualizar sus datos?:** El 95% de los participantes manifestaron estar dispuestos a utilizar una aplicación que les brinde una mejor atención y no presente errores al registrarse o visualizar sus datos.
 
-En esta entrevista, Antonella nos comenta que la aplicación les ayuda como profesionales de la salud a buscar personas que necesiten ayuda o aumentar su campo laboral. Nos comenta que para ella a sido muy difícil la inserción al campo laboral dado que no tiene recomendaciones por el momento pero que poco a poco lo ha ido teniendo.
+El análisis de las respuestas revela una clara necesidad de mejorar la experiencia de reserva de citas y la eficiencia del sistema utilizado. Aunque la mayoría de los usuarios reportaron dedicar un tiempo considerable en sacar una cita y experimentar errores o demoras en el proceso, existe una percepción positiva sobre la posibilidad de mejoras significativas en el sistema. Esta disposición a aceptar cambios sugiere una demanda por una solución más eficiente y confiable. La alta disposición de los usuarios a utilizar una aplicación que brinde una mejor atención y experiencia sin errores refuerza la importancia de implementar mejoras que optimicen el proceso y aumenten la satisfacción del usuario.
 
-**Entrevista 3: Gabriela Nomberto (Paciente)**
+**Segmento especialistas de la salud mental**
 
-Durante la entrevista, Gabriel nos comenta que la aplicación utilizada tiene y cumple su propósito dado que a medida que busca un profesional para ayudarse puede ver las valoraciones que le dan al médico en cuestión y esto le da cierta confianza para que confíe en nosotros asi como también para que sus datos sean seguros. Nos comenta que las secciones adicionales le ayudarían demasiado, además que al ver su avance personal publicado le dará una cierta motivación para mejorar sesión tras sesión. 
+- **¿Qué deficiencias ha podido evidenciar al momento de registrar o revisar historiales clínicos?:** El 100% de los especialistas de la salud mental señalaron deficiencias en el registro o revisión de historiales clínicos, principalmente relacionadas con la falta de actualización y organización de la información. 
+- **En algún momento y durante su horario de trabajo, ¿el sistema de registro con el cual trabaja no respondía o presentaba errores?:** El 100% de los especialistas informaron haber experimentado momentos en los que el sistema de registro no respondía o presentaba errores durante su horario de trabajo.
+- **¿Llega a tener problemas con los pacientes debido a los errores del sistema?:** El 60% de los especialistas afirmaron haber tenido problemas con los pacientes debido a los errores del sistema, lo que resultó en retrasos en el tratamiento y la atención.
 
-**Entrevista 4: Dennis Piero Quevedo (Paciente)**
-
-La entrevistada de 23 años nos comenta que ha llevado sesiones con un coach para poder mejorar en su vida diaria en el entorno laboral y social. Ella cree que la salud mental es importante y que influye bastante en cada acción que realiza e incentiva a los demás a tomar sesiones con un couch o psicólogo para aliviar algún problema que tengan. También, menciona que las gestiones de reservas en las entidades de salud mental tienen problemas al asignar algún especialista y demora mucho el proceso para obtener una cita. Además, considera que la aplicación podría contribuir a la salud mental de los pacientes, pero sugiere colaboración con profesionales especializados para lograr un enfoque integral y personalizado.
-
-**Entrevista 5: Andrea Sofia Alfaro Salinas (Paciente)**
-
-Durante la entrevista, Diego, un paciente preocupado por la gestión de citas médicas, compartió sus experiencias y opiniones sobre el proceso de programación de citas y la atención a la salud mental. Diego expresó frustración por las demoras y errores en el sistema al sacar citas médicas, destacando la necesidad de una mejor gestión y control de su historial médico. Además, señaló el impacto significativo de la salud mental en su vida diaria, resaltando la importancia de abordar adecuadamente estos problemas. Juan mostró interés en encontrar una aplicación que mejore su experiencia, brinde herramientas para gestionar el estrés y ofrezca acceso a profesionales de la salud mental. Estuvo dispuesto a pagar por una aplicación que le brinde una mejor atención y facilidad para acceder a su historial médico, enfatizando la importancia de una solución integral para mejorar su salud mental y bienestar general.
-
-
-En general, esta solución parece estar bien alineada con las necesidades y preocupaciones expresadas por la entrevistada.
-
+El análisis de las respuestas refleja una preocupación generalizada entre los especialistas de la salud mental respecto a las deficiencias del sistema de registro y revisión de historiales clínicos. La falta de actualización y organización de la información se identificó como el principal problema, lo que puede afectar la calidad y eficiencia de la atención. Además, la totalidad de los encuestados experimentaron momentos en los que el sistema no respondía o presentaba errores durante su horario de trabajo, lo que sugiere una posible interrupción en la prestación de servicios médicos. El hecho de que el 60% de los especialistas hayan tenido problemas con los pacientes debido a los errores del sistema indica que estos fallos pueden impactar directamente en la atención y el tratamiento, generando retrasos y posiblemente afectando la experiencia del paciente. Estos hallazgos resaltan la necesidad de mejorar la fiabilidad y eficacia del sistema utilizado por los especialistas de la salud mental.
+  
 ## 2.3. Needfinding
+
 ### 2.3.1. User Persona
 
-**Usuario que busca ayuda o pacientes**
+**Paciente**
 
-El fin que nosotros buscamos no es vender más o solo buscar ganancias económicas, sino crear un impacto significativo en la forma en que los jóvenes experimentan sus vidas y mejoran el estado de su salud mental. La relación entre los artefactos a presentar con el user persona será fundamental para que nuestros usuarios sean los principales beneficiados <br/> ![User Persona paciente](/Images/User%20Persona%20paciente.png)
+El fin que nosotros buscamos no es vender más o solo buscar ganancias económicas, sino crear un impacto significativo en la forma en que los jóvenes experimentan sus vidas y mejoran el estado de su salud mental. La relación entre los artefactos a presentar con el user persona será fundamental para que nuestros usuarios sean los principales beneficiados
 
-**Medico Especialista en al salud mental**
+![User Persona paciente](/Images/User%20Persona%20paciente.png)
 
-En este apartado, buscamos que los médicos tengan una mejor organización en sus agendas asi para poder tener un mejor control de los tratamientos que les puedan prescribir a sus pacientes. Tenemos en cuenta que todo esto es fundamental para que se permita una mejor atención al cliente o paciente. <br/> ![User Persona medico](/Images/User%20Persona%20medico.png)
+**Especialistas de la salud mental**
+
+En este apartado, buscamos que los médicos tengan una mejor organización en sus agendas asi para poder tener un mejor control de los tratamientos que les puedan prescribir a sus pacientes. Tenemos en cuenta que todo esto es fundamental para que se permita una mejor atención al cliente o paciente. 
+
+![User Persona medico](/Images/User%20Persona%20medico.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -510,7 +561,7 @@ Se ha considerado como primer segmento objetivo los usuarios de Lima entre los 1
 |Toman contacto con grupos de apoyo para desestresarse | Media | Media |
 | Analizan y ven cómo va la situación de progreso de su salud mental gracias al chatbot | Baja | Alta | 
 
-**Medico**
+**Especialistas de la salud mental**
 
 Se ha considerado como segundo segmento objetivo los medicos especialistas en la salud mental. Para este caso, utilizamos a Javier Mendoza que ya cuenta con una especialidadd de la salud mental.
 
@@ -529,39 +580,28 @@ Se ha considerado como segundo segmento objetivo los medicos especialistas en la
 
 El Empathy Map fue realizado con la intención que nos ayude a planificar cómo llegar mucho más a nuestro público objetivo, se sientan escuchados y que nosotros como Startup buscamos lo mejor para nuestros usuarios. Para su realización nos basamos en los datos e información brindados por el User Persona durante las entrevistas. Para ello su implementación, se desarrolló el cuadro de manera grupal teniendo como puntos principales “Think and Feel”, “Hear”, “See”, “Say and Do”, “Pain Points y “Gain points”.
 
-**Segmento 1: Pacientes o personas que se atiendan con un profesional de salud mental**
+**Segmento 1: Pacientes**
+
 ![EM Pacientes](/Images/EM%20Pacientes.jpg)
 
-**Segmento 2: Profesionales de la salud mental**
+**Segmento 2: Especialistas de la salud mental**
+
 ![EM Medicos](/Images/EM%20Medicos.jpg)
 
 ### 2.3.4. AS-IS Scenario Mapping
 En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra aplicación, es decir cómo esta persona puede llegar a calmar su estrés normalmente con otras aplicaciones. Es por ello que nos basamos de las manifestaciones de nuestros entrevistados para identificar de esta manera las fases en las cuales están conformes o no.
 
-![AS-IS Scenario](/Images/AS-IS.jpg)
+**Segmento 1: Pacientes**
+
+![AS-IS Scenario](/Images/as-is-pacientes.jpg)
+
+**Segmento 2: Especialistas de la salud mental**
+
+![AS-IS Scenario](/Images/as-is-especialista.jpg)
 
 ## 2.4. Ubiquitous Language
 
-Entendemos que, para este trabajo, todos los participantes tenemos que tener un lenguaje común para poder tener una mejor comunicación durante todo el avance de los proyectos y así también poder brindar una mejor experiencia al usuario, algunos conceptos que tenemos que tener en cuenta en el grupo es:
 
-1.	Pacientes: Usuario que utilizará la aplicación web y quisiera informarse más o ayudarse en el problema que presenta
-Síntomas: frustración, estrés, ansiedad, etc
-Emociones: felicidad, tristeza, enojo, etc
-Historial médico: medicinas, alergias 
-
-2.	Médicos de la salud mental: Usuarios que conectarán con los pacientes, les dará tratamientos y diagnósticos, además de un seguimiento
-Transtorno Mentales: TDAH, depresión, ansiedad, etc
-Seguimiento: avances del progreso del paciente
-Plan de tratamiento: terapias, medicación, ajustes en el estilo de vida del paciente, etc
-3.	Chatbot: servicio que ofrece la plataforma para que el paciente tenga un pre diagnostico de lo que esta sintiendo en el día
-Evaluación: preguntas de pruebas psicológicas automatizadas
-Pre-diagnostico: depresión, ansiedad, etc
-Severidad: leve, moderado, grave
-Recomendaciones: ayuda psicológica
-
-4.	Aplicación Web: entorno donde el paciente y el médico interactúan y usan los servicios que están a disposición de cada usuario
-Interfaz de usuario: intuitiva, llamativa, accesible para el usuario
-Seguridad: encriptación de datos sensibles y conexión privada entre paciente y médico. 
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
