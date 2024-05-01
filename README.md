@@ -1057,71 +1057,98 @@ Estas restricciones se han tenido en cuenta de manera integral en el diseño de 
 
 ### 4.1.4. Architectural Design Decisions
 
-| DRIVE ID  | TITULO DEL DRIVE | 
-| -- | -- |
-| Q1 | MANTENIBILIDAD | 
- 
-**MVC**
-
-PRO: Mejora la flexibilidad de la aplicación siendo asi mas adaptable a nuevas funciones que el usuario pueda pedir
-
-CONTRA: Presenta una mayor complejidad en la aplicación, complicando la comprensión del codigo
-
-**CAPAS** 
-
-PRO: Mejora el intercambio de componentes sin afectarse una con otra, además permite un desarrollo incremental
-
-CONTRA: Si las capas no están bien diseñadas se puede generar un acoplamiento excesivo entre ellas
-
-**SERVICIO**
-
-PRO: Facilita los cambios de la aplicación web asi como su menor costo en el mantenimiento
-
-CONTRA: Tiene un mayor tiempo de desarrolllo y un mayor tiempo de dearrollo
-
-| DRIVE ID | TITULO DEL DRIVE | 
-| -- | -- |
-| Q2 | ESCALABILIDAD | 
-
-**MVC**
-
-PRO:  Nos brinda mejor flexibilidad permitiendo la reutilizacion de los componentes reduciendo el tiempo en las justificciones
-
-CONTRA: Necesitamos comprender la creación del modelo MVC  para asi poder amenorar costos al momento de crear la infraestrucutra de la aplicacopm
-
-**CAPAS**
-
-PRO: Tener mejor capacidad para poder atender a los pacientes y guardar a los usuarios masivamente
-
-CONTRA: Puede dificultarse la gestión de datos para que nuestros usuarios tengan acceso a su cuenta previamente creada
-
-**SERVICIO**
-
-PRO: Nos sirve para manejar de mayor forma la cantidad de usuarios
-
-CONTRA: Para poder administrar el servidor necesitaremos de una experiencia
-
-| DRIVE ID | TITULO DEL DRIVE | 
-| -- | -- |
-| Q3 | SEGURIDAD | 
-
-**MVC**
-
-PRO: Podemos mejorar la seguridad  a través de la separación que tienen el modelo MVC
-
-CONTRA: Necesidad de un conocimiento especializado en ciberseguridad
-
-**CAPAS**
-
-PRO: Nos brinda el cifrado de extremo a extremo, de esta forma se le brinda mayor control de inicio de sesiond
-
-CONTRA: Capaz pueda tener un impacto significativo en la aplicación como lo puede ser la autenticacion
-
-**SERVICIO**
-
-PRO: Podemos proteger de mejor forma sus datos de los usuarios cumpliendo las normas, protegiendo asi los datos de los ciberataques
-
-CONTRA: Podrían haber inconvenientes en los usuarios para permitir el acceso o el control de los datos sensibles que nos puedas brindar
+<table>
+    <tr>
+        <td colspan=2 align=center>Driver ID</td>
+        <td colspan=3 align=center>Título de Driver</td>
+        <td colspan=6 align=center>Monolítico</td>
+        <td colspan=6 align=center>Microservicios</td>
+        <td colspan=6 align=center>Modular</td>
+    </tr>
+    <tr>
+        <td colspan=2 align=center>Q1</td>
+        <td colspan=3 align=center>Mantenibilidad</td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Al ser una única aplicación, los cambios y actualizaciones son más fáciles de gestionar y las pruebas de integración son más simples debido a la unidad de la aplicación.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Los cambios en una parte pueden afectar otras partes de la aplicación y un fallo en una parte de la aplicación puede afectar a toda la aplicación.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Cada microservicio puede ser desarrollado, probado y mantenido de forma independiente.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Gestionar múltiples microservicios puede aumentar la complejidad del mantenimiento.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Cada módulo puede ser desarrollado y mantenido de forma independiente.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Gestionar dependencias entre módulos puede introducir complejidad adicional.</p>
+        </td>
+    <tr>
+        <td colspan=2 align=center>Q2</td>
+        <td colspan=3 align=center>Escalabilidad</td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Puede ser escalado verticalmente agregando más recursos al servidor.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Escalar horizontalmente partes específicas de la aplicación puede ser difícil.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Permite escalar partes específicas de la aplicación según sea necesario.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Gestionar múltiples servicios y su escalabilidad puede ser más complejo.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Menos complejidad en la gestión de escalabilidad en comparación con microservicios.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>La escalabilidad puede ser menos granular que con microservicios.</p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan=2 align=center>Q3</td>
+        <td colspan=3 align=center>Seguridad</td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Al ser una única aplicación, puede ser más fácil de proteger contra ataques.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Un fallo de seguridad en una parte de la aplicación puede afectar a toda la aplicación.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Un fallo de seguridad en un microservicio no afecta a otros servicios.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Gestionar la seguridad de múltiples servicios puede ser más complejo.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Cada módulo puede tener sus propias políticas de seguridad.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Un fallo de seguridad en un módulo puede afectar a otros módulos.</p>
+        </td>
+    </tr>
+</table>
 
 ### 4.1.5. Quality Attribute Scenario Refinements
 
