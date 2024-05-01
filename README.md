@@ -1318,8 +1318,9 @@ Este lienzo nos proporciona un marco estructurado para definir y visualizar los 
 
 ### 4.2.5. Context Mapping
 
-![context](/Images/context%20mapping.png)
+![context](/Images/context-mapping-1.jpg)
 
+![context](/Images/context-mapping-2.jpg)
 
 ## 4.3. Software Architecture
 
