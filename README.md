@@ -1282,11 +1282,42 @@ Usamos esta técnica para visualizar cómo los componentes del sistema se comuni
 
 ![domain message flows modeling](/Images/domain-message-flows-modeling-4.jpg)
 
+Link del Miro: https://miro.com/app/board/uXjVKNRK3Nw=/?share_link_id=705649975687
+
 ### 4.2.4. Bounded Context Canvases
 
 Este lienzo nos proporciona un marco estructurado para definir y visualizar los límites del contexto del dominio en nuestro sistema de software, así como sus interacciones con otros contextos limitados. Nos permite identificar claramente los límites del contexto del dominio, definir los términos del lenguaje ubicuo y establecer las reglas de colaboración entre los diferentes contextos.
 
+- **Account**
+
+![Bounded Context Canvases](/Images/account-bounded-context.jpg)
+
+- **Appointment**
+
+![Bounded Context Canvases](/Images/appointment-bounded-context.jpg)
+
+- **Payment**
+
+![Bounded Context Canvases](/Images/payment-bounded-context.jpg)
+
+- **Support group**
+
+![Bounded Context Canvases](/Images/support-group-bounded-context.jpg)
+
+- **Notification**
+
+![Bounded Context Canvases](/Images/notificaciones-bounded-context.jpg)
+
+- **Monitoring**
+
+![Bounded Context Canvases](/Images/monitoring-group-bounded-context.jpg)
+
+- **Chatbot**
+
+![Bounded Context Canvases](/Images/chatbot-bounded-context.jpg)
+
 ### 4.2.5. Context Mapping
+
 ![context](/Images/context%20mapping.png)
 
 
