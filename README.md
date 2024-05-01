@@ -1252,7 +1252,15 @@ Link del eventstorming: https://miro.com/app/board/uXjVKNRK3Nw=/?share_link_id=7
 
 ### 4.2.2. Candidate Context Discovery
 
-![candidate](/Images/candidate%20context.png)
+Para esta sección, nos hemos dedicado a identificar los principales candidatos de nuestro contexto, empleando la técnica de "start-with-value". Entre los eventos que hemos identificado como fundamentales en nuestra solución, se encuentran los siguientes:
+
+![candidate-context-discovery](/Images/cantidate-context-1.jpg)
+
+Los eventos presentados en esta sección tienen la particularidad de pertenecer a los bounded contexts de Appointment, Monitoring y Chatbot. Por consiguiente, dado el nivel de importancia que estos eventos tienen en nuestra solución, consideramos los bounded contexts que los engloban como core y de soporte, respectivamente. Dado que los eventos relacionados con el bounded context de Appointment y el bounded context de Monitoring son esenciales para el correcto funcionamiento de la aplicación, los consideramos como core. Por otro lado, los bounded contexts como el de Chatbot, que también contienen eventos importantes y forman parte del dominio de negocio, aunque no son la base para la existencia de otros bounded contexts, los consideramos como bounded contexts de apoyo.
+
+Al revisar nuestros eventos, también nos hemos percatado de que contamos con eventos relacionados con la gestión de cuentas, suscripciones y notificaciones:
+
+![candidate-context-discovery](/Images/candidate-context-2.jpg)
 
 ### 4.2.3. Domain Message Flows Modeling
 
