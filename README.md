@@ -949,38 +949,46 @@ Enlace de Miro: https://miro.com/app/board/uXjVKNz8_bs=/?share_link_id=917680637
 |34|US24|Iniciar o reprogramar una cita|Como especialista de la salud mental, deseo que mis citas agendadas sean respetadas para así llevar un mejor control de los pacientes|5|
 
 # Capítulo IV: Strategic-level Software Design
+
 ## 4.1. Strategic-Level Attribute-Driven Design
+
+Este apartado se describe los enfoques fundamentales que se implementaron en el proceso de Domain Driven Design a nivel estratégico.
+
 ### 4.1.1. Design Purpose
-El diseño propuesto mediate los factores recopilados en los capítulos anteriores nos aseguran que la aplicación sea funcional y acorde a las necesidades y expectativas del usuario final. Además, mediante una recopilacion de mejoras continua podremos lograr el alcance del negocio 
+
+El propósito de la plataforma es proporcionar una solución integral para conectar de manera efectiva a pacientes que buscan atención psicológica con profesionales de la salud mental. Con el objetivo de abordar las necesidades emocionales y psicológicas de los usuarios, la aplicación ofrece una variedad de herramientas y funcionalidades diseñadas para facilitar la búsqueda de ayuda, el acceso a servicios de salud mental y el seguimiento del progreso terapéutico. Desde la evaluación inicial de síntomas hasta la gestión de citas y la colaboración en el proceso de tratamiento, la plataforma está diseñada para mejorar la experiencia de los usuarios y promover la salud mental y el bienestar.
+
 ### 4.1.2. Attribute-Driven Design Inputs
+
 #### 4.1.2.1. Primary Functionality (Primary User Stories)
 
-|USER STORY ID|DESCRIPCION DEL US|
-| :- | :- |
-|<p> </p><p>US01 </p>|<p> </p><p>**Como** un joven con estrés **quiero** compartir por redes sociales mi propio listado de actividades favoritas **para** comunicarlo con mis familiares interesados. </p>|
-|<p> </p><p>US02 </p>|<p> </p><p>**Como** un joven con estrés **quiero** actividades que tengan concordancia con los hobbies que hago en mis tiempos libres **para** desestresarme con los que más me gusta hacer. </p>|
-|<p> </p><p>US03 </p>|<p> </p><p>**Como** joven con estrés **quiero** tener recordatorios hacia mi celular de mis sesiones de relajación **para** no olvidarme de disponer de un tiempo para desestresarme. </p>|
-|<p> </p><p>US04 </p>|<p> </p><p>**Como** un joven con estrés **quiero** tener una estimación de los niveles de estrés **para** conocer mis actividades relajantes ideales. </p><p> </p>|
-|<p> </p><p>US05 </p>|<p> </p><p>**Como** un joven con estrés **deseo** encontrar todos los grupos de apoyo **para** poder sentirme en confianza. </p>|
-|<p> </p><p>US06 </p>|<p> </p><p>**Como** joven con estrés **quiero** unirme a un grupo de apoyo en específico según preferencias similares, **para que** podamos compartir experiencias e intercambiar consejos </p>|
-|<p> </p><p>US07 </p>|<p> </p><p>**Como** un joven con estrés **deseo** **que**, a la hora de reunirme con otras personas, nos encontremos en un ambiente relajante y del gusto de todos **para** poder hablar tranquilamente </p><p> </p>|
-|<p> </p><p> </p><p>US08 </p>|<p> </p><p> </p><p>**Como** un joven con estrés **quiero** escuchar un ruido blanco **para** poder sentirme relajado inmediatamente. </p><p> </p>|
-|<p> </p><p>US09 </p>|<p> </p><p>**Como** un joven con estrés **quiero** visualizar imágenes de animales dentro del espacio virtual **para** despejar mi mente. </p><p> </p>|
-|<p> </p><p>US10 </p>|<p> </p><p>**Como** un joven con estrés **quiero** tener un listado de distintas técnicas de meditación **para** tener mayor variedad de mecanismos de cómo aliviar mis cuadros de estrés. </p><p> </p>|
-|<p> </p><p>US11 </p>|<p> </p><p>**Como** un joven con estrés **quiero** meditar con otras personas por medio del espacio virtual **para** sentirme acompañado. </p><p> </p>|
-|<p> </p><p>US12 </p>|<p> </p><p>**Como** joven con estrés **quiero** que la app esté disponible el 99.90% del tiempo que intento acceder a ella **para** poder desestresarme en el momento que lo requiera. </p>|
-|<p> </p><p>US13 </p>|<p> </p><p>**Como** joven con estrés **quiero** que la app sea capaz de operar hasta con 10,000 usuarios a la vez **para** poder compartir actividades juntos. </p><p> </p>|
-|<p> </p><p>US14 </p>|<p> </p><p>**Como** joven con estrés **quiero** que la tasa de errores sea menor al 1% de las transacciones totales ejecutadas en el sistema **para** poder tener una mejor experiencia en el sistema. </p><p> </p>|
-|<p> </p><p>US15 </p>|<p> </p><p>**Como** joven con estrés **quiero** que el sistema cuente con un manual de usuario **para** entender la funcionalidad de la app en su totalidad. </p><p> </p>|
-|<p> </p><p>US16 </p>|<p> </p><p>**Como** joven con estrés **quiero** ejecutar la app en sistema operativo Windows **para** acceder desde cualquier lugar a través de mi dispositivo portátil. </p><p> </p>|
-|US17 |<p> </p><p>**Como** joven con estrés **quiero** que el aplicativo tenga un peso no mayor de 290 MB **para** que esté accesible a el espacio de mi dispositivo. </p><p> </p>|
-|<p> </p><p>US18 </p>|<p> </p><p>**Como** administrador **quiero** gestionar ofertas y promociones **para** que el usuario se sienta satisfecho con las oportunidades que le brindamos. </p><p> </p>|
-|US19 |<p> </p><p>**Como** administrador **quiero** gestionar una base de datos de las cuentas de los usuarios finales **para** mantenerlos en nuestra app fielmente. </p><p> </p>|
-|US20 |**Como** médico especializado en salud mental, **quiero** poder realizar un seguimiento del progreso de mis pacientes **para** ajustar sus planes de tratamiento de manera efectiva |
-|US21 |<p>**Como** médico especializado en salud mental, **quiero** colaborar con otros profesionales de la salud **cuando** los pacientes presenten necesidades médicas y psicológicas complejas </p><p> </p>|
-|US22 |**Como** médico especializado en salud mental, **quiero** colaborar con otros profesionales de la salud **cuando** los pacientes presenten necesidades médicas y psicológicas complejas |
-|US23 |**Como** especialista de la salud mental, **deseo** que los registros de mis citas agendadas sean adecuados a mi horario **para** tener una mejor organización de mi agenda. |
-|US24 |**Como** especialista de la salud mental, **deseo** que mis citas agendadas sean respetadas **para** así llevar un mejor control de los pacientes |
+En esta sección se especifica los Epics o User stories que tienen mayor relevancia en términos de requisitos funcionales y que tienen impacto sobre la arquitectura de la solución. La sección inicia con una introducción que resume los requisitos seleccionados y a continuación se detalla los mismos utilizando el siguiente cuadro.
+
+| User Story ID | Título                                                       | Descripción                                                                                                                                                             | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|US01|<p align=justify> Compartir actividades relajantes| <p align=justify>**Como** paciente **quiero** compartir por redes sociales mi propio listado de actividades favoritas **para** comunicarlo con mis familiares interesados. |<p align=justify> **Escenario 1: Usuario ingresa al apartado “Compartir”** <br>Dado que el usuario se encuentra en el apartado “Mi espacio”<br>Cuando el usuario presione el botón “A donde compartir”<br>Entonces el sistema muestra las redes sociales disponibles para que el usuario comparta su actividad favorita<br>**Escenario 2: Usuario comparte actividades mediante redes sociales.**<br>Dado que el usuario escoge una red social donde desea compartir su actividad<br>Cuando el usuario selecciona la foto de su actividad favorita que desea compartir<br>Entonces el aplicativo publica la foto de la actividad seleccionada en la red social del usuario por medio de un post.|
+|<p align=justify>US02|<p align=justify>Realizar actividades relajantes|<p align=justify>**Como** paciente **quiero** actividades que tengan concordancia con los hobbies que hago en mis tiempos libres **para** desestresarme con los que más me gusta hacer. |<p align=justify> **Escenario 1: Usuario registra hobbies preferidos** <br>Dado que el usuario se encuentra en el apartado “Mi espacio”<br>Cuando el usuario ingresa todos los hobbies de su preferencia<br>Entonces el sistema registra los hobbies seleccionados por el usuario.<br>|
+|<p align=justify>US03|<p align=justify>Recordatorios diarios|<p align=justify> **Como** paciente **quiero** tener recordatorios hacia mi celular de mis sesiones de relajación **para** no olvidarme de disponer de un tiempo para desestresarme.|<p align=justify> **Escenario 1: Usuario registra la notificación de los recordatorios** <br>Dado que el usuario encuentra un horario libre para desestresarse<br>Y el usuario selecciona el botón “Crear recordatorio”<br>Cuando el usuario escoge una hora determinada para realizar su actividad<br>Entonces el aplicativo muestra un mensaje de registrado exitosamente la notificación de alarma.|
+|<p align=justify>US04|<p align=justify>Conocer progreso|<p align=justify> **Como** paciente **quiero** tener una estimación de los niveles de estrés **para** conocer mis actividades relajantes ideales.|<p align=justify> **Escenario 1: Usuario conoce su nivel de estrés personal** <br>Dado que el usuario no conoce su nivel de estrés actual<br>Y el usuario ingrese en los campos correspondientes los datos acerca de las sensaciones que siente en las últimas semanas<br>Cuando el usuario presiona el botón “Ver resultado de mi nivel de estrés”<br>Entonces el sistema muestra la estimación de los niveles de estrés del usuario en una gráfica.| 
+|<p align=justify>US05|<p align=justify>Buscar grupos de apoyo| <p align=justify>**Como** paciente **deseo** encontrar todos los grupos de apoyo **para** poder sentirme en confianza.|<p align=justify> **Escenario 1: Usuario visualiza los diferentes grupos de apoyo** <br>Dado que el usuario desea compartir sus sentimientos y experiencias con más personas <br>Cuando el usuario selecciona la opción “visualizar grupos” <br>Entonces el sistema muestra una lista de todas las salas de grupos de apoyo disponibles por categorías de preferencia.|
+|<p align=justify>US06|<p align=justify>Entrar a un grupo de apoyo|<p align=justify>**Como** paciente **quiero** unirme a un grupo de apoyo en específico según preferencias similares, **para que** podamos compartir experiencias e intercambiar consejos. | <p align=justify> **Escenario 1: Usuario ingresa a grupo de apoyo con normalidad.** <br>Dado que el usuario encuentra un grupo de apoyo de acuerdo con sus preferencias<br>Cuando el usuario seleccione la opción “Unirme a sala”<br>Entonces el sistema une al usuario a la sala elegida.|
+|<p align=justify>US07|<p align=justify>Ambiente tranquilo|<p align=justify>**Como** paciente **deseo** **que**, a la hora de reunirme con otras personas, nos encontremos en un ambiente relajante y del gusto de todos **para** poder hablar tranquilamente| <p align=justify> **Escenario 1: Usuario cambia la configuración del ambiente en la sala de grupo de apoyo** <br>Dado que el usuario está en una sala de “Grupo de apoyo”<br>Cuando el usuario cambia la configuración del ambiente actual de la sala<br>Entonces el sistema renueva la configuración dada por el usuario.|
+|<p align=justify>US08|<p align=justify>Escuchar sonidos tranquilizantes| <p align=justify>**Como** paciente **quiero** escuchar un ruido blanco **para** poder sentirme relajado inmediatamente.|<p align=justify> **Escenario 1: Usuario visualiza el tipo de ruido blanco de su preferencia** <br>Dado que el usuario necesita desestresarse rápidamente<br>Cuando el usuario selecciona la opción “Habilitar ruido blanco”<br>Entonces el sistema muestra los diferentes tipos de ruidos blancos existentes en la app.|
+|<p align=justify>US09|<p align=justify>Ver imágenes que mitiguen estrés| <p align=justify>**Como** paciente **quiero** visualizar imágenes de animales dentro del espacio virtual **para** despejar mi mente.|<p align=justify> **Escenario 1: Usuario configura la opción de observar imágenes de animales** <br>Dado que el usuario necesita despejar su mente con imágenes relajantes<br>Y el usuario ingresa al apartado “Configurar visualización de imágenes”<br>Cuando el usuario realiza cambios en los ajustes de la visualización<br>Entonces el sistema actualiza los cambios de la visualización de imágenes dentro del entorno virtual.|
+|<p align=justify>US10|<p align=justify>Diversas técnicas de meditación| <p align=justify>**Como** paciente **quiero** tener un listado de distintas técnicas de meditación **para** tener mayor variedad de mecanismos de cómo aliviar mis cuadros de estrés.|<p align=justify> **Escenario 1: Usuario escoge técnicas de meditación de su preferencia** <br>Dado que el usuario requiere de sesiones relajantes<br>Y el usuario selecciona la opción ‘’Visualizar técnicas’’<br>Cuando el usuario selecciona una técnica de meditación según su elección preferida<br>Entonces el sistema guarda como actividad seleccionada la técnica de meditación que el usuario eligió.|
+|<p align=justify>US11|<p align=justify>Meditaciones grupales|<p align=justify>**Como** paciente **quiero** meditar con otras personas por medio del espacio virtual **para** sentirme acompañado.|<p align=justify> **Escenario 1: Usuario agrega a otros amigos a su lista de contacto** <br>Dado que el usuario está buscando una sesión grupal <br>Y el usuario ingresa al apartado “Buscar amigos”<br>Y el usuario visualiza el perfil de un amigo en específico<br>Cuando el usuario presiona el botón “Agregar este usuario”<br>Entonces el sistema agrega el usuario seleccionado a la lista de amigos en la aplicación.|
+|<p align=justify>US12|<p align=justify>Disponibilidad de la aplicación|<p align=justify>**Como** paciente **quiero** que la app esté disponible el 99.90% del tiempo que intento acceder a ella **para** poder desestresarme en el momento que lo requiera. | <p align=justify> **Escenario 1: Usuario accede a la aplicación con normalidad** <br>Dado que el usuario está en un momento de estrés<br>Y el usuario entra a la aplicación<br>Cuando el usuario inicia sesión<br>Entonces el sistema muestra todas las componentes de la app, listas para usarse sin errores.|
+|<p align=justify>US13|<p align=justify>Aplicación operativa 24 horas|<p align=justify>**Como** paciente **quiero** que la app sea capaz de operar hasta con 10,000 usuarios a la vez **para** poder compartir actividades juntos. | <p align=justify> **Escenario 1: Usuario se conecta a un grupo de apoyo exitosamente** <br>Dado que el usuario desea realizar actividades con otras personas<br>Y el usuario escoge una sala de interacción<br>Cuando el usuario se conecta al mismo tiempo hasta con 10,000 personas a la vez<br>Entonces el sistema ingresa al usuario a la sala escogida con normalidad.|
+|<p align=justify>US14|<p align=justify>Usabilidad de la app|<p align=justify>**Como** paciente **quiero** que la tasa de errores sea menor al 1% de las transacciones totales ejecutadas en el sistema **para** poder tener una mejor experiencia en el sistema.|<p align=justify> **Escenario 1: Usuario efectúa la aplicación con errores mínimos** <br>Dado que el usuario se encuentra en la pantalla de inicio<br>Y el usuario inicia sesión en el Log-in<br>Cuando el usuario realiza cualquiera de las actividades disponibles de su preferencia<br>Entonces el sistema efectúa las actividades escogidas por el usuario con errores mínimos al 1% en total.|
+|<p align=justify>US15|<p align=justify>Disponibilidad de manual de usuario|<p align=justify>**Como** paciente **quiero** que el sistema cuente con un manual de usuario **para** entender la funcionalidad de la app en su totalidad.| <p align=justify> **Escenario 1: Usuario visualiza manual de guía** <br>Dado que el usuario inicia sesión en la app<br>Y el usuario desea conocer cómo es el funcionamiento de la aplicación<br>Cuando el usuario abre la sección de “Manual de funcionamiento”<br>Entonces el sistema muestra una lista interactiva de todas las instrucciones|
+|<p align=justify>US16|<p align=justify>Disponible en Windows|<p align=justify>**Como** paciente **quiero** ejecutar la app en sistema operativo Windows **para** acceder desde cualquier lugar a través de mi dispositivo portátil.| <p align=justify> **Escenario 1: Usuario tiene sistema operativo compatible con la app** <br>Dado que el usuario cuenta con un dispositivo de sistema Operativo Windows<br>Cuando el usuario inicie sesión en el Log-In<br>Entonces el sistema comprueba que el sistema operativo del usuario que inicia sesión es compatible con la app.|
+|<p align=justify>US17 |<p align=justify>Poco peso de aplicativo|<p align=justify>**Como** paciente **quiero** que el aplicativo tenga un peso no mayor de 290 MB **para** que esté accesible a el espacio de mi dispositivo.|<p align=justify> **Escenario 1: Usuario visualiza espacio de la app** <br>Dado que el usuario se encuentra en la página de descarga de MedPro<br>Cuando el usuario presione el botón “Conocer características de la aplicación”<br>Entonces la página web muestra las características del aplicativo especificando el peso de la aplicación.|
+|<p align=justify>US18|<p align=justify>Gestión de promociones|<p align=justify>**Como** administrador **quiero** gestionar ofertas y promociones **para** que el usuario se sienta satisfecho con las oportunidades que le brindamos.| <p align=justify> **Escenario 1: Administrador crea ofertas y promociones** <br>Dado que el administrador busca beneficios que llamen la atención a clientes<br>Cuando el administrador crea una lista de los mejores beneficios para los nuevos usuarios<br>Entonces el sistema adquiere la lista de ofertas y las genera en la aplicación|
+|<p align=justify>US19 |<p align=justify>Gestión de usuarios|<p align=justify>**Como** administrador **quiero** gestionar una base de datos de las cuentas de los usuarios finales **para** mantenerlos en nuestra app fielmente.|<p align=justify> **Escenario 1: Administrador gestiona la cuenta de los usuarios finales** <br>Dado que el administrador desea mantener a los usuarios fieles<br>Cuando el administrador gestiona la base de datos de usuarios finales<br>Entonces el sistema genera la lista detallada de usuarios actuales en la app|
+|<p align=justify>US20 |<p align=justify>Seguimiento de progreso del paciente|<p align=justify>**Como** especialista de la salud mental, **quiero** poder realizar un seguimiento del progreso de mis pacientes **para** ajustar sus planes de tratamiento de manera efectiva |<p align=justify> **Escenario 1: Médico accede al historial del paciente** <br>Dado que el Doctor inicia sesión en el sistema de gestión de pacientes<br>Cuando el Selecciona al paciente "Juan Aaron Rodríguez Chaves"<br>Entonces el sistema muestra el historial clínico y el progreso anterior de Juan Aaron|
+|<p align=justify>US21 |<p align=justify>Colaboración con otros profesionales de la salud|<p align=justify>**Como** especialista de la salud mental, **quiero** colaborar con otros profesionales de la salud **cuando** los pacientes presenten necesidades médicas y psicológicas complejas| <p align=justify> **Escenario 1: Médico identifica necesidades combinadas** <br>Dado que el médico revisa el historial de un paciente, María Torres, y nota que está recibiendo tratamiento médico por una condición crónica además de la terapia psicológica<br>Cuando el Identifica que las dos condiciones podrían estar interconectadas y beneficiarse de un enfoque conjunto<br>Entonces el doctor decide comunicarse con el médico de María para discutir la posibilidad de una colaboración interdisciplinaria|
+|<p align=justify>US23 |<p align=justify>Registrar satisfactoriamente la cita.|<p align=justify>**Como** especialista de la salud mental, **deseo** que los registros de mis citas agendadas sean adecuados a mi horario **para** tener una mejor organización de mi agenda. |<p align=justify> **Escenario 1: Medico ingresa a ver las citas programadas** <br>Dado que al doctor le llega una notificación de una cita<br>Y el médico inicia sesión satisfactoriamente en la aplicación<br>Cuando el medico selecciona “ver citas programadas”<br>Entonces el médico podrá verificar qué citas tiene disponible y puede aceptar|
+|<p align=justify>US24 |<p align=justify>Iniciar o reprogramar un a cita|<p align=justify>**Como** especialista de la salud mental, **deseo** que mis citas agendadas sean respetadas **para** así llevar un mejor control de los pacientes |<p align=justify> **Médico asiste en el horario programado** <br>Dado que el médico ya acepto la cita con el paciente<br>Cuando el médico llegue y visualice al paciente en el horario pactado dentro de la aplicación<br>Entonces el médico puede estar seguro de proceder con la cita|
 
 #### 4.1.2.2. Quality attribute Scenarios
 
@@ -1049,71 +1057,98 @@ Estas restricciones se han tenido en cuenta de manera integral en el diseño de 
 
 ### 4.1.4. Architectural Design Decisions
 
-| DRIVE ID  | TITULO DEL DRIVE | 
-| -- | -- |
-| Q1 | MANTENIBILIDAD | 
- 
-**MVC**
-
-PRO: Mejora la flexibilidad de la aplicación siendo asi mas adaptable a nuevas funciones que el usuario pueda pedir
-
-CONTRA: Presenta una mayor complejidad en la aplicación, complicando la comprensión del codigo
-
-**CAPAS** 
-
-PRO: Mejora el intercambio de componentes sin afectarse una con otra, además permite un desarrollo incremental
-
-CONTRA: Si las capas no están bien diseñadas se puede generar un acoplamiento excesivo entre ellas
-
-**SERVICIO**
-
-PRO: Facilita los cambios de la aplicación web asi como su menor costo en el mantenimiento
-
-CONTRA: Tiene un mayor tiempo de desarrolllo y un mayor tiempo de dearrollo
-
-| DRIVE ID | TITULO DEL DRIVE | 
-| -- | -- |
-| Q2 | ESCALABILIDAD | 
-
-**MVC**
-
-PRO:  Nos brinda mejor flexibilidad permitiendo la reutilizacion de los componentes reduciendo el tiempo en las justificciones
-
-CONTRA: Necesitamos comprender la creación del modelo MVC  para asi poder amenorar costos al momento de crear la infraestrucutra de la aplicacopm
-
-**CAPAS**
-
-PRO: Tener mejor capacidad para poder atender a los pacientes y guardar a los usuarios masivamente
-
-CONTRA: Puede dificultarse la gestión de datos para que nuestros usuarios tengan acceso a su cuenta previamente creada
-
-**SERVICIO**
-
-PRO: Nos sirve para manejar de mayor forma la cantidad de usuarios
-
-CONTRA: Para poder administrar el servidor necesitaremos de una experiencia
-
-| DRIVE ID | TITULO DEL DRIVE | 
-| -- | -- |
-| Q3 | SEGURIDAD | 
-
-**MVC**
-
-PRO: Podemos mejorar la seguridad  a través de la separación que tienen el modelo MVC
-
-CONTRA: Necesidad de un conocimiento especializado en ciberseguridad
-
-**CAPAS**
-
-PRO: Nos brinda el cifrado de extremo a extremo, de esta forma se le brinda mayor control de inicio de sesiond
-
-CONTRA: Capaz pueda tener un impacto significativo en la aplicación como lo puede ser la autenticacion
-
-**SERVICIO**
-
-PRO: Podemos proteger de mejor forma sus datos de los usuarios cumpliendo las normas, protegiendo asi los datos de los ciberataques
-
-CONTRA: Podrían haber inconvenientes en los usuarios para permitir el acceso o el control de los datos sensibles que nos puedas brindar
+<table>
+    <tr>
+        <td colspan=2 align=center>Driver ID</td>
+        <td colspan=3 align=center>Título de Driver</td>
+        <td colspan=6 align=center>Monolítico</td>
+        <td colspan=6 align=center>Microservicios</td>
+        <td colspan=6 align=center>Modular</td>
+    </tr>
+    <tr>
+        <td colspan=2 align=center>Q1</td>
+        <td colspan=3 align=center>Mantenibilidad</td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Al ser una única aplicación, los cambios y actualizaciones son más fáciles de gestionar y las pruebas de integración son más simples debido a la unidad de la aplicación.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Los cambios en una parte pueden afectar otras partes de la aplicación y un fallo en una parte de la aplicación puede afectar a toda la aplicación.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Cada microservicio puede ser desarrollado, probado y mantenido de forma independiente.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Gestionar múltiples microservicios puede aumentar la complejidad del mantenimiento.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Cada módulo puede ser desarrollado y mantenido de forma independiente.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Gestionar dependencias entre módulos puede introducir complejidad adicional.</p>
+        </td>
+    <tr>
+        <td colspan=2 align=center>Q2</td>
+        <td colspan=3 align=center>Escalabilidad</td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Puede ser escalado verticalmente agregando más recursos al servidor.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Escalar horizontalmente partes específicas de la aplicación puede ser difícil.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Permite escalar partes específicas de la aplicación según sea necesario.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Gestionar múltiples servicios y su escalabilidad puede ser más complejo.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Menos complejidad en la gestión de escalabilidad en comparación con microservicios.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>La escalabilidad puede ser menos granular que con microservicios.</p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan=2 align=center>Q3</td>
+        <td colspan=3 align=center>Seguridad</td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Al ser una única aplicación, puede ser más fácil de proteger contra ataques.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Un fallo de seguridad en una parte de la aplicación puede afectar a toda la aplicación.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Un fallo de seguridad en un microservicio no afecta a otros servicios.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Gestionar la seguridad de múltiples servicios puede ser más complejo.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Pro:</p>
+            <p>Cada módulo puede tener sus propias políticas de seguridad.</p>
+        </td>
+        <td colspan=3 align=justify>
+            <p>Contra:</p>
+            <p>Un fallo de seguridad en un módulo puede afectar a otros módulos.</p>
+        </td>
+    </tr>
+</table>
 
 ### 4.1.5. Quality Attribute Scenario Refinements
 
@@ -1131,7 +1166,7 @@ CONTRA: Podrían haber inconvenientes en los usuarios para permitir el acceso o 
 <tr><td colspan="2" valign="bottom">Issues:</td><td valign="bottom">Necesidad de garantizar que el chatbot proporciona respuestas precisas y útiles</td></tr>
 </table>
 
-<table><tr><th colspan="3">Scenario Refinemet for Scenario 01</th></tr>
+<table><tr><th colspan="3">Scenario Refinemet for Scenario 02</th></tr>
 <tr><td colspan="2">Scenario(s):</td><td>Encargarnos de que la aplicación sea operativa todos los dias las 24 horas</td></tr>
 <tr><td colspan="2">Business Goals:</td><td>Proporcionar un servicio ininterrumpido para conectar a jóvenes con trastornos mentales con profesionales de la salud mental.</td></tr>
 <tr><td colspan="2">Relevant Quality Attributes:</td><td><p>Disponibilidad</p><p>Confiabilidad</p><p>Seguridad</p></td></tr>
@@ -1147,49 +1182,148 @@ CONTRA: Podrían haber inconvenientes en los usuarios para permitir el acceso o 
 
 ## 4.2. Strategic-Level Domain-Driven Design
 
-**Bounded Contexts Identificados**
-
-- Gestión de Usuarios: Incluye todo lo relacionado con la administración de perfiles de usuarios, tanto pacientes como médicos
-- Reserva de Citas: Permite a los usuarios reservar, cancelar y reprogramar citas con profesionales de salud mental.
-- Gestión de Sesiones de Terapia: Administra la información y seguimiento de las sesiones terapéuticas.
-- Interacciones Comunitarias: Cubre las funcionalidades de apoyo comunitario, incluyendo grupos de apoyo y foros de discusión.
-- Monitoreo y Reportes de Salud Mental: Permite a los profesionales y a los pacientes seguir la evolución de los tratamientos y el estado de salud mental.
-- Autenticación y Seguridad: Asegura el acceso a la plataforma y protege la privacidad de los datos.
-
-**Subdominios**
-
-- Subdominio Core: Gestión de Sesiones de Terapia y Monitoreo y Reportes de Salud Mental, ya que son críticos para la propuesta de valor del servicio.
-- Subdominio de Soporte: Gestión de Usuarios y Reserva de Citas, facilitan la operación pero no son diferenciadores clave.
-- Subdominio Genérico: Autenticación y Seguridad, esencial pero no específico al dominio de la salud mental, puede ser externalizado o implementado usando soluciones estándar.
-
-**Estrategias y Tácticas**
-
-- Integración y Modularidad: Asegúrate de que los sistemas pueden interactuar a través de APIs bien definidas, permitiendo flexibilidad y escalabilidad.
-- Seguridad por Diseño: Dada la sensibilidad de los datos manejados, incorpora la seguridad como una prioridad en todas las fases de diseño y desarrollo.
-- UX Orientada al Usuario: Diseña interfaces que sean intuitivas y accesibles para todos los usuarios, basándote en investigaciones y pruebas de usabilidad.
-
+Este apartado se describe los enfoques fundamentales que se implementaron en el proceso de Domain Driven Design a nivel estratégico.
 
 ### 4.2.1. EventStorming
 
-![eventstorming](/Images/eventstorminh.png)
+Se abordó un enfoque colaborativo y visual que permitió modelar el contexto del dominio.
+
+**Unstructured Exploration**
+
+En este primer paso, el equipo se reunió para compartir libremente ideas, eventos y conceptos relacionados con el dominio de nuestro problema que es conectar de manera efectiva a pacientes que buscan atención psicológica con profesionales de la salud mental. En dichas reuniones, no hubieron restricciones ni reglas específicas, lo que nos permitió una lluvia de ideas abierta y sin filtros.
+
+![eventstorming](/Images/unstructured-exploration.jpg)
+
+**Timelines**
+
+En este paso organizamos los eventos identificados en una línea de tiempo cronológica para comprender mejor el flujo de acciones y eventos en nuestro sistema. Esto nos ayudó a visualizar la secuencia temporal y las relaciones entre los diferentes eventos.
+
+![eventstorming](/Images/timelines.jpg)
+
+**Pain points**
+
+En este paso identificamos y discutimos los puntos de dolor, es decir, los problemas, obstáculos o desafíos que enfrentan nuestros usuarios y nuestro sistema en nuestro dominio del problema planteado. Esto nos ayudó a comprender las áreas problemáticas que deben abordarse.
+
+![eventstorming](/Images/pain-points.jpg)
+
+**Pivotal points**
+
+Se identificaron los eventos o momentos críticos que tienen un impacto significativo en nuestro sistema y en nuestro flujo de trabajo. Estos puntos pivote influyeron en nuestra toma de decisiones pues nos permitió identificar qué puntos deberíamos añadir o modificar.
+
+![eventstorming](/Images/pivotal-points.jpg)
+
+**Commands**
+
+Identificamos las acciones que los usuarios podrían realizar en respuesta a eventos relacionados a la problemática planteada. Estos comandos representan las acciones que desencadenan cambios en el sistema y son fundamentales para comprender el comportamiento del mismo.
+
+![eventstorming](/Images/commands.jpg)
+
+**Policies**
+
+En este paso definimos las reglas, directrices o restricciones que rigen el comportamiento de nuestro sistema en ciertos contextos o situaciones. Estas políticas nos ayudaron a establecer límites y garantizar un comportamiento coherente y predecible del sistema.
+
+![eventstorming](/Images/policies.jpg)
+
+**Read Models**
+
+Se identificaron y definieron los modelos de lectura que representan el estado actual o proyectado del sistema desde la perspectiva de nuestro usuario. Estos modelos los utilizamos para consultar y mostrar información al usuario de manera efectiva.
+
+![eventstorming](/Images/read-models.jpg)
+
+**External Systems**
+
+En este paso, identificamos los sistemas externos o componentes con los que el sistema interactúa, así como los eventos y acciones relacionadas con estas interacciones.
+
+![eventstorming](/Images/external-systems.jpg)
+
+**Aggregates**
+
+Definimos los agregados, que son conjuntos cohesivos de entidades relacionadas que se tratan como una sola unidad dentro del sistema. Estos agregados nos ayudan a organizar y gestionar la complejidad del dominio del problema.
+
+![eventstorming](/Images/aggregates.jpg)
+
+**Bounded Contexts**
+
+Finalmente, identificamos y delimitamos los contextos, que son límites conceptuales que definen el alcance y el significado de los modelos y eventos dentro de un determinado contexto en el dominio del problema. Esto nos ayudó a establecer límites claros y a garantizar una comprensión compartida del sistema entre los miembros de nuestro equipo.
+
+![eventstorming](/Images/bounded-contexts.jpg)
+
+Link del eventstorming: https://miro.com/app/board/uXjVKNRK3Nw=/?share_link_id=705649975687
 
 ### 4.2.2. Candidate Context Discovery
 
-![candidate](/Images/candidate%20context.png)
+Para esta sección, nos hemos dedicado a identificar los principales candidatos de nuestro contexto, empleando la técnica de "start-with-value". Entre los eventos que hemos identificado como fundamentales en nuestra solución, se encuentran los siguientes:
+
+![candidate-context-discovery](/Images/cantidate-context-1.jpg)
+
+Los eventos presentados en esta sección tienen la particularidad de pertenecer a los bounded contexts de Appointment, Monitoring y Chatbot. Por consiguiente, dado el nivel de importancia que estos eventos tienen en nuestra solución, consideramos los bounded contexts que los engloban como core y de soporte, respectivamente. Dado que los eventos relacionados con el bounded context de Appointment y el bounded context de Monitoring son esenciales para el correcto funcionamiento de la aplicación, los consideramos como core. Por otro lado, los bounded contexts como el de Chatbot, que también contienen eventos importantes y forman parte del dominio de negocio, aunque no son la base para la existencia de otros bounded contexts, los consideramos como bounded contexts de apoyo.
+
+Al revisar nuestros eventos, también nos hemos percatado de que contamos con eventos relacionados con la gestión de cuentas, suscripciones y notificaciones:
+
+![candidate-context-discovery](/Images/candidate-context-2.jpg)
 
 ### 4.2.3. Domain Message Flows Modeling
 
-![domain](/Images/domain%20message.png)
+Usamos esta técnica para visualizar cómo los componentes del sistema se comunican entre sí mediante mensajes. Utilizamos los siguientes diagramas para representar estas interacciones, lo que nos ayuda a entender cómo funcionan los diferentes elementos del sistema y cómo se coordinan para cumplir con los objetivos del negocio. Esto nos facilita la identificación de requisitos, la toma de decisiones de diseño y la detección de posibles problemas.
+
+- **Solicitar una cita médica virtual o presencial**
+
+![domain message flows modeling](/Images/domain-message-flows-modeling-1.jpg)
+
+- **Cambiar el estado de un usuario de normal a premium**
+
+![domain message flows modeling](/Images/domain-message-flows-modeling-2.jpg)
+
+- **Unirse a grupos de apoyo emocional**
+
+![domain message flows modeling](/Images/domain-message-flows-modeling-3.jpg)
+
+- **Usar el chatbot**
+
+![domain message flows modeling](/Images/domain-message-flows-modeling-4.jpg)
+
+Link del Miro: https://miro.com/app/board/uXjVKNRK3Nw=/?share_link_id=705649975687
 
 ### 4.2.4. Bounded Context Canvases
 
-![bounded](/Images/bounded%20context%20canvas.jpg)
+Este lienzo nos proporciona un marco estructurado para definir y visualizar los límites del contexto del dominio en nuestro sistema de software, así como sus interacciones con otros contextos limitados. Nos permite identificar claramente los límites del contexto del dominio, definir los términos del lenguaje ubicuo y establecer las reglas de colaboración entre los diferentes contextos.
+
+- **Account**
+
+![Bounded Context Canvases](/Images/account-bounded-context.jpg)
+
+- **Appointment**
+
+![Bounded Context Canvases](/Images/appointment-bounded-context.jpg)
+
+- **Payment**
+
+![Bounded Context Canvases](/Images/payment-bounded-context.jpg)
+
+- **Support group**
+
+![Bounded Context Canvases](/Images/support-group-bounded-context.jpg)
+
+- **Notification**
+
+![Bounded Context Canvases](/Images/notificaciones-bounded-context.jpg)
+
+- **Monitoring**
+
+![Bounded Context Canvases](/Images/monitoring-group-bounded-context.jpg)
+
+- **Chatbot**
+
+![Bounded Context Canvases](/Images/chatbot-bounded-context.jpg)
 
 ### 4.2.5. Context Mapping
 
-![context](/Images/context%20mapping.png)
+![context](/Images/context-mapping-1.jpg)
+
+![context](/Images/context-mapping-2.jpg)
 
 ## 4.3. Software Architecture
+
 ### 4.3.1. Software Architecture System Landscape Diagram
 
 El diagrama de paisaje representa la organizacion del software y su contexto de operacion. Además, se observa los componentes del siste y sus interacciones con los servicios y sistemas externos.
