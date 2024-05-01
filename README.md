@@ -1264,11 +1264,27 @@ Al revisar nuestros eventos, también nos hemos percatado de que contamos con ev
 
 ### 4.2.3. Domain Message Flows Modeling
 
-![domain](/Images/domain%20message.png)
+Usamos esta técnica para visualizar cómo los componentes del sistema se comunican entre sí mediante mensajes. Utilizamos los siguientes diagramas para representar estas interacciones, lo que nos ayuda a entender cómo funcionan los diferentes elementos del sistema y cómo se coordinan para cumplir con los objetivos del negocio. Esto nos facilita la identificación de requisitos, la toma de decisiones de diseño y la detección de posibles problemas.
+
+- **Solicitar una cita médica virtual o presencial**
+
+![domain message flows modeling](/Images/domain-message-flows-modeling-1.jpg)
+
+- **Cambiar el estado de un usuario de normal a premium**
+
+![domain message flows modeling](/Images/domain-message-flows-modeling-2.jpg)
+
+- **Unirse a grupos de apoyo emocional**
+
+![domain message flows modeling](/Images/domain-message-flows-modeling-3.jpg)
+
+- **Usar el chatbot**
+
+![domain message flows modeling](/Images/domain-message-flows-modeling-4.jpg)
 
 ### 4.2.4. Bounded Context Canvases
 
-![bounded](/Images/bounded-contexts.jpg)
+Este lienzo nos proporciona un marco estructurado para definir y visualizar los límites del contexto del dominio en nuestro sistema de software, así como sus interacciones con otros contextos limitados. Nos permite identificar claramente los límites del contexto del dominio, definir los términos del lenguaje ubicuo y establecer las reglas de colaboración entre los diferentes contextos.
 
 ### 4.2.5. Context Mapping
 ![context](/Images/context%20mapping.png)
