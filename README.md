@@ -1328,16 +1328,19 @@ Este lienzo nos proporciona un marco estructurado para definir y visualizar los 
 
 El diagrama de paisaje representa la organizacion del software y su contexto de operacion. Además, se observa los componentes del siste y sus interacciones con los servicios y sistemas externos.
 
-![landscape](/Images/landscape.png)
+![landscape](/Images/)
 
 ### 4.3.1. Software Architecture Context Level Diagrams
-![Context Level](/Images/Context%20Diagram.png)
+
+![Context Level](/Images/context-diagram.png)
+
 ### 4.3.2. Software Architecture Container Level Diagrams
-![Container Level](/Images/Container%20Diagram.png)
+
+![Container Level](/Images/)
+
 ### 4.3.3. Software Architecture Deployment Diagrams
 
-![deploymen](/Images/Deployment.png)
-
+![deploymen](/Images/)
 
 # Conclusiones y Recomendaciones 
 
