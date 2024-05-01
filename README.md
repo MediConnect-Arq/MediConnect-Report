@@ -1166,7 +1166,7 @@ Estas restricciones se han tenido en cuenta de manera integral en el diseño de 
 <tr><td colspan="2" valign="bottom">Issues:</td><td valign="bottom">Necesidad de garantizar que el chatbot proporciona respuestas precisas y útiles</td></tr>
 </table>
 
-<table><tr><th colspan="3">Scenario Refinemet for Scenario 01</th></tr>
+<table><tr><th colspan="3">Scenario Refinemet for Scenario 02</th></tr>
 <tr><td colspan="2">Scenario(s):</td><td>Encargarnos de que la aplicación sea operativa todos los dias las 24 horas</td></tr>
 <tr><td colspan="2">Business Goals:</td><td>Proporcionar un servicio ininterrumpido para conectar a jóvenes con trastornos mentales con profesionales de la salud mental.</td></tr>
 <tr><td colspan="2">Relevant Quality Attributes:</td><td><p>Disponibilidad</p><p>Confiabilidad</p><p>Seguridad</p></td></tr>
@@ -1182,31 +1182,73 @@ Estas restricciones se han tenido en cuenta de manera integral en el diseño de 
 
 ## 4.2. Strategic-Level Domain-Driven Design
 
-**Bounded Contexts Identificados**
-
-- Gestión de Usuarios: Incluye todo lo relacionado con la administración de perfiles de usuarios, tanto pacientes como médicos
-- Reserva de Citas: Permite a los usuarios reservar, cancelar y reprogramar citas con profesionales de salud mental.
-- Gestión de Sesiones de Terapia: Administra la información y seguimiento de las sesiones terapéuticas.
-- Interacciones Comunitarias: Cubre las funcionalidades de apoyo comunitario, incluyendo grupos de apoyo y foros de discusión.
-- Monitoreo y Reportes de Salud Mental: Permite a los profesionales y a los pacientes seguir la evolución de los tratamientos y el estado de salud mental.
-- Autenticación y Seguridad: Asegura el acceso a la plataforma y protege la privacidad de los datos.
-
-**Subdominios**
-
-- Subdominio Core: Gestión de Sesiones de Terapia y Monitoreo y Reportes de Salud Mental, ya que son críticos para la propuesta de valor del servicio.
-- Subdominio de Soporte: Gestión de Usuarios y Reserva de Citas, facilitan la operación pero no son diferenciadores clave.
-- Subdominio Genérico: Autenticación y Seguridad, esencial pero no específico al dominio de la salud mental, puede ser externalizado o implementado usando soluciones estándar.
-
-**Estrategias y Tácticas**
-
-- Integración y Modularidad: Asegúrate de que los sistemas pueden interactuar a través de APIs bien definidas, permitiendo flexibilidad y escalabilidad.
-- Seguridad por Diseño: Dada la sensibilidad de los datos manejados, incorpora la seguridad como una prioridad en todas las fases de diseño y desarrollo.
-- UX Orientada al Usuario: Diseña interfaces que sean intuitivas y accesibles para todos los usuarios, basándote en investigaciones y pruebas de usabilidad.
-
+Este apartado se describe los enfoques fundamentales que se implementaron en el proceso de Domain Driven Design a nivel estratégico.
 
 ### 4.2.1. EventStorming
 
-![eventstorming](/Images/eventstorminh.png)
+Se abordó un enfoque colaborativo y visual que permitió modelar el contexto del dominio.
+
+**Unstructured Exploration**
+
+En este primer paso, el equipo se reunió para compartir libremente ideas, eventos y conceptos relacionados con el dominio de nuestro problema que es conectar de manera efectiva a pacientes que buscan atención psicológica con profesionales de la salud mental. En dichas reuniones, no hubieron restricciones ni reglas específicas, lo que nos permitió una lluvia de ideas abierta y sin filtros.
+
+![eventstorming](/Images/unstructured-exploration.jpg)
+
+**Timelines**
+
+En este paso organizamos los eventos identificados en una línea de tiempo cronológica para comprender mejor el flujo de acciones y eventos en nuestro sistema. Esto nos ayudó a visualizar la secuencia temporal y las relaciones entre los diferentes eventos.
+
+![eventstorming](/Images/timelines.jpg)
+
+**Pain points**
+
+En este paso identificamos y discutimos los puntos de dolor, es decir, los problemas, obstáculos o desafíos que enfrentan nuestros usuarios y nuestro sistema en nuestro dominio del problema planteado. Esto nos ayudó a comprender las áreas problemáticas que deben abordarse.
+
+![eventstorming](/Images/pain-points.jpg)
+
+**Pivotal points**
+
+Se identificaron los eventos o momentos críticos que tienen un impacto significativo en nuestro sistema y en nuestro flujo de trabajo. Estos puntos pivote influyeron en nuestra toma de decisiones pues nos permitió identificar qué puntos deberíamos añadir o modificar.
+
+![eventstorming](/Images/pivotal-points.jpg)
+
+**Commands**
+
+Identificamos las acciones que los usuarios podrían realizar en respuesta a eventos relacionados a la problemática planteada. Estos comandos representan las acciones que desencadenan cambios en el sistema y son fundamentales para comprender el comportamiento del mismo.
+
+![eventstorming](/Images/commands.jpg)
+
+**Policies**
+
+En este paso definimos las reglas, directrices o restricciones que rigen el comportamiento de nuestro sistema en ciertos contextos o situaciones. Estas políticas nos ayudaron a establecer límites y garantizar un comportamiento coherente y predecible del sistema.
+
+![eventstorming](/Images/policies.jpg)
+
+**Read Models**
+
+Se identificaron y definieron los modelos de lectura que representan el estado actual o proyectado del sistema desde la perspectiva de nuestro usuario. Estos modelos los utilizamos para consultar y mostrar información al usuario de manera efectiva.
+
+![eventstorming](/Images/read-models.jpg)
+
+**External Systems**
+
+En este paso, identificamos los sistemas externos o componentes con los que el sistema interactúa, así como los eventos y acciones relacionadas con estas interacciones.
+
+![eventstorming](/Images/external-systems.jpg)
+
+**Aggregates**
+
+Definimos los agregados, que son conjuntos cohesivos de entidades relacionadas que se tratan como una sola unidad dentro del sistema. Estos agregados nos ayudan a organizar y gestionar la complejidad del dominio del problema.
+
+![eventstorming](/Images/aggregates.jpg)
+
+**Bounded Contexts**
+
+Finalmente, identificamos y delimitamos los contextos, que son límites conceptuales que definen el alcance y el significado de los modelos y eventos dentro de un determinado contexto en el dominio del problema. Esto nos ayudó a establecer límites claros y a garantizar una comprensión compartida del sistema entre los miembros de nuestro equipo.
+
+![eventstorming](/Images/bounded-contexts.jpg)
+
+Link del eventstorming: https://miro.com/app/board/uXjVKNRK3Nw=/?share_link_id=705649975687
 
 ### 4.2.2. Candidate Context Discovery
 
@@ -1218,13 +1260,14 @@ Estas restricciones se han tenido en cuenta de manera integral en el diseño de 
 
 ### 4.2.4. Bounded Context Canvases
 
-![bounded](/Images/bounded%20context%20canvas.jpg)
+![bounded](/Images/bounded-contexts.jpg)
 
 ### 4.2.5. Context Mapping
-
 ![context](/Images/context%20mapping.png)
 
+
 ## 4.3. Software Architecture
+
 ### 4.3.1. Software Architecture System Landscape Diagram
 
 El diagrama de paisaje representa la organizacion del software y su contexto de operacion. Además, se observa los componentes del siste y sus interacciones con los servicios y sistemas externos.
