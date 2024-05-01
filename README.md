@@ -599,17 +599,25 @@ En el As-Is Scenario Mapping analizamos al usuario antes de conocer nuestra apli
 
 ![AS-IS Scenario](/Images/as-is-especialista.jpg)
 
+Enlace de Miro: https://miro.com/app/board/uXjVKNz8_bs=/?share_link_id=917680637688
+
 ## 2.4. Ubiquitous Language
 
 
 
 # Capítulo III: Requirements Specification
+
 ## 3.1. To-Be Scenario Mapping
 
-Para realizar el To-Be Scenario Mapping hemos pasado por diversas fases y procesos para su correcta realización. Primero hemos rectificado que para brindar una mejor solución a nuestros usuarios en un futuro era necesario identificar todas las fases que realizan y cómo podemos mejorarlos en cada aspecto (doing, thinking and Feeling). Luego, revisamos el As-Is Scenario y nos enfocamos principalmente en las las áreas por negativas y blank áreas para que de esta forma nuestra solución MediConnect sí pueda satisfacer con todo lo que nuestros usuarios necesitan para su mejora en sus niveles de estrés.
+**Segmento 1: Pacientes**
 
-![TO-BE Scenario](/Images/To-be.jpg)
+![TO-BE Scenario](/Images/to-be-pacientes.jpg)
 
+**Segmento 2: Especialistas de la salud mental**
+
+![TO-BE Scenario](/Images/to-be-especialista.jpg)
+
+Enlace de Miro: https://miro.com/app/board/uXjVKNz8_bs=/?share_link_id=917680637688
 
 ## 3.2. User Stories
 
