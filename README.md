@@ -1328,7 +1328,7 @@ Este lienzo nos proporciona un marco estructurado para definir y visualizar los 
 
 El diagrama de paisaje representa la organizacion del software y su contexto de operacion. Además, se observa los componentes del siste y sus interacciones con los servicios y sistemas externos.
 
-![landscape](/Images/)
+![landscape](/Images/landscape-diagram.png)
 
 ### 4.3.1. Software Architecture Context Level Diagrams
 
@@ -1336,11 +1336,141 @@ El diagrama de paisaje representa la organizacion del software y su contexto de 
 
 ### 4.3.2. Software Architecture Container Level Diagrams
 
-![Container Level](/Images/)
+![Container Level](/Images/container-diagram.png)
 
 ### 4.3.3. Software Architecture Deployment Diagrams
 
-![deploymen](/Images/)
+![deploymen](/Images/deployment-diagram-1.png)
+
+![deploymen](/Images/deployment-diagram-2.png)
+
+# Capítulo V: Tactical-Level Software Design
+
+## 5.1. Bounded Context: Account
+
+### 5.1.1. Domain Layer.
+
+### 5.1.2. Interface Layer.
+
+### 5.1.3. Application Layer.
+
+### 5.1.4. Infrastructure Layer.
+
+### 5.1.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.1.7.2. Bounded Context Database Design Diagram.
+
+## 5.2. Bounded Context: Appointment
+
+### 5.2.1. Domain Layer.
+
+### 5.2.2. Interface Layer.
+
+### 5.2.3. Application Layer.
+
+### 5.2.4. Infrastructure Layer.
+
+### 5.2.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.2.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.2.7.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.2.7.2. Bounded Context Database Design Diagram.
+
+## 5.3. Bounded Context: Payment
+
+### 5.3.1. Domain Layer.
+
+### 5.3.2. Interface Layer.
+
+### 5.3.3. Application Layer.
+
+### 5.3.4. Infrastructure Layer.
+
+### 5.3.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.3.7.2. Bounded Context Database Design Diagram.
+
+## 5.4. Bounded Context: Monitoring
+
+### 5.4.1. Domain Layer.
+
+### 5.4.2. Interface Layer.
+
+### 5.4.3. Application Layer.
+
+### 5.4.4. Infrastructure Layer.
+
+### 5.4.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.4.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.4.7.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.4.7.2. Bounded Context Database Design Diagram.
+
+## 5.5. Bounded Context: Support group
+
+### 5.5.1. Domain Layer.
+
+### 5.5.2. Interface Layer.
+
+### 5.5.3. Application Layer.
+
+### 5.5.4. Infrastructure Layer.
+
+### 5.5.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.5.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.5.7.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.5.7.2. Bounded Context Database Design Diagram.
+
+## 5.6. Bounded Context: Chatbot
+
+### 5.6.1. Domain Layer.
+
+### 5.6.2. Interface Layer.
+
+### 5.6.3. Application Layer.
+
+### 5.6.4. Infrastructure Layer.
+
+### 5.6.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.6.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.6.7.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.6.7.2. Bounded Context Database Design Diagram.
+
+## 5.7. Bounded Context: Notifications
+
+### 5.7.1. Domain Layer.
+
+### 5.7.2. Interface Layer.
+
+### 5.7.3. Application Layer.
+
+### 5.7.4. Infrastructure Layer.
+
+### 5.7.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.7.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.7.7.1. Bounded Context Domain Layer Class Diagrams.
+
+#### 5.7.7.2. Bounded Context Database Design Diagram.
 
 # Conclusiones y Recomendaciones 
 
