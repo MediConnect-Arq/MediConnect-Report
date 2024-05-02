@@ -1742,6 +1742,23 @@ En el contexto de "Account," el Application Layer se enfoca en la creación, aut
 
 ![database](/Images/database-notification.png)
 
+# Capítulo VI: Solution UX Design
+
+## 6.1. Style Guidelines.
+### 6.1.1. General Style Guidelines.
+### 6.1.2. Web, Mobile & Devices Style Guidelines.
+## 6.2. Information Architecture.
+### 6.2.2. Labeling Systems.
+### 6.2.3. Searching Systems.
+### 6.2.4. SEO Tags and Meta Tags.
+### 6.2.5. Navigation Systems.
+## 6.3. Landing Page UI Design.
+### 6.3.1. Landing Page Wireframe.
+### 6.3.2. Landing Page Mock-up.
+## 6.4. Applications UX/UI Design.
+### 6.4.1. Applications Wireframes.
+### 6.4.2. Applications Wireflow Diagrams
+
 # Conclusiones y Recomendaciones 
 
 - La especificación de nuestro problema a partir de los 5w y 2H nos permitió reconocer e identificar la problemática que abordamos en general. Nos ayudó a implementar acciones estratégicas con el fin de que nuestra solución de software sea eficiente y abarque en todos los sentidos el problema identificado.
