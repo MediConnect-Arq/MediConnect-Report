@@ -1328,7 +1328,7 @@ Este lienzo nos proporciona un marco estructurado para definir y visualizar los 
 
 El diagrama de paisaje representa la organizacion del software y su contexto de operacion. Además, se observa los componentes del siste y sus interacciones con los servicios y sistemas externos.
 
-![landscape](/Images/)
+![landscape](/Images/landscape-diagram.png)
 
 ### 4.3.1. Software Architecture Context Level Diagrams
 
@@ -1336,11 +1336,411 @@ El diagrama de paisaje representa la organizacion del software y su contexto de 
 
 ### 4.3.2. Software Architecture Container Level Diagrams
 
-![Container Level](/Images/)
+![Container Level](/Images/container-diagram.png)
 
 ### 4.3.3. Software Architecture Deployment Diagrams
 
-![deploymen](/Images/)
+![deploymen](/Images/deployment-diagram-1.png)
+
+![deploymen](/Images/deployment-diagram-2.png)
+
+# Capítulo V: Tactical-Level Software Design
+
+## 5.1. Bounded Context: Payment
+
+### 5.1.1. Domain Layer.
+
+**Entidades de dominio**
+
+- **Subscriptions:** Representa una suscripción sobre un plan de suscripción
+- **Payments:** Representa un pago realizado por un usuario para una suscripción o para una cita médica
+- **Plans:** Representa un plan de suscripción disponible para los usuarios.
+
+**Objetos de valor**
+
+- **Izipay:** Representa un objeto de valor que contiene información sobre un pago realizado a través de Izipay
+
+**Repositorios**
+
+- **SubscriptionRepository:** Maneja la persistencia de las suscripciones
+- **PaymentRepository:** Maneja la persistencia de los pagos.
+- **PlanRepository:** Maneja la persistencia de los planes de suscripción.
+
+### 5.1.2. Interface Layer.
+
+- **PlansController:** Esta clase gestiona la configuración y visualización de los planes de suscripción disponibles en el sistema. Permite a los usuarios seleccionar, ver detalles y administrar la información de facturación y ciclos de pago asociados a los planes de suscripción.
+
+- **PaymentsController:** Este controlador se encarga de gestionar las operaciones relacionadas con los pagos realizados por los usuarios para suscripciones o citas médicas.
+
+- **SubscriptionsController:** Esta clase se encarga de gestionar las suscripciones de los usuarios. Permite a los usuarios ver sus suscripciones activas, actualizar la información de pago asociada a sus suscripciones y gestionar renovaciones automáticas o cancelaciones de suscripciones.
+
+### 5.1.3. Application Layer.
+
+En el contexto de "Payment" en MedPro, el Application Layer se centra en proporcionar una interfaz de paciente psicológico y una funcionalidad de gestión de suscripciones y pago de citas médicas. Permite a los pacientes suscribirse al servicio para acceder a funcionalidades premium; además, permite a los especialistas gestionar el progreso de sus pacientes y sus citas. Los usuarios, tanto pacientes como especialistas pueden crear y cancelar suscripciones a través de esta interfaz, y el Application Layer se comunica con la API de Izipay para garantizar una facturación adecuada. Además, se generan notificaciones y eventos para mantener a los usuarios informados sobre el estado de sus suscripciones y sus pagos.
+
+**Command Handlers**
+
+- **CreateSubscriptionCommandHandler:** Este command handler procesa la creación de una nueva suscripción de usuario (paciente o especialista) de MedPro. Cuando se recibe un comando para crear una suscripción, este componente interactúa con la API de Izipay para configurar el pago y, una vez se confirme, actualiza el estado de la suscripción en la base de datos.
+- **CancelSubscriptionCommandHandler:** El command handler de cancelación de suscripciones se encarga de procesar las solicitudes de cancelación de suscripciuones por parte de los usuarios (paciente o especialista). Trabaja en conjunto con la API de Izipay para detener los pagos recurrentes y actualiza el estado de la suscripción correspondiente.
+- **AppointmentPaymentCommandHandler**: Este command handler procesa la solicitud de pago de una cita médica del usuario paciente. Cuando se recibe un comando para realizar el pago, este componente interactúa con la API de Izipay para configurar el pago y, una vez se confirme, actualiza el estado de la cita médica en la base de datos.
+- **CancelAppointmentPaymentCommandHandler**: El command handler de cancelación de cita médica se encarga de procesar las solicitudes de cancelación de pago de citas médicas por parte de los usuarios pacientes. Trabaja en conjunto con la API de Izipay para realizar la devolución correspondiente del pago previamente hecho.
+
+**Event Handlers**
+
+- **PaymentConfirmedEventHandler**: Este event handler responde a eventos que confirman el pago existoso de una suscripción o una cita médica. Cuando se recibe un evento de pago confirmado, este componente actualiza el estado de la suscripción en la base de datos y genera eventos adicionales relacionados con la facturación del usuario y la gestión de suscripciones y citas médicas.
+- **SubscriptionCancelledEventHandler**: El event handler de cancelación de suscripciones maneja eventos que indican que una suscripción ha sido cancelada. Cuando se recibe un evento de este tipo, se actualiza el estado de la suscripción en la base de datos y se emiten eventos de notificación correspondientes a los usuarios.
+- **AppointmentPaymentCancelledEventHandler**: El event handler de devolución de pago de cita médica maneja eventos que indican que una cita médica ha sido cancelada. Cuando se recibe un evento de este tipo, se actualiza el estado de la cita médica en la base de datos y se emiten eventos de notificación correspondientes a los usuarios.
+
+### 5.1.4. Infrastructure Layer.
+
+Dentro de esta capa definimos principalmente los esquemas de las entidades de la capa de dominio para un correcto manejo de la base de datos.
+
+**Integración con proveedores de pagos externos**: Se establecerán conexiones y se implementarán adaptadores para interactuar con proveedores de servicios de pago externos, en nuestro caso, nuestro proveedor será Izipay.
+
+**Gestión de bases de datos**:  Incluirá la configuración y gestión de la base de datos relacionadas con las suscripciones y pagos. Esto abarca la creación de tablas de base de datos, la implementación de almacenamiento en caché para mejorar el rendimiento y la gestión de copias de seguridad de datos sensibles.
+
+**Seguridad**: Esta capa se encargará de la seguridad relacionada con las transacciones de pago. Esto podría incluir la implementación de medidas de seguridad como SSL/TLS para cifrar las comunicaciones, la gestión de tokens de seguridad y la detección de fraudes.
+
+### 5.1.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
+
+![class diagram](/Images/class-payment.png)
+
+#### 5.1.7.2. Bounded Context Database Design Diagram.
+
+![database](/Images/database-payment.png)
+
+## 5.2. Bounded Context: Appointment
+
+### 5.2.1. Domain Layer.
+
+**Entidades de dominio**
+
+- **Appointment:** Representa una cita médica solicitada por un paciente y aceptada por un médico especialista.
+- **Prescription:** Representa una receta médica emitida por un médico como resultado de una cita.
+- **Diagnosis:** Representa un diagnóstico médico realizado por un médico durante una cita.
+- **AppointmentStatus:** Representa el estado actual de una cita médica (por ejemplo, pendiente, confirmada, cancelada, completada, etc.).
+
+**Objetos de valor**
+
+- **Note:** Representa una nota tomada durante una consulta médica.
+
+**Repositorios**
+
+- **AppointmentRepository:** Maneja la persistencia de las citas médicas.
+- **PrescriptionRepository:** Maneja la persistencia de las recetas médicas.
+- **DiagnosisRepository:** Maneja la persistencia de los diagnósticos médicos.
+- **AppointmentStatusRepository:** Maneja la persistencia de los estados de las citas médicas.
+
+### 5.2.2. Interface Layer.
+
+- **AppointmentsController:** Este controlador gestiona las operaciones relacionadas con las citas médicas, incluida la solicitud de citas, la visualización de citas programadas, la cancelación de citas y la visualización de historiales de citas anteriores.
+- **PrescriptionsController:** Este controlador gestiona las operaciones relacionadas con las recetas médicas, incluida la emisión de nuevas recetas y la visualización de recetas anteriores.
+- **DiagnosesController:** Este controlador gestiona las operaciones relacionadas con los diagnósticos médicos, incluida la creación de nuevos diagnósticos y la visualización de diagnósticos anteriores.
+
+### 5.2.3. Application Layer.
+
+**Command Handlers**
+
+- **RequestAppointmentCommandHandler:** Este command handler procesa las solicitudes de cita médica enviadas por los pacientes. Cuando se recibe una solicitud de cita, este componente verifica la disponibilidad del médico especialista y reserva la cita en el sistema.
+- **AcceptAppointmentCommandHandler:** El command handler de aceptación de citas procesa las solicitudes de aceptación de citas enviadas por los médicos especialistas. Cuando se recibe una solicitud de aceptación de cita, este componente actualiza el estado de la cita en el sistema a "confirmada".
+- **CancelAppointmentCommandHandler:** El command handler de cancelación de citas procesa las solicitudes de cancelación de citas enviadas por los pacientes o los médicos especialistas. Cuando se recibe una solicitud de cancelación de cita, este componente actualiza el estado de la cita en el sistema a "cancelada".
+- **CompleteAppointmentCommandHandler:** El command handler de finalización de citas procesa las solicitudes de finalización de citas enviadas por los médicos especialistas. Cuando se recibe una solicitud de finalización de cita, este componente actualiza el estado de la cita en el sistema a "completada".
+
+**Event Handlers**
+
+- **AppointmentCancelledEventHandler:** Este event handler responde a eventos que indican que una cita ha sido cancelada. Cuando se recibe un evento de cancelación de cita, este componente actualiza el estado de la cita en el sistema y notifica a los usuarios afectados.
+- **AppointmentCompletedEventHandler:** Este event handler responde a eventos que indican que una cita ha sido completada. Cuando se recibe un evento de finalización de cita, este componente actualiza el estado de la cita en el sistema y notifica a los usuarios afectados.
+
+### 5.2.4. Infrastructure Layer.
+
+**Gestión de bases de datos:** Se incluirá la configuración y gestión de la base de datos relacionadas con las citas médicas, diagnósticos y recetas. Esto abarca la creación de tablas de base de datos, la implementación de almacenamiento en caché para mejorar el rendimiento y la gestión de copias de seguridad de datos sensibles.
+
+**Seguridad:** Similar a la capa de infraestructura del contexto de pago, se encargará de la seguridad relacionada con las citas médicas. Esto podría incluir medidas de seguridad como cifrado de datos, autenticación de usuarios y protección contra amenazas de seguridad.
+
+### 5.2.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.2.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.2.7.1. Bounded Context Domain Layer Class Diagrams.
+
+![class](/Images/class-appointment.png)
+
+#### 5.2.7.2. Bounded Context Database Design Diagram.
+
+![database](/Images/database-appointment.png)
+
+## 5.3. Bounded Context: Account
+
+### 5.3.1. Domain Layer.
+
+**Entidades de dominio**
+
+- **Account:** Representa una cuenta de usuario en el sistema.
+- **PatientProfile:** Representa un perfil de un paciente en el sistema.
+- **PsychologistProfile:** Representa un perfil de un especialista en la salud mental en el sistema.
+
+**Agregados**
+
+- **Autenticador:** Maneja la autenticación de los usuarios, verificando sus credenciales y emitiendo tokens de acceso.
+- **Autorizador:** Maneja la autorización de los usuarios, verificando que tienen los permisos necesarios para realizar una acción en el sistema
+
+**Repositorios**
+
+- **AccountRepository:** Maneja la persistencia de las cuentas de usuario.
+- **PatientProfileRepository:** Maneja la persistencia de los perfiles de pacientes.
+- **PsychologistProfileRepository:** Maneja la persistencia de los perfiles de especialistas en la salud mental.
+
+### 5.3.2. Interface Layer.
+
+- **PatientAccountController:** El PatientAccountController maneja las operaciones relacionadas con la gestión de cuentas de pacientes, como la creación de cuentas, la autenticación y el cierre de sesiones.
+
+- **PsychologistAccountController:** El PsychologistAccountController maneja las operaciones relacionadas con la gestión de cuentas de especialistas en la salud mental, como la creación de cuentas, la autenticación y el cierre de sesiones.
+
+- **UserController:** Esta clase maneja las operaciones de gestión de usuarios, incluyendo el registro, autenticación, actualización de perfiles y eliminación de cuentas.
+
+- **UserProfileController:** El UserProfileController está encargado de las operaciones específicas relacionadas con los perfiles de usuario, como la actualización de la información personal del usuario.
+
+### 5.3.3. Application Layer.
+
+En el contexto de "Account," el Application Layer se enfoca en la creación, autenticación y la autorización de usuarios (pacientes y especialistas). Proporciona una interfaz de inicio de sesión y registro para los usuarios, donde pueden ingresar sus credenciales de manera segura. El Application Layer verifica la identidad de los usuarios y garantiza que tengan acceso solo a las funciones y los datos apropiados según sus permisos. Además, se gestionan eventos relacionados con la autenticación, como el inicio de sesión exitoso, para proporcionar una experiencia segura y efectiva.
+
+**Command Handlers:**
+
+- **RegisterUserCommandHandler:** Procesa la creación de nuevas cuentas de usuario en MedPro. Cuando un usuario se registra, este componente crea una cuenta y gestiona las credenciales asociadas de acuerdo al tipo de usuario registrado.
+- **AuthenticateUserCommandHandler:** Se encarga de verificar las credenciales de inicio de sesión de los usuarios. Permite el acceso a las funciones de la aplicación después de una autenticación exitosa.
+
+**Event Handlers:**
+
+- **UserLoggedInEventHandler:** Responde a eventos que indican un inicio de sesión exitoso por parte de un usuario. Actualiza el estado de la sesión del usuario y genera eventos adicionales relacionados con la autenticación.
+- **PermissionsUpdatedEventHandler:** Maneja eventos que indican cambios en los permisos de usuario. Cuando se producen cambios en los permisos, este componente actualiza el estado de la autorización y emite eventos de seguridad correspondientes.
+
+### 5.3.4. Infrastructure Layer.
+
+**Integración con proveedores de correo electrónico externos:** Se establecerán conexiones y se implementarán adaptadores para interactuar con proveedores de servicios de correo electrónico externos, como Gmail, Outlook, o proveedores de autenticación por correo electrónico. Esto incluye la configuración con el servicio externo EmailJS, la gestión de tokens de autenticación y la interacción con los servicios de envío y recepción de correos electrónicos. Además, se implementará la autenticación con Firebase Auth para gestionar la identidad de los usuarios y garantizar un acceso seguro a la aplicación. Esto incluirá la configuración de Firebase Auth, la gestión de tokens de autenticación y la integración con los servicios de autenticación por correo electrónico de Firebase.
+
+### 5.3.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
+
+![class diagram](/Images/class-user.png)
+
+#### 5.3.7.2. Bounded Context Database Design Diagram.
+
+![database](/Images/database-account.png)
+
+## 5.4. Bounded Context: Monitoring
+
+### 5.4.1. Domain Layer.
+
+**Entidades de dominio**
+
+- **EmotionalEntry:** Representa una entrada que registra las emociones del paciente en un momento específico.
+- **ProgressNote:** Representa una nota que registra el progreso del paciente en un momento específico.
+
+**Objetos de valor**
+
+- **Emotion:** Representa una emoción específica experimentada por el paciente en una entrada emocional.
+- **Progress:** Representa el progreso general del paciente, incluyendo métricas como puntajes de bienestar, niveles de estrés, etc.
+
+**Repositorios**
+
+- **EmotionalEntryRepository:** Maneja la persistencia de las entradas emocionales del paciente.
+- **ProgressNoteRepository:** Maneja la persistencia de las notas de progreso del paciente.
+
+### 5.4.2. Interface Layer.
+
+- **EmotionalEntriesController:** Este controlador gestiona las operaciones relacionadas con las entradas emocionales del paciente, incluyendo la creación de nuevas entradas, la visualización de entradas anteriores y la generación de informes sobre el estado emocional del paciente a lo largo del tiempo.
+
+- **ProgressNotesController:** Este controlador gestiona las operaciones relacionadas con las notas de progreso del paciente, incluyendo la creación de nuevas notas, la visualización de notas anteriores y la generación de informes sobre el progreso del paciente a lo largo del tiempo.
+
+### 5.4.3. Application Layer.
+
+**Command Handlers**
+
+- **RecordEmotionalEntryCommandHandler:** Este command handler procesa las solicitudes para registrar una nueva entrada emocional del paciente. Cuando se recibe un comando para registrar una entrada emocional, este componente valida los datos proporcionados y los guarda en la base de datos.
+- **CreateProgressNoteCommandHandler:** El command handler para crear notas de progreso procesa las solicitudes para crear una nueva nota de progreso para el paciente. Cuando se recibe un comando para crear una nota de progreso, este componente valida los datos proporcionados y los guarda en la base de datos.
+
+**Event Handlers**
+
+- **EmotionalEntryCreatedEventHandler:** Este event handler responde a eventos que indican que se ha creado una nueva entrada emocional. Puede desencadenar acciones adicionales, como la generación de informes o el envío de notificaciones al paciente o al médico.
+- **ProgressNoteCreatedEventHandler:** Este event handler responde a eventos que indican que se ha creado una nueva nota de progreso. Puede desencadenar acciones adicionales, como la actualización de métricas de progreso o la generación de informes.
+
+### 5.4.4. Infrastructure Layer.
+
+**Gestión de bases de datos:** Se incluirá la configuración y gestión de la base de datos relacionada con las entradas emocionales del paciente y las notas de progreso. Esto abarca la creación de tablas de base de datos, la implementación de almacenamiento en caché para mejorar el rendimiento y la gestión de copias de seguridad de datos sensibles.
+
+**Seguridad:** Esta capa se encargará de la seguridad relacionada con los datos del paciente, incluida la protección de la información confidencial de salud. Esto podría incluir medidas como cifrado de datos, autenticación de usuarios y auditoría de accesos para garantizar la privacidad y la integridad de los datos del paciente.
+
+### 5.4.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.4.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.4.7.1. Bounded Context Domain Layer Class Diagrams.
+
+![class](/Images/class-monitoring.png)
+
+#### 5.4.7.2. Bounded Context Database Design Diagram.
+
+![database](/Images/database-monitoring.png)
+
+## 5.5. Bounded Context: Support group
+
+### 5.5.1. Domain Layer.
+
+**Entidades de dominio**
+
+- **SupportGroup:** Representa un grupo de apoyo donde los pacientes pueden unirse para compartir experiencias, emociones, progreso y recibir consejos.
+- **GroupMember:** Representa un miembro de un grupo de apoyo, que puede ser un paciente que se ha unido al grupo.
+- **GroupMessage:** Representa un mensaje enviado dentro de un grupo de apoyo, que puede contener información sobre emociones, progreso, consejos, etc.
+
+**Repositorios**
+
+- **SupportGroupRepository:** Maneja la persistencia de los grupos de apoyo.
+- **GroupMemberRepository:** Maneja la persistencia de los miembros de los grupos de apoyo.
+- **GroupMessageRepository:** Maneja la persistencia de los mensajes enviados en los grupos de apoyo.
+
+### 5.5.2. Interface Layer.
+
+- **SupportGroupsController:** Este controlador gestiona las operaciones relacionadas con los grupos de apoyo, incluyendo la creación de nuevos grupos, la visualización de grupos existentes, la unión a grupos y la administración de la membresía en los grupos.
+- **GroupMembersController:** Este controlador gestiona las operaciones relacionadas con los miembros de los grupos de apoyo, incluyendo la visualización de miembros, la adición de nuevos miembros y la eliminación de miembros.
+- **GroupMessagesController:** Este controlador gestiona las operaciones relacionadas con los mensajes dentro de los grupos de apoyo, incluyendo el envío de nuevos mensajes, la visualización de mensajes anteriores y la gestión de la conversación en el grupo.
+
+### 5.5.3. Application Layer.
+
+**Command Handlers**
+
+- **CreateSupportGroupCommandHandler:** Este command handler procesa las solicitudes para crear un nuevo grupo de apoyo. Cuando se recibe un comando para crear un grupo de apoyo, este componente valida los datos proporcionados y los guarda en la base de datos.
+- **JoinSupportGroupCommandHandler:** El command handler para unirse a grupos de apoyo procesa las solicitudes de los pacientes para unirse a un grupo de apoyo existente. Cuando se recibe un comando para unirse a un grupo, este componente valida la membresía y actualiza la base de datos.
+- **SendMessageToGroupCommandHandler:** Este command handler procesa las solicitudes para enviar un nuevo mensaje dentro de un grupo de apoyo. Cuando se recibe un comando para enviar un mensaje, este componente valida los datos proporcionados y los guarda en la base de datos.
+
+**Event Handlers**
+
+- **SupportGroupCreatedEventHandler:** Este event handler responde a eventos que indican que se ha creado un nuevo grupo de apoyo. Puede desencadenar acciones adicionales, como notificar a los miembros existentes sobre el nuevo grupo.
+- **MemberJoinedGroupEventHandler:** Este event handler responde a eventos que indican que un paciente se ha unido a un grupo de apoyo. Puede desencadenar acciones adicionales, como actualizar la lista de miembros del grupo y notificar a otros miembros sobre el nuevo miembro.
+- **MessageSentToGroupEventHandler:** Este event handler responde a eventos que indican que se ha enviado un nuevo mensaje dentro de un grupo de apoyo. Puede desencadenar acciones adicionales, como actualizar la conversación en el grupo y notificar a los miembros sobre el nuevo mensaje.
+
+### 5.5.4. Infrastructure Layer.
+
+**Integración con servicios de mensajería y notificaciones:** Se establecerán conexiones y se implementarán adaptadores para interactuar con proveedores de servicios de correo electrónico externos, como Gmail, Outlook, o proveedores de autenticación por correo electrónico. Esto incluye la configuración con el servicio externo EmailJS.
+
+**Gestión de bases de datos:** Se incluirá la configuración y gestión de la base de datos relacionada con los grupos de apoyo, los miembros de los grupos y los mensajes enviados en los grupos. Esto abarca la creación de tablas de base de datos, la implementación de almacenamiento en caché para mejorar el rendimiento y la gestión de copias de seguridad de datos sensibles.
+
+**Seguridad:** Esta capa se encargará de la seguridad relacionada con los datos de los pacientes y los mensajes dentro de los grupos de apoyo. Esto podría incluir medidas como cifrado de datos, autenticación de usuarios y control de acceso para garantizar la privacidad y la integridad de la información.
+
+### 5.5.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.5.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.5.7.1. Bounded Context Domain Layer Class Diagrams.
+
+![class](/Images/class-support-group.png)
+
+#### 5.5.7.2. Bounded Context Database Design Diagram.
+
+![database](/Images/database-support-group.png)
+
+## 5.6. Bounded Context: Chatbot
+
+### 5.6.1. Domain Layer.
+
+**Entidades de dominio**
+
+- **ChatbotConversation:** Representa una conversación entre el paciente y el chatbot.
+- **ChatbotMessage:** Representa un mensaje enviado dentro de una conversación con el chatbot.
+
+**Repositorios**
+
+- **ChatbotConversationRepository:** Maneja la persistencia de las conversaciones entre el paciente y el chatbot.
+- **ChatbotMessageRepository:** Maneja la persistencia de los mensajes enviados dentro de las conversaciones.
+
+### 5.6.2. Interface Layer.
+
+- **ChatbotController:** Este controlador gestiona las operaciones relacionadas con el chatbot, incluyendo el procesamiento de mensajes entrantes, la generación de respuestas y el mantenimiento del estado de la conversación.
+
+### 5.6.3. Application Layer.
+
+**Command Handlers**
+
+- **StartChatbotConversationCommandHandler:** Este command handler procesa las solicitudes de inicio de conversación con el chatbot. Cuando se recibe un comando para iniciar una conversación, este componente crea una nueva conversación en la base de datos.
+- **SendMessageToChatbotCommandHandler:** Este command handler procesa las solicitudes para enviar mensajes al chatbot dentro de una conversación. Cuando se recibe un comando para enviar un mensaje, este componente valida los datos proporcionados y los guarda en la base de datos.
+
+**Event Handlers**
+
+- **ChatbotMessageReceivedEventHandler:** Este event handler responde a eventos que indican que se ha recibido un nuevo mensaje del paciente dentro de una conversación con el chatbot. Puede desencadenar acciones adicionales, como el procesamiento del mensaje y la generación de una respuesta por parte del chatbot.
+
+### 5.6.4. Infrastructure Layer.
+
+**Integración con servicios de procesamiento de lenguaje natural (NLP):** Se establecerán conexiones y se implementarán adaptadores para interactuar con servicios de NLP externos, en nuestro caso Dialogflow, para procesar los mensajes del paciente y generar respuestas relevantes. Esto incluirá la configuración de la API del proveedor externo, la gestión de tokens de autenticación y la implementación de lógica para enviar y recibir mensajes.
+
+**Gestión de bases de datos:** Se incluirá la configuración y gestión de la base de datos relacionada con las conversaciones del chatbot y los mensajes enviados dentro de las conversaciones. Esto abarca la creación de tablas de base de datos, la implementación de almacenamiento en caché para mejorar el rendimiento y la gestión de copias de seguridad de datos sensibles.
+
+**Seguridad:** Esta capa se encargará de la seguridad relacionada con las conversaciones del chatbot y los datos del paciente. Esto podría incluir medidas como cifrado de datos, autenticación de usuarios y control de acceso para garantizar la privacidad y la integridad de la información.
+
+### 5.6.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.6.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.6.7.1. Bounded Context Domain Layer Class Diagrams.
+
+![class](/Images/class-chatbot.png)
+
+#### 5.6.7.2. Bounded Context Database Design Diagram.
+
+![database](/Images/database-chatbot.png)
+
+## 5.7. Bounded Context: Notifications
+
+### 5.7.1. Domain Layer.
+
+**Entidades de dominio**
+
+- **Notification:** Representa una notificación enviada a un usuario (paciente o especialista) en la aplicación.
+- **NotificationRecipient:** Representa un destinatario de una notificación, que puede ser un paciente o un especialista.
+
+**Repositorios**
+
+- **NotificationRepository:** Maneja la persistencia de las notificaciones enviadas en la aplicación.
+- **NotificationRecipientRepository:** Maneja la persistencia de los destinatarios de las notificaciones.
+
+### 5.7.2. Interface Layer.
+
+- **NotificationsController:** Este controlador gestiona las operaciones relacionadas con las notificaciones, incluyendo la visualización de notificaciones recibidas, la gestión de preferencias de notificación y la marcación de notificaciones como leídas o eliminadas.
+
+### 5.7.3. Application Layer.
+
+**Command Handlers**
+
+- **SendNotificationCommandHandler:** Este command handler procesa las solicitudes para enviar una nueva notificación a un usuario específico. Cuando se recibe un comando para enviar una notificación, este componente valida los datos proporcionados y los guarda en la base de datos.
+
+**Event Handlers**
+
+- **NotificationSentEventHandler:** Este event handler responde a eventos que indican que se ha enviado una nueva notificación a un usuario. Puede desencadenar acciones adicionales, como el envío de correos electrónicos o mensajes de texto para notificar al usuario sobre la nueva notificación.
+
+### 5.7.4. Infrastructure Layer.
+
+**Integración con servicios de mensajería:** Se establecerán conexiones y se implementarán adaptadores para interactuar con servicios de mensajería externos, como EmailJS, para enviar notificaciones a los usuarios. Esto incluirá la configuración de la API del proveedor externo, la gestión de tokens de autenticación y la implementación de lógica para enviar y recibir notificaciones.
+
+**Gestión de bases de datos:** Se incluirá la configuración y gestión de la base de datos relacionada con las notificaciones enviadas y los destinatarios de las notificaciones. Esto abarca la creación de tablas de base de datos, la implementación de almacenamiento en caché para mejorar el rendimiento y la gestión de copias de seguridad de datos sensibles.
+
+**Seguridad:** Esta capa se encargará de la seguridad relacionada con el envío y recepción de notificaciones en la aplicación. Esto podría incluir medidas como cifrado de datos, autenticación de usuarios y control de acceso para garantizar la privacidad y la integridad de la información de las notificaciones.
+
+### 5.7.6. Bounded Context Software Architecture Component Level Diagrams.
+
+### 5.7.7. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 5.7.7.1. Bounded Context Domain Layer Class Diagrams.
+
+![class](/Images/class-notification.png)
+
+#### 5.7.7.2. Bounded Context Database Design Diagram.
+
+![database](/Images/database-notification.png)
 
 # Conclusiones y Recomendaciones 
 
