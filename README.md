@@ -36,7 +36,10 @@
 | 1.2  | 11/04/2024 | Dennis Quevedo | Completar contenido ya tenido en todos los capítulos |
 | 1.3  | 12/04/2024 | Todos los participantes | Completar contenido que se tenia que modificar, además de finalizar otros nuevos puntos |
 | 1.4  | 13/04/2024 | Todos los participantes | Mejora continua del trabajo antes de poder enviar | 
-| 2.0  | 29/04/2024 | Andrea Alfaro | Corrección y revisión del capítulo I | 
+| 2.0  | 29/04/2024 | Andrea Alfaro | Corrección y revisión del capítulo I, II y III | 
+| 2.1  | 30/04/2024 | Andrea Alfaro | Corrección y revisión del capítulo IV | 
+| 2.2  | 01/05/2024 | Andrea Alfaro | Elaboración del capítulo V | 
+| 2.3  | 02/05/2024 | Andrea Alfaro | Elaboración del capítulo VI | 
 
 ## Project Report Collaboration Insights 
 **Enlace del Project Report:** [https://github.com/MediConnect-Arq/MediConnect-Report/tree/main] 
