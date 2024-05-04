@@ -1438,6 +1438,8 @@ Dentro de esta capa definimos principalmente los esquemas de las entidades de la
 
 ### 5.1.6. Bounded Context Software Architecture Component Level Diagrams.
 
+![payment](Images/payment%20bounded%20context.jpeg)
+
 ### 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
@@ -1497,6 +1499,8 @@ Dentro de esta capa definimos principalmente los esquemas de las entidades de la
 **Seguridad:** Similar a la capa de infraestructura del contexto de pago, se encargará de la seguridad relacionada con las citas médicas. Esto podría incluir medidas de seguridad como cifrado de datos, autenticación de usuarios y protección contra amenazas de seguridad.
 
 ### 5.2.6. Bounded Context Software Architecture Component Level Diagrams.
+
+![appoinment2](Images/appointment.jpeg)
 
 ### 5.2.7. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -1670,6 +1674,8 @@ En el contexto de "Account," el Application Layer se enfoca en la creación, aut
 
 ### 5.5.6. Bounded Context Software Architecture Component Level Diagrams.
 
+![support5](Images/support%20group.jpeg)
+
 ### 5.5.7. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 5.5.7.1. Bounded Context Domain Layer Class Diagrams.
@@ -1779,21 +1785,88 @@ En el contexto de "Account," el Application Layer se enfoca en la creación, aut
 
 # Capítulo VI: Solution UX Design
 
-## 6.1. Style Guidelines.
+## 6.1. Style Guidelines
 
-### 6.1.1. General Style Guidelines.
+### 6.1.1. General Style Guidelines
 
 Para nuestra paleta de colores, hemos seleccionado tonos que evocan una sensación de confianza y profesionalismo. El color primario transmite una sensación de seguridad y fiabilidad, mientras que el color secundario añade un toque de optimismo y claridad a nuestra interfaz. El color terciario aporta un elemento de calidez y vitalidad. Además de nuestra paleta de colores, hemos definido una tipografía clara y legible que refuerza la experiencia del usuario. Nuestro sistema de iconografía utiliza símbolos intuitivos y reconocibles para mejorar la navegación y comprensión de la interfaz. El sistema de cuadrícula garantiza una disposición ordenada y consistente de los elementos en la pantalla, mientras que el espaciado adecuado proporciona una experiencia visual equilibrada y agradable. Para los selectores, botones y elementos grandes y pequeños, hemos establecido estilos coherentes que aseguran una experiencia de usuario uniforme en toda la aplicación.
 
-### 6.1.2. Web, Mobile & Devices Style Guidelines.
+**COLORS**
+Los colores que utilizaremos para nuestro sistema web son colores fresco y limpios que transmitan sensaciones de confianza y profesionalismo con nuestro trabajo.
+- Azul: Transmite confianza, tranquilidad. Es un color comúnmente utilizado en la industria psicológica
+- Celeste: Tranmite armonía y serenidad. Lo relacionamos con la salud y la naturaleza.
+- Blanco: Transmite neutralidad, limpieza, pureza y simplicidad. Se usa comunmente en entornos médico.
+- Verde: Resalta opciones de equilibrio en los procesos
 
-## 6.2. Information Architecture.
+| Nombre del Color | Código | Color |
+| -- | -- | -- | 
+| Azul | #0077B5 | ![azul](Images/Color%20Azul.png) | 
+| Celeste | #B1FFFF | ![celeste](Images/Color%20Celeste.png) |
+| Blanco | #FFFFFF | ![Blanco](Images/Color%20Blanco.png) | 
+| Verde | #90EE90 | ![Verde](Images/Color%20Verde.png) |
+
+**TIPOGRAFIA**
+En cuanto al diseño de letra lo más recomiendo es utilizar una fuente clara y legible que sea fácil de leer tanto en pantallas como en impresiones. Algunas opciones que podrías considerar son:
+ 
+-    Arial
+-    Helvatica
+-    Calibri
+-    Verdana
+
+| Tipo de Letra Elegida | Tipo de Fuente | Tamaño | Modelo |
+| -- | -- | -- | -- |
+| Arial | sans-serif | 16 px | ![arial](Images/arial.png) |
+
+### 6.1.2. Web, Mobile & Devices Style Guidelines
+
+**COLORS**
+Los colores que utilizaremos para nuestro sistema web son colores fresco y limpios que transmitan sensaciones de confianza y profesionalismo con nuestro trabajo.
+- Azul: Transmite confianza, tranquilidad. Es un color comúnmente utilizado en la industria psicológica
+- Celeste: Tranmite armonía y serenidad. Lo relacionamos con la salud y la naturaleza.
+- Blanco: Transmite neutralidad, limpieza, pureza y simplicidad. Se usa comunmente en entornos médico.
+- Verde: Resalta opciones de equilibrio en los procesos
+
+**TIPOGRAFIA**
+- Para los títulos y Subtítulos: Se utilizará la tipografía Monserrat
+
+| Tipo de Letra | Uso | Tamaño |  Modelo |
+| -- | -- | -- | -- |
+| Monserrat Black | Título | 28-36px | ![MBlack](Images/MBlack.png) |
+| Monserrat Medium | Subtítulo | 18-24px | ![MMedium](Images/MMedium.png) | 
+
+- Para los textos de la página web
+
+| Tipo de Letra | Uso | Tamaño |  Modelo |
+| -- | -- | -- | -- |
+| Helvetica Light | Texto principal | 16-20px | ![Helvetica](Images/HLight.jpg) |
+| Helvetica Light | Texto secundario | 14-18px | ![Helvetica](Images/HLight.jpg) | 
+
+**IMAGENES**
+
+- Imágenes primarias: Para las imágenes primarias es recomendable usar un tamaño de 1200 x 1000 píxeles dado que son las más llamativas. Además, un borde redondeado como se muestra en la siguiente referencia
+
+![Image](Images/1Image.png)
+ 
+
+- Imágenes secundarias: Para las imágenes primarias es recomendable usar un tamaño de 800x600 píxeles dado que son complementarias. Además, un borde redondeado como se muestra en la siguiente referencia
+ 
+![2Image](Images/2Image.png)
+ 
+- Botones: En este caso serán de 48px de altura y un ancho que se adecue al texto además bordes redondeados para una visión más sencilla y llamativa al usuario
+
+![Botones](Images/Botones.png)
+
+- Etiquetas de texto: En este caso serán de 32px de altura y un ancho que se adecue al texto que escriba el usuario además del uso de bordes redondeados 
+
+![Etiquetas](Images/Etiquetas.png)
+
+## 6.2. Information Architecture
 
 ### 6.2.1 Organization Systems
 
 **Visual:** Para este campo se decidio una organización jerárquica. Es decir, nos centramos en el diseño de elementos visuales que facilitan la comprensión de la información de manera intuitiva. Los elementos de mayor tamaño representan la jerarquía de primer nivel captando la atención inicial de nuestros usuarios, como el logo, títulos destacados y botones principales. Los elementos de segundo nivel complementan a los de primer orden e incluyen subtítulos, descripciones y campos de entrada de información. Por último, en el tercer nivel, se encuentran elementos independientes o complementarios, como el icono de búsqueda y las imágenes de perfil. Este enfoque garantiza una experiencia de usuario fluida y facilita la navegación intuitiva a través de nuestra plataforma.
 
-### 6.2.2. Labeling Systems.
+### 6.2.2. Labeling Systems
 
 En nuestra interfaz de usuario, empleamos varios sistemas de etiquetado para mejorar la comprensión y la navegación del usuario:
 
@@ -1803,11 +1876,47 @@ En nuestra interfaz de usuario, empleamos varios sistemas de etiquetado para mej
 
 Estos sistemas de etiquetado se implementan de manera coherente en toda nuestra interfaz, incluida la barra de navegación de nuestro mockup, para garantizar una experiencia de usuario intuitiva y sin confusiones.
 
-### 6.2.3. Searching Systems.
+### 6.2.3. Searching Systems
 
-### 6.2.4. SEO Tags and Meta Tags.
+El sistema de búsqueda que se plantea implementar en “MediConnect”, les permitirá a los usuarios comprender de forma sencilla como acceder a las diferentes interfaces que nuestra página web posea.
 
-### 6.2.5. Navigation Systems.
+**Vista Médico**
+
+| Nombre del Filtro | Descripción | 
+| -- | -- |
+| Pacientes | En este apartado verá los pacientes que tiene y hace seguimiento | 
+| Schedule | Aquí podra registrar las citas para que los pacientes lo vean | 
+
+**Vista Paciente** 
+
+| Nombre del Filtro | Descripción | 
+| -- | -- |
+| Médico Virtual | Podra agendar una cita pero a larga distancia | 
+| Médico Presencial | Podrá agendar una cita en consultorio | 
+| Médicos | Podra ver los médicos que tenemos | 
+| Farmacia | Dirigido a pacientes psiquiatricos que necesiten una medicación | 
+| Historial | Podrá ver su progreso |
+
+### 6.2.4. SEO Tags and Meta Tags
+
+Los metas tags son un factor importante al momento de llegar a más audiencia debido a las búsquedas monitoreadas por robots en internet, por lo que MediConnect hace un buen uso de estos para que podamos aparecer en las primeras búsquedas y llamar la atención de más público.
+
+**Title tag**
+El title tag será lo primero que verán los usuarios al momento que aparezcamos en su búsqueda por internet, por eso tratamos de describir nuestro objetivo de manera llamativa
+ 
+```<title>MediConnect - Tu salud no es un juego es nuestra prioridad</title>```
+ 
+**Meta description tag**
+Usamos el meta description tag para que en los usuarios que busquen nuestra aplicación por internet tengan una breve descripción de nuestra página en el mismo navegador
+
+```<meta name="description" content="Mediconnect es una página web que conecta a personas con medicos de la salud mental"/>```
+
+**Autor y Derechos de Autor** 
+Se utiliza para registrar la información del grupo de la página web y la propiedad y derechos de autor. 
+
+```<meta name="author" content="MediConnect" /><meta name="copyright" content="Copyright MediConnectteam"/>```
+
+### 6.2.5. Navigation Systems
 
 A través de nuestras aplicaciones, hemos implementado sistemas de navegación que permiten a los usuarios moverse de manera intuitiva y eficiente por todas las secciones disponibles. Esto se logra mediante:
 
@@ -1847,7 +1956,7 @@ En relación a nuestra arquitectura de la información, se plantea:
 - **Agrupación lógica:** Los elementos relacionados se agruparán de manera lógica para facilitar la comprensión.
 - **Etiquetado claro:** Los elementos se etiquetarán de manera clara y concisa para que los usuarios puedan comprender su función fácilmente.
 
-### 6.3.1. Landing Page Wireframe.
+### 6.3.1. Landing Page Wireframe
 
 Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborativo Figma para crear los wireframes de nuestra landing page. Se consideraron nuestros dos segmentos objetivos para el planteamiento del diseño.
 
@@ -1868,37 +1977,45 @@ Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborat
 - **Sección de FAQ:** Lista de preguntas con enlaces a respuestas.
 - **Pie de página:** Información de contacto y redes sociales.
 
+Enlace de Figma: https://www.figma.com/file/dXKcTktPsI1Ad7RsBeeHf2/MOBILE-APP-UI-STYLE-GUIDE-(Community)?type=design&node-id=541-7&mode=design&t=i5jeqvZkw8x5uwWl-0
 
-Enlace de Figma: 
+### 6.3.2. Landing Page Mock-up
 
-### 6.3.2. Landing Page Mock-up.
+Enlace de Figma: https://www.figma.com/file/dXKcTktPsI1Ad7RsBeeHf2/MOBILE-APP-UI-STYLE-GUIDE-(Community)?type=design&node-id=541-7&mode=design&t=i5jeqvZkw8x5uwWl-0
 
-Enlace de Figma: 
+## 6.4. Applications UX/UI Design
+### 6.4.1. Applications Wireframes
 
-## 6.4. Applications UX/UI Design.
-### 6.4.1. Applications Wireframes.
+**LANDING PAGE - WEB**
 
-Enlace de Figma: 
+![LANDINGWEB](Images/LANDING1.jpg)
+![LANDINGWEB](Images/LANDING2.jpg)
+
+**LANDING PAGE - MOBILE**
+![LANDINGAPP](Images/LANDING%20-%20MOBILE.jpg)
+
+**LANDING PAGE - DEVICES: TABLET** 
+![LANDINGTAB](Images/LANDING-DEVICES.jpg)
+
+Enlace de Figma: https://www.figma.com/file/dXKcTktPsI1Ad7RsBeeHf2/MOBILE-APP-UI-STYLE-GUIDE-(Community)?type=design&node-id=0-1&mode=design&t=i5jeqvZkw8x5uwWl-0
+
+**FRONT-END: MEDICO**
+![MEDIC](Images/WEBMEDIC.jpg)
+
+Enlace de Figma: https://www.figma.com/file/dXKcTktPsI1Ad7RsBeeHf2/MOBILE-APP-UI-STYLE-GUIDE-(Community)?type=design&node-id=0-1&mode=design&t=i5jeqvZkw8x5uwWl-0
+
+**FRONT-END: PACIENTE**
+![PACIENTE](Images/WEBPACIENTE.jpg)
+
+Enlace de Figma: https://www.figma.com/file/dXKcTktPsI1Ad7RsBeeHf2/MOBILE-APP-UI-STYLE-GUIDE-(Community)?type=design&node-id=0-1&mode=design&t=i5jeqvZkw8x5uwWl-0
 
 ### 6.4.2. Applications Wireflow Diagrams
 
 En esta sección, presentamos los diagramas de flujo de nuestra aplicación web, elaborados por nuestro equipo. Estos diagramas reflejan el comportamiento de la aplicación en función de las interacciones esperadas de nuestros usuarios. Hemos desarrollado un diagrama de flujo para cada objetivo del usuario, teniendo en cuenta los perfiles de usuario (paciente y especialista) para cada funcionalidad de la aplicación. Antes de crear los diagramas de flujo, realizamos flujos de tareas para establecer las rutas típicas que seguirá el usuario en la aplicación. En los diagramas de flujo, mostramos los cambios en la pantalla a medida que el usuario interactúa con la aplicación, añadiendo pasos con representaciones visuales del nuevo estado.
 
-TaskFlow
+**Paciente con el chatbot**
 
-- Taskflow 1
-- Taskflow 2
-- etc
-
-**Paciente**
-
-- UG01:
-- UG02:
-
-**Médico especialista**
-
-- UG01:
-- UG02:
+Enlace de Figma: https://www.figma.com/proto/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=300-274&t=d5HDJxEC6YBKfEeN-1&scaling=scale-down&page-id=295%3A3&starting-point-node-id=300%3A11
 
 # Conclusiones y Recomendaciones 
 
