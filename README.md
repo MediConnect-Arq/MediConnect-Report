@@ -146,8 +146,8 @@
 
 | Criterio Especíico | Acciones Realizadas | Conclusiones|
 | ------------------ | ------------------- | ----------- |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería | **TB1** <br/> Andrea Alfaro <br/> Colaboré activamente en reuniones donde se discutían aspectos técnicos y estratégicos del proyecto con profesionales de diversas áreas de especialización <br/><br/> Gabriela Nomberto <br/> Participe y dividí las partes para que cada uno de los integrantes del grupo dando plazos y mejorando la comunicacion <br/><br/> Dennis Quevedo <br/> Realicé y agendé las reuniones así como aplicar mejoras al trabajo para que tenga el alcance del curso <br/><br/> Diego Osorio <br/> Participé en las reuniones para las mejoras y para consultar y mejorar las partes repartidas para cada uno | Concluimos que las reuniones y las mejoras continuas entre todos nos ayuda a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa | 
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br/> Andrea Alfaro <br/> Participé en la revisión y edición de documentos técnicos escritos por otros miembros del equipo, brindando retroalimentación constructiva para mejorar la claridad y objetividad de la comunicación escrita. <br/><br/> Gabriela Nomberto <br> Participé en la construccion de las arquitecturas de la aplicacion web, asi como el desarrollo del reporte en R Markdown <br/><br/> Dennis Quevedo <br/> Realicé mejoras en los capítulos 1, 2 y 3 para que cumpla con el alcance del curso <br/><br/> Diego Osorio <br/> Realicé tecnicas y clasificacion para obtener una mejor vision del startup presentado | Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos  entre todos | 
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería | **TB1** <br/> Andrea Alfaro <br/> Colaboré activamente en reuniones donde se discutían aspectos técnicos y estratégicos del proyecto con profesionales de diversas áreas de especialización <br/><br/> Gabriela Nomberto <br/> Participe y dividí las partes para que cada uno de los integrantes del grupo dando plazos y mejorando la comunicacion <br/><br/> Dennis Quevedo <br/> Realicé y agendé las reuniones así como aplicar mejoras al trabajo para que tenga el alcance del curso <br/><br/> Diego Osorio <br/> Participé en las reuniones para las mejoras y para consultar y mejorar las partes repartidas para cada uno <br> **TP** <br> Andrea Alfaro <br> Colaboré activamente en el avance del trabajo y expuse los resultados del avance de nuestra solución. | Concluimos que las reuniones y las mejoras continuas entre todos nos ayuda a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa | 
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br/> Andrea Alfaro <br/> Participé en la revisión y edición de documentos técnicos escritos por otros miembros del equipo, brindando retroalimentación constructiva para mejorar la claridad y objetividad de la comunicación escrita. <br/><br/> Gabriela Nomberto <br> Participé en la construccion de las arquitecturas de la aplicacion web, asi como el desarrollo del reporte en R Markdown <br/><br/> Dennis Quevedo <br/> Realicé mejoras en los capítulos 1, 2 y 3 para que cumpla con el alcance del curso <br/><br/> Diego Osorio <br/> Realicé tecnicas y clasificacion para obtener una mejor vision del startup presentado<br> **TP** <br> Andrea Alfaro <br> Realicé la corrección y avances solicitados para la entrega y el análisis de Tactical-Level Software Design| Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos  entre todos | 
 
 # Capítulo I: Introducción
 
@@ -606,7 +606,41 @@ Enlace de Miro: https://miro.com/app/board/uXjVKNz8_bs=/?share_link_id=917680637
 
 ## 2.4. Ubiquitous Language
 
+**Core Concepts:**
 
+- **Patient:** Un individuo que busca atención psicológica a través de su plataforma.
+- **Psychologist:** Un profesional de la salud mental con licencia que brinda atención a los pacientes en su plataforma.
+
+**Psychological Care Services:**
+
+- **Appointment:** Una sesión programada entre un paciente y un psicólogo para recibir atención psicológica.
+- **Prescription:** Una recomendación escrita de un psicólogo para un tratamiento o medicamento específico para un paciente.
+- **Diagnosis:** La identificación de una condición o trastorno de salud mental específico en un paciente.
+- **Note:** Un registro de observaciones, notas de progreso o recomendaciones realizadas por un psicólogo durante la atención de un paciente.
+- **PsychologistProfile:** Un perfil detallado de un psicólogo, que incluye sus calificaciones, experiencia, áreas de especialización e información de contacto.
+- **PatientProfile:** Un perfil completo de un paciente, que incluye su información personal, historial médico, historial de salud mental, síntomas actuales y notas de progreso.
+- **Emotion:** Un estado psicológico o sentimiento experimentado por un paciente, como felicidad, tristeza, ira o ansiedad.
+- **Progress:** La evaluación continua del estado de salud mental de un paciente y su respuesta al tratamiento.
+
+**Platform Features:**
+
+- **Subscriptions:** Diferentes niveles de acceso o servicios ofrecidos a los pacientes en su plataforma, potencialmente con planes de precios variables.
+- **Payments:** El proceso de manejo de transacciones financieras relacionadas con suscripciones, citas u otros servicios en su plataforma.
+- **Plans:** Paquetes de suscripción específicos o niveles de servicio que los pacientes pueden elegir, cada uno con sus propias características y precios.
+- **Izipay:** Una puerta de pago potencial o un servicio de procesamiento de pagos integrado con su plataforma.
+
+**Chatbot-related Concepts:**
+
+- **Chatbot:** Una herramienta conversacional impulsada por IA que interactúa con los pacientes para brindar información, responder preguntas u ofrecer apoyo inicial.
+- **ChatbotConversation:** Una interacción en curso entre un paciente y el chatbot, que consiste en una serie de mensajes intercambiados.
+- **ChatbotMessage:** Un solo mensaje enviado o recibido dentro de una conversación de chatbot, ya sea del paciente o del chatbot.
+
+**Additional Concepts:**
+
+- **Mental Health Assessment:** Una evaluación formal de la salud mental de un paciente, a menudo realizada por un psicólogo, para identificar posibles problemas y desarrollar un plan de tratamiento.
+- **Treatment Plan:** Un plan personalizado para abordar las preocupaciones de salud mental de un paciente, que describe intervenciones, terapias o medicamentos específicos.
+- **Therapy Session:** Una sesión estructurada entre un paciente y un psicólogo, centrada en técnicas o intervenciones terapéuticas específicas.
+- **Mental Health Resources:** Materiales educativos, grupos de apoyo u otros recursos relacionados con la salud mental que se pueden proporcionar a los pacientes a través de su plataforma.
 
 # Capítulo III: Requirements Specification
 
@@ -1320,8 +1354,6 @@ Este lienzo nos proporciona un marco estructurado para definir y visualizar los 
 ![Bounded Context Canvases](/Images/chatbot-bounded-context.jpg)
 
 ### 4.2.5. Context Mapping
-
-![context](/Images/context-mapping-1.jpg)
 
 ![context](/Images/context-mapping-2.jpg)
 
