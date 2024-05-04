@@ -1836,22 +1836,37 @@ Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborat
 - **Sección de FAQ:** Lista de preguntas con enlaces a respuestas.
 - **Pie de página:** Información de contacto y redes sociales.
 
-![landing-page-wireframe](/Images/landing-page-wireframe.png)
 
-Enlace de Figma: https://www.figma.com/file/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=76%3A0&mode=design&t=z2CKl8fxmxWWKSZj-1
+Enlace de Figma: 
 
 ### 6.3.2. Landing Page Mock-up.
 
-Enlace de Figma: https://www.figma.com/file/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=76%3A0&mode=design&t=z2CKl8fxmxWWKSZj-1
+Enlace de Figma: 
 
 ## 6.4. Applications UX/UI Design.
 ### 6.4.1. Applications Wireframes.
 
-Enlace de Figma: https://www.figma.com/file/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=295%3A3&mode=design&t=z2CKl8fxmxWWKSZj-1
+Enlace de Figma: 
 
 ### 6.4.2. Applications Wireflow Diagrams
 
-Enlace de Figma: https://www.figma.com/file/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=295%3A3&mode=design&t=z2CKl8fxmxWWKSZj-1
+En esta sección, presentamos los diagramas de flujo de nuestra aplicación web, elaborados por nuestro equipo. Estos diagramas reflejan el comportamiento de la aplicación en función de las interacciones esperadas de nuestros usuarios. Hemos desarrollado un diagrama de flujo para cada objetivo del usuario, teniendo en cuenta los perfiles de usuario (paciente y especialista) para cada funcionalidad de la aplicación. Antes de crear los diagramas de flujo, realizamos flujos de tareas para establecer las rutas típicas que seguirá el usuario en la aplicación. En los diagramas de flujo, mostramos los cambios en la pantalla a medida que el usuario interactúa con la aplicación, añadiendo pasos con representaciones visuales del nuevo estado.
+
+TaskFlow
+
+- Taskflow 1
+- Taskflow 2
+- etc
+
+**Paciente**
+
+- UG01:
+- UG02:
+
+**Médico especialista**
+
+- UG01:
+- UG02:
 
 # Conclusiones y Recomendaciones 
 
