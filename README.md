@@ -36,7 +36,10 @@
 | 1.2  | 11/04/2024 | Dennis Quevedo | Completar contenido ya tenido en todos los capítulos |
 | 1.3  | 12/04/2024 | Todos los participantes | Completar contenido que se tenia que modificar, además de finalizar otros nuevos puntos |
 | 1.4  | 13/04/2024 | Todos los participantes | Mejora continua del trabajo antes de poder enviar | 
-| 2.0  | 29/04/2024 | Andrea Alfaro | Corrección y revisión del capítulo I | 
+| 2.0  | 29/04/2024 | Andrea Alfaro | Corrección y revisión del capítulo I, II y III | 
+| 2.1  | 30/04/2024 | Andrea Alfaro | Corrección y revisión del capítulo IV | 
+| 2.2  | 01/05/2024 | Andrea Alfaro | Elaboración del capítulo V | 
+| 2.3  | 02/05/2024 | Andrea Alfaro | Elaboración del capítulo VI | 
 
 ## Project Report Collaboration Insights 
 **Enlace del Project Report:** [https://github.com/MediConnect-Arq/MediConnect-Report/tree/main] 
@@ -1741,6 +1744,114 @@ En el contexto de "Account," el Application Layer se enfoca en la creación, aut
 #### 5.7.7.2. Bounded Context Database Design Diagram.
 
 ![database](/Images/database-notification.png)
+
+# Capítulo VI: Solution UX Design
+
+## 6.1. Style Guidelines.
+
+### 6.1.1. General Style Guidelines.
+
+Para nuestra paleta de colores, hemos seleccionado tonos que evocan una sensación de confianza y profesionalismo. El color primario transmite una sensación de seguridad y fiabilidad, mientras que el color secundario añade un toque de optimismo y claridad a nuestra interfaz. El color terciario aporta un elemento de calidez y vitalidad. Además de nuestra paleta de colores, hemos definido una tipografía clara y legible que refuerza la experiencia del usuario. Nuestro sistema de iconografía utiliza símbolos intuitivos y reconocibles para mejorar la navegación y comprensión de la interfaz. El sistema de cuadrícula garantiza una disposición ordenada y consistente de los elementos en la pantalla, mientras que el espaciado adecuado proporciona una experiencia visual equilibrada y agradable. Para los selectores, botones y elementos grandes y pequeños, hemos establecido estilos coherentes que aseguran una experiencia de usuario uniforme en toda la aplicación.
+
+### 6.1.2. Web, Mobile & Devices Style Guidelines.
+
+## 6.2. Information Architecture.
+
+### 6.2.1 Organization Systems
+
+**Visual:** Para este campo se decidio una organización jerárquica. Es decir, nos centramos en el diseño de elementos visuales que facilitan la comprensión de la información de manera intuitiva. Los elementos de mayor tamaño representan la jerarquía de primer nivel captando la atención inicial de nuestros usuarios, como el logo, títulos destacados y botones principales. Los elementos de segundo nivel complementan a los de primer orden e incluyen subtítulos, descripciones y campos de entrada de información. Por último, en el tercer nivel, se encuentran elementos independientes o complementarios, como el icono de búsqueda y las imágenes de perfil. Este enfoque garantiza una experiencia de usuario fluida y facilita la navegación intuitiva a través de nuestra plataforma.
+
+### 6.2.2. Labeling Systems.
+
+En nuestra interfaz de usuario, empleamos varios sistemas de etiquetado para mejorar la comprensión y la navegación del usuario:
+
+- **Encabezados (Headings):** Estas etiquetas se utilizan para estructurar y organizar el contenido de manera clara y legible. Permiten a los usuarios comprender rápidamente la información presentada en cada sección.
+- **Etiquetas Textuales:** Estas etiquetas son comunes en nuestra interfaz y se utilizan para identificar y categorizar diferentes secciones o elementos. Proporcionan una guía visual que ayuda a los usuarios a navegar y entender el contenido de manera eficiente.
+- **Etiquetas Icónicas (Iconic Labels):** Utilizamos imágenes o iconos junto con etiquetas textuales para proporcionar una representación visual intuitiva de las funciones o secciones específicas de la interfaz. Esto facilita la identificación rápida y la comprensión del contenido, especialmente para usuarios que prefieren un enfoque visual.
+
+Estos sistemas de etiquetado se implementan de manera coherente en toda nuestra interfaz, incluida la barra de navegación de nuestro mockup, para garantizar una experiencia de usuario intuitiva y sin confusiones.
+
+### 6.2.3. Searching Systems.
+
+### 6.2.4. SEO Tags and Meta Tags.
+
+### 6.2.5. Navigation Systems.
+
+A través de nuestras aplicaciones, hemos implementado sistemas de navegación que permiten a los usuarios moverse de manera intuitiva y eficiente por todas las secciones disponibles. Esto se logra mediante:
+
+- **Uso de lenguaje claro y conciso:** Cada sección está etiquetada con términos comprensibles y directos, lo que facilita la identificación de las funcionalidades que ofrece la aplicación.
+
+- **Íconos representativos:** Los usuarios pueden hacer clic en los íconos correspondientes a cada sección para acceder directamente a la funcionalidad deseada. Estos íconos están diseñados de manera intuitiva para reflejar claramente el contenido de cada sección.
+
+- **Botones desplegables para interconectar secciones:** Implementamos botones desplegables que permiten a los usuarios explorar y acceder fácilmente a secciones relacionadas entre sí. Estos botones facilitan la navegación entre diferentes áreas de la aplicación y fomentan nuevas interacciones.
+
+- **Navegación aleatoria:** Los usuarios tienen la flexibilidad de explorar el contenido de manera aleatoria, lo que les permite acceder a cualquier sección en el momento que lo requieran. Esto ofrece una experiencia más dinámica y personalizada, adaptada a las necesidades individuales de cada usuario.
+
+- **Prioridad de páginas de registro e inicio de sesión:** En caso de que un usuario no esté registrado o no haya iniciado sesión, las páginas de registro o inicio de sesión siempre se muestran primero. Esto garantiza que los usuarios puedan acceder fácilmente a estas funciones esenciales y asegura una experiencia coherente para todos los usuarios, independientemente de su estado de inicio de sesión.
+
+## 6.3. Landing Page UI Design.
+
+Nuestra propuesta se basa en las decisiones de diseño y arquitectura de la información definidas previamente, asegurando una experiencia de usuario coherente y efectiva en todas las plataformas.
+
+Los principios de diseño aplicados son:
+
+- **Simplicidad:** La interfaz se mantendrá simple y fácil de navegar, con elementos claros y concisos.
+- **Claridad:** El mensaje principal de la empresa se transmitirá de manera clara y directa.
+- **Consistencia:** Los elementos de diseño, la terminología y las interacciones serán consistentes en todas las plataformas.
+- **Accesibilidad:** La interfaz se diseñará para ser accesible para todos los usuarios, independientemente de sus habilidades o limitaciones.
+- **Estética:** El diseño será atractivo, profesional y acorde con la identidad de la marca.
+
+Los elementos de diseño aplicados son:
+
+- **Tipografía:** Se utilizará una tipografía legible y adaptable a diferentes tamaños de pantalla.
+- **Colores:** La paleta de colores se basará en los colores de la marca y se utilizará de manera consistente en toda la interfaz.
+- **Imágenes:** Se utilizarán imágenes de alta calidad que representen el valor y la propuesta de la empresa.
+- **Iconos:** Se utilizarán iconos para representar las características y beneficios de la empresa de manera visual.
+- **Botones:** Se utilizarán botones claros y fáciles de pulsar para realizar acciones.
+
+En relación a nuestra arquitectura de la información, se plantea:
+
+- **Jerarquía visual:** La información se organizará de forma jerárquica, utilizando diferentes tamaños de tipografía, colores y pesos para destacar los elementos más importantes.
+- **Agrupación lógica:** Los elementos relacionados se agruparán de manera lógica para facilitar la comprensión.
+- **Etiquetado claro:** Los elementos se etiquetarán de manera clara y concisa para que los usuarios puedan comprender su función fácilmente.
+
+### 6.3.1. Landing Page Wireframe.
+
+Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborativo Figma para crear los wireframes de nuestra landing page. Se consideraron nuestros dos segmentos objetivos para el planteamiento del diseño.
+
+**Desktop Web Browser:**
+
+- **Cabecera:** Logotipo, menú de navegación y botón de llamada de acción.
+- **Sección principal:** Imagen de fondo, título principal, subtítulo y botón de llamada de acción.
+- **Sección de características:** Íconos o cuadros de texto con descripciones.
+- **Sección de equipo:** Equipo de desarrollo con nombres y fotos.
+- **Sección de FAQ:** Lista de preguntas y respuestas.
+- **Pie de página:** Información de contacto y redes sociales.
+
+**Mobile Web Browser:**
+
+- **Cabecera:** Logotipo y menú de hamburguesa.
+- **Sección principal:** Imagen de fondo, título principal, subtítulo y botón de llamada de acción.
+- **Secciones de características y equipo:** Acordeones (opcional).
+- **Sección de FAQ:** Lista de preguntas con enlaces a respuestas.
+- **Pie de página:** Información de contacto y redes sociales.
+
+![landing-page-wireframe](/Images/landing-page-wireframe.png)
+
+Enlace de Figma: https://www.figma.com/file/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=76%3A0&mode=design&t=z2CKl8fxmxWWKSZj-1
+
+### 6.3.2. Landing Page Mock-up.
+
+Enlace de Figma: https://www.figma.com/file/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=76%3A0&mode=design&t=z2CKl8fxmxWWKSZj-1
+
+## 6.4. Applications UX/UI Design.
+### 6.4.1. Applications Wireframes.
+
+Enlace de Figma: https://www.figma.com/file/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=295%3A3&mode=design&t=z2CKl8fxmxWWKSZj-1
+
+### 6.4.2. Applications Wireflow Diagrams
+
+Enlace de Figma: https://www.figma.com/file/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=295%3A3&mode=design&t=z2CKl8fxmxWWKSZj-1
 
 # Conclusiones y Recomendaciones 
 
