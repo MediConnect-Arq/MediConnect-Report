@@ -1563,6 +1563,8 @@ En el contexto de "Account," el Application Layer se enfoca en la creación, aut
 
 ### 5.3.6. Bounded Context Software Architecture Component Level Diagrams.
 
+![account](/Images/account.jpg)
+
 ### 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
@@ -1617,6 +1619,8 @@ En el contexto de "Account," el Application Layer se enfoca en la creación, aut
 **Seguridad:** Esta capa se encargará de la seguridad relacionada con los datos del paciente, incluida la protección de la información confidencial de salud. Esto podría incluir medidas como cifrado de datos, autenticación de usuarios y auditoría de accesos para garantizar la privacidad y la integridad de los datos del paciente.
 
 ### 5.4.6. Bounded Context Software Architecture Component Level Diagrams.
+
+![monitoring](Images/monitoring.png)
 
 ### 5.4.7. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -1725,6 +1729,8 @@ En el contexto de "Account," el Application Layer se enfoca en la creación, aut
 
 ### 5.6.6. Bounded Context Software Architecture Component Level Diagrams.
 
+![chatbot](/Images/chatbot.png)
+
 ### 5.6.7. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 5.6.7.1. Bounded Context Domain Layer Class Diagrams.
@@ -1772,6 +1778,8 @@ En el contexto de "Account," el Application Layer se enfoca en la creación, aut
 **Seguridad:** Esta capa se encargará de la seguridad relacionada con el envío y recepción de notificaciones en la aplicación. Esto podría incluir medidas como cifrado de datos, autenticación de usuarios y control de acceso para garantizar la privacidad y la integridad de la información de las notificaciones.
 
 ### 5.7.6. Bounded Context Software Architecture Component Level Diagrams.
+
+![notifications](Images/notifications.png)
 
 ### 5.7.7. Bounded Context Software Architecture Code Level Diagrams.
 
