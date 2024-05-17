@@ -2025,6 +2025,15 @@ En esta sección, presentamos los diagramas de flujo de nuestra aplicación web,
 
 Enlace de Figma: https://www.figma.com/proto/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=300-274&t=d5HDJxEC6YBKfEeN-1&scaling=scale-down&page-id=295%3A3&starting-point-node-id=300%3A11
 
+### 6.4.3. Applications Mock-ups
+
+
+### 6.4.4. Applications User Flow Diagrams
+
+
+## 6.5. Applications Prototyping
+
+
 # Conclusiones y Recomendaciones 
 
 - La especificación de nuestro problema a partir de los 5w y 2H nos permitió reconocer e identificar la problemática que abordamos en general. Nos ayudó a implementar acciones estratégicas con el fin de que nuestra solución de software sea eficiente y abarque en todos los sentidos el problema identificado.
