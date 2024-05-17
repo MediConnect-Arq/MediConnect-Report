@@ -2025,6 +2025,52 @@ En esta sección, presentamos los diagramas de flujo de nuestra aplicación web,
 
 Enlace de Figma: https://www.figma.com/proto/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=300-274&t=d5HDJxEC6YBKfEeN-1&scaling=scale-down&page-id=295%3A3&starting-point-node-id=300%3A11
 
+
+# Capítulo VII: Product Implementation, Validation & Deployment
+
+## 7.1. Software Configuration Mangement
+
+### 7.1.1. Software Development Enviroment Configuration
+
+### 7.1.2. Soure Code Management
+
+### 7.1.3. Source Code Style Guide & Conventions
+
+### 7.1.4. Software Deployment Configuration
+
+
+## 7.2. Solution Implementation
+
+### 7.2.1 Sprint 1
+
+#### 7.2.1.1. Sprint Planning 1
+
+#### 7.2.1.2. Sprint Backlog 1
+
+#### 7.2.1.3. Development Evidence for Sprint Review
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+
+#### 7.2.1.5. Execution Evidence for Sprint Review.
+
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+
+#### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+
+## 7.3. Validation Interviews
+
+### 7.3.1. Diseño de Entrevistas
+
+### 7.3.2. Registro de Entrevistas
+
+### 7.3.3. Evaluaciones según heurísticas
+
+
+## 7.4. Video About-the-Product
+
 # Conclusiones y Recomendaciones 
 
 - La especificación de nuestro problema a partir de los 5w y 2H nos permitió reconocer e identificar la problemática que abordamos en general. Nos ayudó a implementar acciones estratégicas con el fin de que nuestra solución de software sea eficiente y abarque en todos los sentidos el problema identificado.
