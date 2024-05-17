@@ -2030,13 +2030,160 @@ Enlace de Figma: https://www.figma.com/proto/bawPJSl86jxfSe5wjnlSia/MedPro?type=
 
 ## 7.1. Software Configuration Mangement
 
+Se presetarán las decisiones y convenciones que asegurará la coherencia y uniformidad en todo el ciclo de vida de desarrollo de nuestro producto de software.
+
 ### 7.1.1. Software Development Enviroment Configuration
+
+Para esta sección se incluirá los enlaces de las herramientas, programas y productos de software utilizados durante el proyecto. Estos se clasificarán de la siguiente forma:
+
+  * Project Management
+  * Requirements Management
+  * Product UX/UI Design
+  * Software Development
+  * Software Testing
+  * Software Deployment
+  * Software Documentation
+  
+Por consiguiente, clasificarmos las secciones si es ruta de referencia o ruta de descarga de cada uno de los productos de software.
+
+**Project Management**
+
+La disciplina que se enfoca en mejorar los procedimientos y el ambiente en torno al proyecto con el propósito de alcanzar los resultados deseados. Para llevar a cabo esta tarea, utilizamos Trello, una herramienta que posibilita una gestión visual del proyecto y del flujo de trabajo del equipo de desarrollo durante la implementación de las tareas relacionadas con el Landing Page y la Web Application. 
+Enlace a Trello: https://trello.com/es 
+
+
+**Requirements Management** 
+
+Este proceso se encarga de asegurar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes y partes interesadas, tanto internas como externas. Para llevar a cabo la gestión de requisitos, empleamos Pivotal Tracker, una plataforma que facilita la administración de historias de usuario, agrupándolas en epics y clasificándolas según su importancia en el programa. Optamos por esta herramienta porque permite que todos los miembros del equipo tengan una visión compartida y en tiempo real de lo que está sucediendo en el proyecto, lo que les permite contribuir en distintas secciones o corregir el flujo del mismo.  
+Enlace a Pivotal Tracker: https://www.pivotaltracker.com/ 
+
+
+**Product UX/UI Design**
+
+Esta herramienta se emplea para crear un modelo digital de nuestro producto que forme parte de la experiencia del consumidor, específicamente para diseñar un sitio web que sea accesible desde tanto desde computadoras como desde dispositivos móviles.  
+
+  * UXPressia es una aplicación en línea que posibilita la creación de mapas de trayectoria del cliente, incluyendo mapas de impacto y perfiles de usuario. Utilizamos su conjunto de herramientas para crear los modelos de User Persona, Empathy Map y Journey Map, lo que proporciona una sólida base para modelar el comportamiento del usuario en nuestro producto. 
+  Enlace a UXPressia: https://uxpressia.com/ 
+  
+  * MIRO es una plataforma en línea que proporciona una pizarra digital colaborativa para llevar a cabo una variedad de actividades en grupo. Estas actividades incluyen investigaciones, generación de ideas, creación de mapas mentales, y sesiones de lluvia de ideas, entre otras. 
+  Enlace a MIRO: https://miro.com/app/dashboard/ 
+  
+  * Figma: Figma es una aplicación basada en web para el diseño de interfaces de usuario que abarca herramientas de edición vectorial, prototipado y colaboración en tiempo real. A diferencia de otras aplicaciones de diseño, Figma funciona completamente en línea, lo que permite a los usuarios crear y compartir prototipos de sitios web y aplicaciones móviles para su visualización en navegadores web y dispositivos móviles.
+  Enlace a Figma: https://www.figma.com/design/ 
+
+  * Lucid Chart: Lucid Chart es una herramienta en línea diseñada para la creación de diagramas que facilita la colaboración en tiempo real entre usuarios. Esta plataforma permite la creación de diversos tipos de diagramas, como diseños UML, mapas mentales, prototipos de software y otros tipos de representaciones gráficas. 
+  Enlace a Lucid Chart: https://lucid.app/documents/dashboard
+  
+  * Structurizr: Structurizr es una herramienta de diseño de software que se especializa en la representación visual de la arquitectura de productos de software. Se basa en el modelo C4 y ayuda a los equipos a visualizar y comunicar eficazmente la estructura y la arquitectura de sus proyectos de software.
+  Enlace a Structurizr: https://structurizr.com/
+
+**Software Development**
+
+Esta es una metodología estructurada empleada para la creación de productos de software. Su objetivo principal radica en establecer un proceso organizado para el desarrollo de software, y cada una de sus etapas describe un enfoque específico para las diversas actividades realizadas durante dicho proceso. 
+
+  * GitHub: Se trata de una plataforma en línea diseñada para hospedar código fuente, lo que permite a los usuarios almacenar, administrar y compartir proyectos de software con otros colaboradores a través de la web. Esta plataforma utiliza el sistema de control de versiones Git, lo que facilita un seguimiento preciso de los cambios efectuados en el código fuente, además de posibilitar la colaboración y el trabajo en equipo en tiempo real.
+  Enlace a GitHub: https://github.com/MediConnect-Arq 
+
+  * Visual Studio Code: es un editor de código fuente desarrollado por Microsoft que proporciona una amplia gama de extensiones personalizables que pueden mejorar la productividad de los desarrolladores. En este proyecto en particular, se utilizará para construir el backend de nuestra aplicación web.
+  Enlace a Visual Studio Code: https://code.visualstudio.com/ 
+  
+  * HTML es un lenguaje de marcado utilizado para el desarrollo de sitios web. Se utiliza para crear documentos que contienen hipervínculos a otros documentos y para dar formato y estructura a la información presentada en una página web. Además, se puede combinar con otros lenguajes como CSS y JavaScript para mejorar la presentación y la funcionalidad de la página web. En el contexto de este proyecto, HTML se utilizará para desarrollar la documentación de la plataforma web.
+  Enlace a HTML en WebStorm: https://www.jetbrains.com/help/webstorm/editing-html-files.html 
+
+  * CSS, por su parte, es un lenguaje de estilos que se utiliza para definir la presentación y la apariencia visual de una página HTML. Ofrece una amplia gama de herramientas para formatear elementos HTML, incluyendo opciones como colores, fuentes, tamaños, posiciones y animaciones. En este proyecto, CSS será empleado para definir el diseño y el estilo de la plataforma web que estamos desarrollando.
+  
+  * JavaScript: Se trata de un lenguaje de programación orientado a objetos que se ejecuta en navegadores web y otros entornos. Empleando clases y prototipos, brinda a los desarrolladores la capacidad de crear experiencias interactivas para los usuarios. Dentro del contexto del proyecto actual, se empleará para desarrollar las características interactivas de la plataforma 
+  Enlace a JavaScript: https://www.jetbrains.com/help/webstorm/javascript-specific-guidelines.html 
+
+**Software Testing**
+
+Esta actividad involucra el análisis del software mediante técnicas de validación y verificación con el propósito de identificar posibles defectos o errores. Para llevar a cabo esta tarea, se utilizó el lenguaje Gherkin, un lenguaje específico de dominio que permite la inclusión de historias de usuario del programa junto con sus elementos correspondientes, como características, escenarios, ejemplos, esquemas de escenarios, pasos "Dado", "Cuando", "Entonces" y "Y". Este lenguaje puede ser interpretado en código y facilita la comunicación entre los desarrolladores, el equipo de calidad y los clientes. 
+
+**Software Deployment**
+
+Se refiere al proceso de distribución e instalación de software en diversos entornos de producción, como servidores, computadoras de usuarios finales o dispositivos móviles. El objetivo de la implementación de software es poner a disposición del usuario final el software y garantizar que esté configurado adecuadamente y funcione correctamente en el entorno de producción. 
+
+  * GitHub Pages: GitHub Pages es un servicio proporcionado por GitHub que permite alojar contenido web estático en un repositorio de GitHub y hacerlo accesible públicamente en Internet. Esta funcionalidad permite a los usuarios alojar su página de inicio y también desplegar su aplicación web. 
+  Enlace a GitHub Pages: https://github.com/
+
+  * Firebase: es un servicio de la plataforma en la nube de Google que proporciona diversas herramientas y servicios para ayudar a los desarrolladores a crear, mejorar y ampliar aplicaciones web y móviles de alta calidad. Uno de los servicios que ofrece es el alojamiento de la aplicación frontend, lo que permite a los desarrolladores implementar su aplicación en un entorno seguro y escalable.
+  Enlace a Firebase: https://firebase.google.com/?hl=es
+
+
+**Software Documentation** 
+
+Consiste en un conjunto de texto o gráficos que acompañan a un programa de computadora o están integrados en su código fuente. Su propósito es explicar cómo funciona el software o cómo utilizarlo. Por esta razón, utilizamos la Especificación de OpenAPI a través de Swagger, que es un estándar para archivos de interfaz legibles por máquina que describen, generan y muestran servicios web RESTful. 
+Enlace a Swagger: https://swagger.io/ 
+
 
 ### 7.1.2. Soure Code Management
 
+En cuanto a la gestión del código de software en el backend de MediConnect, utilizamos un sistema de control de versiones basado en Git para rastrear y administrar los cambios en el código fuente.  
+Nuestro enfoque se basa en las siguientes prácticas: 
+
+  * **Control de Versiones**: Utilizamos Git como sistema de control de versiones. El repositorio de Git se encuentra en MediConnect - GitHub y contiene todas las versiones anteriores y actuales de nuestro código.
+  * **Ramas (Branches)**: Mantenemos una rama principal (main) que contiene la versión estable de la aplicación. Para el desarrollo de nuevas características o correcciones de errores, creamos ramas separadas y las fusionamos en la rama principal después de las revisiones y pruebas adecuadas.
+  * **Confirmaciones (Commits)**: Cada confirmación de código sigue el principio de ser atómica y descriptiva. Proporcionamos mensajes de confirmación significativos que explican los cambios realizados. 
+  
+  ![git](/Images/git.jpg)
+ 
+  * **Revisión de Código**: Antes de fusionar cualquier cambio en la rama principal, se lleva a cabo una revisión de código en la que los miembros del equipo revisan y aprueban los cambios. Esto garantiza la calidad y la coherencia del código.
+
 ### 7.1.3. Source Code Style Guide & Conventions
 
+En lo que respecta a las convenciones de estilo de código en el backend de MediConnect, hemos adoptado un conjunto de pautas basadas en las convenciones de codificación de Python (PEP8) y buenas prácticas de desarrollo de Flask.  
+
+Algunas de las convenciones clave incluyen: 
+
+  * Nomenclatura: Seguimos las convenciones de nomenclatura de PEP8 para nombres de variables y funciones, utilizando snake_case (por ejemplo, nombre_variable, mi_funcion).
+  * Indentación: Utilizamos espacios para la indentación y mantenemos una indentación de 4 espacios en todo el código.
+  * Longitud Máxima de Línea: Limitamos la longitud de línea a 79 caracteres para garantizar una fácil legibilidad.
+  * Documentación: Proporcionamos documentación clara y significativa en forma de comentarios para explicar la funcionalidad de las funciones y rutas importantes.
+  * Imports Ordenados: Mantenemos los imports ordenados alfabéticamente y agrupados en categorías según las convenciones de PEP8.
+  * Manejo de Errores: Implementamos manejo de errores adecuado y proporcionamos mensajes de error descriptivos en las respuestas HTTP. 
+  
+Este enfoque en la gestión de código y las convenciones de estilo nos permite mantener un código limpio, coherente y de alta calidad en el backend de nuestra aplicación MediConnect.
+
 ### 7.1.4. Software Deployment Configuration
+La administración del código fuente se llevará a cabo a través de la utilización de GitHub, tal como se mencionó anteriormente. Además, se hará uso de GitHub Pages para publicar y desplegar la Landing Page.   
+
+**Landing Page** 
+
+Para la creación de la Landing Page de MediConnect, se emplearon las siguientes herramientas:  
+
+  * HTML: El lenguaje de marcado HTML se utilizó para la estructuración de la página.
+  Evidencia: Los archivos HTML son evidentes, siendo el principal "index.html" donde los miembros del equipo han fusionado el contenido de sus respectivas ramas individuales. 
+
+![HTML](/Images/landinghtml.png)
+
+  * CSS: El lenguaje de estilo en cascada (CSS) se empleó para mejorar la apariencia visual y la interactividad de la Landing Page de Import It. 
+  Evidencia: La prueba de su utilización se encuentra en el archivo "styles.css", donde el grupo ha implementado el diseño para toda la estructura creada con HTML. 
+
+![CSS](/Images/CSS.png)
+
+  * JavaScript (JS): Se empleó el lenguaje de programación JavaScript para desarrollar la lógica necesaria en la Landing Page.
+  Evidencia: La confirmación de su implementación se encuentra en el archivo "main.js." 
+
+![JS](/Images/js.png)
+
+El despliegue de la Landing Page de MediConnect se apoyó en varias tecnologías fundamentales sin las cuales la tarea no habría sido posible. Algunas de estas tecnologías destacadas incluyen: 
+
+  * Git: Un sistema de control de versiones reconocido por su eficacia y compatibilidad de versiones. Facilitó la colaboración en equipo durante el desarrollo de la Landing Page.
+  * GitHub: Una plataforma de desarrollo colaborativo que se integra con Git para permitir la gestión de proyectos y la colaboración en equipo.
+  * Git Flow: Una extensión de Git que proporciona un modelo de ramificación para el control de versiones en proyectos más complejos. Facilitó el seguimiento y control del progreso de cada miembro del equipo en el desarrollo de la Landing Page.
+  * GitHub Pages: Un servicio de GitHub que permite alojar páginas web de forma gratuita. Fue la plataforma utilizada para publicar y desplegar la Landing Page de MediConnect.
+
+Evidencia del Deployment 
+
+Se ha confirmado que el vínculo de la página es visible en la barra de direcciones de un ordenador particular y que se ha configurado para que esté disponible públicamente. 
+
+![landing Deploy](/Images/deploylanding.png)
+
+Link: https://mediconnect-arq.github.io/MediConnect-Landing/ 
+
+**Front End**
+
+**Back**
 
 
 ## 7.2. Solution Implementation
@@ -2067,7 +2214,6 @@ Enlace de Figma: https://www.figma.com/proto/bawPJSl86jxfSe5wjnlSia/MedPro?type=
 ### 7.3.2. Registro de Entrevistas
 
 ### 7.3.3. Evaluaciones según heurísticas
-
 
 ## 7.4. Video About-the-Product
 
