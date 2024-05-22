@@ -2068,13 +2068,13 @@ Esta herramienta se emplea para crear un modelo digital de nuestro producto que 
   * MIRO es una plataforma en línea que proporciona una pizarra digital colaborativa para llevar a cabo una variedad de actividades en grupo. Estas actividades incluyen investigaciones, generación de ideas, creación de mapas mentales, y sesiones de lluvia de ideas, entre otras. 
   Enlace a MIRO: https://miro.com/app/dashboard/ 
   
-  * Figma: Figma es una aplicación basada en web para el diseño de interfaces de usuario que abarca herramientas de edición vectorial, prototipado y colaboración en tiempo real. A diferencia de otras aplicaciones de diseño, Figma funciona completamente en línea, lo que permite a los usuarios crear y compartir prototipos de sitios web y aplicaciones móviles para su visualización en navegadores web y dispositivos móviles.
+  * FIGMA es una aplicación basada en web para el diseño de interfaces de usuario que abarca herramientas de edición vectorial, prototipado y colaboración en tiempo real. A diferencia de otras aplicaciones de diseño, Figma funciona completamente en línea, lo que permite a los usuarios crear y compartir prototipos de sitios web y aplicaciones móviles para su visualización en navegadores web y dispositivos móviles.
   Enlace a Figma: https://www.figma.com/design/ 
 
-  * Lucid Chart: Lucid Chart es una herramienta en línea diseñada para la creación de diagramas que facilita la colaboración en tiempo real entre usuarios. Esta plataforma permite la creación de diversos tipos de diagramas, como diseños UML, mapas mentales, prototipos de software y otros tipos de representaciones gráficas. 
+  * LUCID CHART es una herramienta en línea diseñada para la creación de diagramas que facilita la colaboración en tiempo real entre usuarios. Esta plataforma permite la creación de diversos tipos de diagramas, como diseños UML, mapas mentales, prototipos de software y otros tipos de representaciones gráficas. 
   Enlace a Lucid Chart: https://lucid.app/documents/dashboard
   
-  * Structurizr: Structurizr es una herramienta de diseño de software que se especializa en la representación visual de la arquitectura de productos de software. Se basa en el modelo C4 y ayuda a los equipos a visualizar y comunicar eficazmente la estructura y la arquitectura de sus proyectos de software.
+  * STRUCTURIZR es una herramienta de diseño de software que se especializa en la representación visual de la arquitectura de productos de software. Se basa en el modelo C4 y ayuda a los equipos a visualizar y comunicar eficazmente la estructura y la arquitectura de sus proyectos de software.
   Enlace a Structurizr: https://structurizr.com/
 
 **Software Development**
@@ -2116,7 +2116,7 @@ Consiste en un conjunto de texto o gráficos que acompañan a un programa de com
 Enlace a Swagger: https://swagger.io/ 
 
 
-### 7.1.2. Soure Code Management
+### 7.1.2. Source Code Management
 
 En cuanto a la gestión del código de software en el backend de MediConnect, utilizamos un sistema de control de versiones basado en Git para rastrear y administrar los cambios en el código fuente.  
 Nuestro enfoque se basa en las siguientes prácticas: 
@@ -2152,17 +2152,20 @@ La administración del código fuente se llevará a cabo a través de la utiliza
 Para la creación de la Landing Page de MediConnect, se emplearon las siguientes herramientas:  
 
   * HTML: El lenguaje de marcado HTML se utilizó para la estructuración de la página.
-  Evidencia: Los archivos HTML son evidentes, siendo el principal "index.html" donde los miembros del equipo han fusionado el contenido de sus respectivas ramas individuales. 
+  
+    Evidencia: Los archivos HTML son evidentes, siendo el principal "index.html" donde los miembros del equipo han fusionado el contenido de sus respectivas ramas individuales. 
 
 ![HTML](/Images/landinghtml.png)
 
   * CSS: El lenguaje de estilo en cascada (CSS) se empleó para mejorar la apariencia visual y la interactividad de la Landing Page de Import It. 
-  Evidencia: La prueba de su utilización se encuentra en el archivo "styles.css", donde el grupo ha implementado el diseño para toda la estructura creada con HTML. 
+  
+    Evidencia: La prueba de su utilización se encuentra en el archivo "styles.css", donde el grupo ha implementado el diseño para toda la estructura creada con HTML. 
 
 ![CSS](/Images/CSS.png)
 
   * JavaScript (JS): Se empleó el lenguaje de programación JavaScript para desarrollar la lógica necesaria en la Landing Page.
-  Evidencia: La confirmación de su implementación se encuentra en el archivo "main.js." 
+  
+    Evidencia: La confirmación de su implementación se encuentra en el archivo "main.js." 
 
 ![JS](/Images/js.png)
 
@@ -2181,9 +2184,17 @@ Se ha confirmado que el vínculo de la página es visible en la barra de direcci
 
 Link: https://mediconnect-arq.github.io/MediConnect-Landing/ 
 
-**Front End**
+**Back End**
 
-**Back**
+Para la creación del Backend de MediConnect se utilizó la estructura de DDD en base a los Bounded Context. Las herramientas que empleamos fueron las siguientes:
+
+  * Prisma: Es un ORM que facilita el modelado y las relaciones de una base de datos a traves de la programación.
+
+    Evidencia: La prueba de utilizacion de este ORM lo encontramos en el archivo con extensión ".prisma"
+
+![prisma](/Images/prisma.png)
+
+**Front End**
 
 
 ## 7.2. Solution Implementation
