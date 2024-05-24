@@ -2106,6 +2106,11 @@ Enlace de LucidChart: https://lucid.app/lucidchart/9d23495b-efed-4884-aee5-9a5d0
 
 ## 6.5. Applications Prototyping
 
+<div align="center">
+ <img src="/Images/prototyping.png">
+</div>
+
+Enlace de prototipo: https://www.figma.com/proto/bawPJSl86jxfSe5wjnlSia/MedPro?node-id=300-11&t=tEWOuTKX4P0PM9gv-1&scaling=scale-down&page-id=295%3A3&starting-point-node-id=300%3A11
 
 # Conclusiones y Recomendaciones 
 
