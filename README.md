@@ -40,6 +40,7 @@
 | 2.1  | 30/04/2024 | Andrea Alfaro | Corrección y revisión del capítulo IV | 
 | 2.2  | 01/05/2024 | Andrea Alfaro | Elaboración del capítulo V | 
 | 2.3  | 02/05/2024 | Andrea Alfaro | Elaboración del capítulo VI | 
+| 3.1  | 23/05/2024 | Andrea Alfaro | Correcciones y edición del capítulo VI | 
 
 ## Project Report Collaboration Insights 
 **Enlace del Project Report:** [https://github.com/MediConnect-Arq/MediConnect-Report/tree/main] 
