@@ -40,6 +40,7 @@
 | 2.1  | 30/04/2024 | Andrea Alfaro | Corrección y revisión del capítulo IV | 
 | 2.2  | 01/05/2024 | Andrea Alfaro | Elaboración del capítulo V | 
 | 2.3  | 02/05/2024 | Andrea Alfaro | Elaboración del capítulo VI | 
+| 3.1  | 23/05/2024 | Andrea Alfaro | Correcciones y edición del capítulo VI | 
 
 ## Project Report Collaboration Insights 
 **Enlace del Project Report:** [https://github.com/MediConnect-Arq/MediConnect-Report/tree/main] 
@@ -1799,31 +1800,21 @@ En el contexto de "Account," el Application Layer se enfoca en la creación, aut
 
 Para nuestra paleta de colores, hemos seleccionado tonos que evocan una sensación de confianza y profesionalismo. El color primario transmite una sensación de seguridad y fiabilidad, mientras que el color secundario añade un toque de optimismo y claridad a nuestra interfaz. El color terciario aporta un elemento de calidez y vitalidad. Además de nuestra paleta de colores, hemos definido una tipografía clara y legible que refuerza la experiencia del usuario. Nuestro sistema de iconografía utiliza símbolos intuitivos y reconocibles para mejorar la navegación y comprensión de la interfaz. El sistema de cuadrícula garantiza una disposición ordenada y consistente de los elementos en la pantalla, mientras que el espaciado adecuado proporciona una experiencia visual equilibrada y agradable. Para los selectores, botones y elementos grandes y pequeños, hemos establecido estilos coherentes que aseguran una experiencia de usuario uniforme en toda la aplicación.
 
-**COLORS**
-Los colores que utilizaremos para nuestro sistema web son colores fresco y limpios que transmitan sensaciones de confianza y profesionalismo con nuestro trabajo.
-- Azul: Transmite confianza, tranquilidad. Es un color comúnmente utilizado en la industria psicológica
-- Celeste: Tranmite armonía y serenidad. Lo relacionamos con la salud y la naturaleza.
-- Blanco: Transmite neutralidad, limpieza, pureza y simplicidad. Se usa comunmente en entornos médico.
-- Verde: Resalta opciones de equilibrio en los procesos
-
-| Nombre del Color | Código | Color |
-| -- | -- | -- | 
-| Azul | #0077B5 | ![azul](Images/Color%20Azul.png) | 
-| Celeste | #B1FFFF | ![celeste](Images/Color%20Celeste.png) |
-| Blanco | #FFFFFF | ![Blanco](Images/Color%20Blanco.png) | 
-| Verde | #90EE90 | ![Verde](Images/Color%20Verde.png) |
-
-**TIPOGRAFIA**
-En cuanto al diseño de letra lo más recomiendo es utilizar una fuente clara y legible que sea fácil de leer tanto en pantallas como en impresiones. Algunas opciones que podrías considerar son:
- 
--    Arial
--    Helvatica
--    Calibri
--    Verdana
-
-| Tipo de Letra Elegida | Tipo de Fuente | Tamaño | Modelo |
-| -- | -- | -- | -- |
-| Arial | sans-serif | 16 px | ![arial](Images/arial.png) |
+<div align="center">
+ <img src="/Images/style guide 1.png" width=400>
+</div>
+<div align="center">
+ <img src="/Images/style guide 2.png" width=400>
+</div>
+<div align="center">
+ <img src="/Images/style guide 3.png" width=400>
+</div>
+<div align="center">
+ <img src="/Images/style guide 4.png" width=400>
+</div>
+<div align="center">
+ <img src="/Images/style guide 5.png" width=400>
+</div>
 
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
 
@@ -1985,45 +1976,142 @@ Juntos, hemos trabajado en equipo utilizando la herramienta de diseño colaborat
 - **Sección de FAQ:** Lista de preguntas con enlaces a respuestas.
 - **Pie de página:** Información de contacto y redes sociales.
 
+<div align="center">
+ <img src="/Images/landing wireframes.png" width=500>
+</div>
+
 Enlace de Figma: https://www.figma.com/file/dXKcTktPsI1Ad7RsBeeHf2/MOBILE-APP-UI-STYLE-GUIDE-(Community)?type=design&node-id=541-7&mode=design&t=i5jeqvZkw8x5uwWl-0
 
 ### 6.3.2. Landing Page Mock-up
 
+<div align="center">
+ <img src="/Images/landing mockup.png" width=500>
+</div>
+
 Enlace de Figma: https://www.figma.com/file/dXKcTktPsI1Ad7RsBeeHf2/MOBILE-APP-UI-STYLE-GUIDE-(Community)?type=design&node-id=541-7&mode=design&t=i5jeqvZkw8x5uwWl-0
 
 ## 6.4. Applications UX/UI Design
+
 ### 6.4.1. Applications Wireframes
 
-**LANDING PAGE - WEB**
+<div align="center">
+ <img src="/Images/web-app-wireframe.png">
+</div>
 
-![LANDINGWEB](Images/LANDING1.jpg)
-![LANDINGWEB](Images/LANDING2.jpg)
-
-**LANDING PAGE - MOBILE**
-![LANDINGAPP](Images/LANDING%20-%20MOBILE.jpg)
-
-**LANDING PAGE - DEVICES: TABLET** 
-![LANDINGTAB](Images/LANDING-DEVICES.jpg)
-
-Enlace de Figma: https://www.figma.com/file/dXKcTktPsI1Ad7RsBeeHf2/MOBILE-APP-UI-STYLE-GUIDE-(Community)?type=design&node-id=0-1&mode=design&t=i5jeqvZkw8x5uwWl-0
-
-**FRONT-END: MEDICO**
-![MEDIC](Images/WEBMEDIC.jpg)
-
-Enlace de Figma: https://www.figma.com/file/dXKcTktPsI1Ad7RsBeeHf2/MOBILE-APP-UI-STYLE-GUIDE-(Community)?type=design&node-id=0-1&mode=design&t=i5jeqvZkw8x5uwWl-0
-
-**FRONT-END: PACIENTE**
-![PACIENTE](Images/WEBPACIENTE.jpg)
-
-Enlace de Figma: https://www.figma.com/file/dXKcTktPsI1Ad7RsBeeHf2/MOBILE-APP-UI-STYLE-GUIDE-(Community)?type=design&node-id=0-1&mode=design&t=i5jeqvZkw8x5uwWl-0
+Enlace de Figma: https://www.figma.com/design/bawPJSl86jxfSe5wjnlSia/MedPro?node-id=295-3&t=GYl0TewscYjKnvCe-1
 
 ### 6.4.2. Applications Wireflow Diagrams
 
 En esta sección, presentamos los diagramas de flujo de nuestra aplicación web, elaborados por nuestro equipo. Estos diagramas reflejan el comportamiento de la aplicación en función de las interacciones esperadas de nuestros usuarios. Hemos desarrollado un diagrama de flujo para cada objetivo del usuario, teniendo en cuenta los perfiles de usuario (paciente y especialista) para cada funcionalidad de la aplicación. Antes de crear los diagramas de flujo, realizamos flujos de tareas para establecer las rutas típicas que seguirá el usuario en la aplicación. En los diagramas de flujo, mostramos los cambios en la pantalla a medida que el usuario interactúa con la aplicación, añadiendo pasos con representaciones visuales del nuevo estado.
 
-**Paciente con el chatbot**
+**TaskFlow**
 
-Enlace de Figma: https://www.figma.com/proto/bawPJSl86jxfSe5wjnlSia/MedPro?type=design&node-id=300-274&t=d5HDJxEC6YBKfEeN-1&scaling=scale-down&page-id=295%3A3&starting-point-node-id=300%3A11
+- Registrarse en la aplicación
+- Iniciar sesión
+- Uso del chatbot para consultar generales
+- Uso del chatbot para consultas sobre doctores
+- Uso del chatbot para consultas sobre grupos de ayuda
+- Uso del chatbot para consultas sobre historial del paciente
+
+**Paciente**
+
+- **UG01:** Registrarse en la aplicación
+
+<div align="center">
+ <img src="/Images/ug01.png">
+</div>
+
+- **UG02:** Iniciar sesión
+
+<div align="center">
+ <img src="/Images/ug02.png">
+</div>
+
+- **UG03:** Uso del chatbot para consultar generales
+
+<div align="center">
+ <img src="/Images/ug03.png">
+</div>
+
+- **UG04:** Uso del chatbot para consultas sobre doctores
+
+<div align="center">
+ <img src="/Images/ug04.png">
+</div>
+
+- **UG05:** Uso del chatbot para consultas sobre grupos de ayuda
+
+<div align="center">
+ <img src="/Images/ug05.png">
+</div>
+
+- **UG06:** Uso del chatbot para consultas sobre historial del paciente
+
+<div align="center">
+ <img src="/Images/ug06.png">
+</div>
+
+Enlace de LucidChart: https://lucid.app/lucidchart/9d23495b-efed-4884-aee5-9a5d083d0844/edit?viewport_loc=-1356%2C3317%2C7597%2C3684%2C0_0&invitationId=inv_3cece29b-d514-4ae5-a905-fd12f26a27f9
+
+### 6.4.3. Applications Mock-ups
+
+<div align="center">
+ <img src="/Images/web-app-mockup.png">
+</div>
+
+Enlace de Figma: https://www.figma.com/design/bawPJSl86jxfSe5wjnlSia/MedPro?node-id=295-3&t=GYl0TewscYjKnvCe-1
+
+### 6.4.4. Applications User Flow Diagrams
+
+En este apartado hemos documentado visualmente el flujo de interacción que los usuarios siguen al utilizar la aplicación. Estos diagramas nos muestran las diferentes pantallas y pasos que un usuario atraviesa desde que inicia la aplicación hasta que completa una acción o tarea específica. Nos sirven como una herramienta visual para comprender y analizar cómo los usuarios interactúan con la aplicación, identificar posibles problemas o áreas de mejora en la experiencia del usuario, y guiar el diseño y desarrollo de la interfaz de usuario para optimizar la usabilidad y la satisfacción del usuario. 
+
+**Paciente**
+
+- **UG01:** Registrarse en la aplicación
+
+<div align="center">
+ <img src="/Images/taskflow1.png">
+</div>
+
+- **UG02:** Iniciar sesión
+
+<div align="center">
+ <img src="/Images/taskflow2.png">
+</div>
+
+- **UG03:** Uso del chatbot para consultar generales
+
+<div align="center">
+ <img src="/Images/taskflow3.png">
+</div>
+
+- **UG04:** Uso del chatbot para consultas sobre doctores
+
+<div align="center">
+ <img src="/Images/taskflow4.png">
+</div>
+
+- **UG05:** Uso del chatbot para consultas sobre grupos de ayuda
+
+<div align="center">
+ <img src="/Images/taskflow5.png">
+</div>
+
+- **UG06:** Uso del chatbot para consultas sobre historial del paciente
+
+<div align="center">
+ <img src="/Images/taskflow6.png">
+</div>
+
+Enlace de LucidChart: https://lucid.app/lucidchart/9d23495b-efed-4884-aee5-9a5d083d0844/edit?viewport_loc=-740%2C4782%2C4992%2C2421%2C1-LEVayYW.9F&invitationId=inv_3cece29b-d514-4ae5-a905-fd12f26a27f9
+
+## 6.5. Applications Prototyping
+
+<div align="center">
+ <img src="/Images/prototyping.png">
+</div>
+
+Enlace de prototipo: https://www.figma.com/proto/bawPJSl86jxfSe5wjnlSia/MedPro?node-id=300-11&t=tEWOuTKX4P0PM9gv-1&scaling=scale-down&page-id=295%3A3&starting-point-node-id=300%3A11
 
 # Conclusiones y Recomendaciones 
 
