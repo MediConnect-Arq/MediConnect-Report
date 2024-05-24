@@ -1993,17 +1993,116 @@ Enlace de Figma: https://www.figma.com/file/dXKcTktPsI1Ad7RsBeeHf2/MOBILE-APP-UI
 
 ### 6.4.1. Applications Wireframes
 
+<div align="center">
+ <img src="/Images/web-app-wireframe.png">
+</div>
+
+Enlace de Figma: https://www.figma.com/design/bawPJSl86jxfSe5wjnlSia/MedPro?node-id=295-3&t=GYl0TewscYjKnvCe-1
 
 ### 6.4.2. Applications Wireflow Diagrams
 
 En esta sección, presentamos los diagramas de flujo de nuestra aplicación web, elaborados por nuestro equipo. Estos diagramas reflejan el comportamiento de la aplicación en función de las interacciones esperadas de nuestros usuarios. Hemos desarrollado un diagrama de flujo para cada objetivo del usuario, teniendo en cuenta los perfiles de usuario (paciente y especialista) para cada funcionalidad de la aplicación. Antes de crear los diagramas de flujo, realizamos flujos de tareas para establecer las rutas típicas que seguirá el usuario en la aplicación. En los diagramas de flujo, mostramos los cambios en la pantalla a medida que el usuario interactúa con la aplicación, añadiendo pasos con representaciones visuales del nuevo estado.
 
+**TaskFlow**
+
+- Registrarse en la aplicación
+- Iniciar sesión
+- Uso del chatbot para consultar generales
+- Uso del chatbot para consultas sobre doctores
+- Uso del chatbot para consultas sobre grupos de ayuda
+- Uso del chatbot para consultas sobre historial del paciente
+
+**Paciente**
+
+- **UG01:** Registrarse en la aplicación
+
+<div align="center">
+ <img src="/Images/ug01.png">
+</div>
+
+- **UG02:** Iniciar sesión
+
+<div align="center">
+ <img src="/Images/ug02.png">
+</div>
+
+- **UG03:** Uso del chatbot para consultar generales
+
+<div align="center">
+ <img src="/Images/ug03.png">
+</div>
+
+- **UG04:** Uso del chatbot para consultas sobre doctores
+
+<div align="center">
+ <img src="/Images/ug04.png">
+</div>
+
+- **UG05:** Uso del chatbot para consultas sobre grupos de ayuda
+
+<div align="center">
+ <img src="/Images/ug05.png">
+</div>
+
+- **UG06:** Uso del chatbot para consultas sobre historial del paciente
+
+<div align="center">
+ <img src="/Images/ug06.png">
+</div>
+
+Enlace de LucidChart: https://lucid.app/lucidchart/9d23495b-efed-4884-aee5-9a5d083d0844/edit?viewport_loc=-1356%2C3317%2C7597%2C3684%2C0_0&invitationId=inv_3cece29b-d514-4ae5-a905-fd12f26a27f9
 
 ### 6.4.3. Applications Mock-ups
 
+<div align="center">
+ <img src="/Images/web-app-mockup.png">
+</div>
+
+Enlace de Figma: https://www.figma.com/design/bawPJSl86jxfSe5wjnlSia/MedPro?node-id=295-3&t=GYl0TewscYjKnvCe-1
 
 ### 6.4.4. Applications User Flow Diagrams
 
+En este apartado hemos documentado visualmente el flujo de interacción que los usuarios siguen al utilizar la aplicación. Estos diagramas nos muestran las diferentes pantallas y pasos que un usuario atraviesa desde que inicia la aplicación hasta que completa una acción o tarea específica. Nos sirven como una herramienta visual para comprender y analizar cómo los usuarios interactúan con la aplicación, identificar posibles problemas o áreas de mejora en la experiencia del usuario, y guiar el diseño y desarrollo de la interfaz de usuario para optimizar la usabilidad y la satisfacción del usuario. 
+
+**Paciente**
+
+- **UG01:** Registrarse en la aplicación
+
+<div align="center">
+ <img src="/Images/taskflow1.png">
+</div>
+
+- **UG02:** Iniciar sesión
+
+<div align="center">
+ <img src="/Images/taskflow2.png">
+</div>
+
+- **UG03:** Uso del chatbot para consultar generales
+
+<div align="center">
+ <img src="/Images/taskflow3.png">
+</div>
+
+- **UG04:** Uso del chatbot para consultas sobre doctores
+
+<div align="center">
+ <img src="/Images/taskflow4.png">
+</div>
+
+- **UG05:** Uso del chatbot para consultas sobre grupos de ayuda
+
+<div align="center">
+ <img src="/Images/taskflow5.png">
+</div>
+
+- **UG06:** Uso del chatbot para consultas sobre historial del paciente
+
+<div align="center">
+ <img src="/Images/taskflow6.png">
+</div>
+
+Enlace de LucidChart: https://lucid.app/lucidchart/9d23495b-efed-4884-aee5-9a5d083d0844/edit?viewport_loc=-740%2C4782%2C4992%2C2421%2C1-LEVayYW.9F&invitationId=inv_3cece29b-d514-4ae5-a905-fd12f26a27f9
 
 ## 6.5. Applications Prototyping
 
