@@ -2153,7 +2153,7 @@ Para la creación de la Landing Page de MediConnect, se emplearon las siguientes
 
   * HTML: El lenguaje de marcado HTML se utilizó para la estructuración de la página.
   
-    Evidencia: Los archivos HTML son evidentes, siendo el principal "index.html" donde los miembros del equipo han fusionado el contenido de sus respectivas ramas individuales. 
+      Evidencia: Los archivos HTML son evidentes, siendo el principal "index.html" donde los miembros del equipo han fusionado el contenido de sus respectivas ramas individuales. 
 
 ![HTML](/Images/landinghtml.png)
 
@@ -2195,6 +2195,7 @@ Para la creación del Backend de MediConnect se utilizó la estructura de DDD en
 ![prisma](/Images/prisma.png)
 
 **Front End**
+
 
 
 ## 7.2. Solution Implementation
