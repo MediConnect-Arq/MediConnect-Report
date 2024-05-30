@@ -2194,6 +2194,13 @@ Para la creación del Backend de MediConnect se utilizó la estructura de DDD en
 
 ![prisma](/Images/prisma.png)
 
+  * NestJs: Framework a base de NodeJs que a traves del TypeScript nos facilita el manejo de desarrollo de aplicaciones backend aplicando DDD.
+
+    Evidencia: La prueba de utilizacion de este framework lo mostraremos desde el código y en un archivo ".ts" en el repositorio.
+
+![nestjs](/Images/nestjs.jpg)
+![typescript](/Images/typescript.png)
+
 **Front End**
 
 
