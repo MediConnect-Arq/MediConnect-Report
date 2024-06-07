@@ -2203,7 +2203,17 @@ Para la creación del Backend de MediConnect se utilizó la estructura de DDD en
 
 **Front End**
 
+  * Power Apps: Permite crear aplicaciones personalizadas sin necesidad de escribir mucho código. Facilita la automatización de procesos y la integración con otros servicios de Microsoft y terceros.
 
+    Evidencia: La prueba de utilizacion lo encontraremos a traves de imagenes en el cual tenemos el front tanto de médico como de paciente
+
+    **Médico**
+
+    ![medico](/Images/frontmedico.jpg)
+
+    **Paciente**
+
+    ![paciente](/Images/paciente.jpg)
 
 ## 7.2. Solution Implementation
 
