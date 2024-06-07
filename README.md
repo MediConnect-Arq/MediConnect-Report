@@ -2113,6 +2113,168 @@ Enlace de LucidChart: https://lucid.app/lucidchart/9d23495b-efed-4884-aee5-9a5d0
 
 Enlace de prototipo: https://www.figma.com/proto/bawPJSl86jxfSe5wjnlSia/MedPro?node-id=300-11&t=tEWOuTKX4P0PM9gv-1&scaling=scale-down&page-id=295%3A3&starting-point-node-id=300%3A11
 
+## 7.3. Validation Interviews
+
+### 7.3.1. Diseño de las entrevistas
+
+**Preguntas Generales**
+- ¿Podrías contarnos un poco sobre ti?
+- ¿Qué te gusta hacer en tu tiempo libre?
+- ¿Cuál es tu ocupación actual?
+- ¿Tienes alguna experiencia previa usando aplicaciones de salud mental o bienestar?
+- ¿Qué tipo de tecnología o dispositivos usas con más frecuencia (por ejemplo, smartphone, computadora, tablet)?
+- ¿Con qué frecuencia usas aplicaciones móviles en tu vida diaria?
+- ¿Cuáles son tus aplicaciones móviles favoritas y por qué?
+- ¿Has tenido alguna experiencia previa buscando ayuda o tratamiento en el ámbito de la salud mental?
+- ¿Te consideras una persona que adopta nuevas tecnologías fácilmente?
+- ¿Qué importancia le das a la salud mental en tu vida diaria?
+- ¿Tienes alguna preferencia en cuanto a plataformas para realizar consultas médicas (virtuales, presenciales, mixtas)?
+- ¿Qué es lo que más valoras en una aplicación o servicio digital que usas regularmente?
+
+**Preguntas para Usuarios Pacientes**
+- ¿Qué te motivaría a usar una aplicación web para salud mental?
+- ¿Cuáles son tus principales preocupaciones o problemas de salud mental que te gustaría tratar con un especialista?
+- ¿Cómo te sentirías interactuando primero con un chatbot de inteligencia artificial antes de hablar con un especialista humano?
+- ¿Qué tan importante es para ti la confidencialidad y privacidad en una aplicación de salud mental?
+- ¿Qué funcionalidades crees que son esenciales en una aplicación de salud mental?
+- ¿Te gustaría tener acceso a recursos educativos (artículos, videos) sobre salud mental en la aplicaci unón? ¿Por qué?
+- ¿Qué tipo de soporte te gustaría recibir del chatbot en momentos de ansiedad o estrés?
+- ¿Cómo preferirías que el chatbot comunique un pre-diagnóstico de tu condición?
+- ¿Qué características harían que una aplicación de salud mental sea confiable para ti?
+- ¿Qué métodos de pago prefieres para reservar citas con especialistas a través de la aplicación?
+- ¿Te gustaría tener la opción de evaluar y dejar comentarios sobre los especialistas después de una consulta? ¿Por qué?
+- ¿Qué mejorarías en las aplicaciones de salud mental que has usado anteriormente, si las has usado?
+
+**Preguntas para Usuarios Especialistas en Salud Mental**
+- ¿Qué te haría considerar trabajar con una aplicación web para ofrecer tus servicios de salud mental?
+- ¿Qué funcionalidades consideras esenciales en una aplicación de salud mental desde el punto de vista de un especialista?
+- ¿Qué tipo de información te gustaría recibir de los pacientes antes de una consulta virtual o presencial?
+- ¿Qué medidas de seguridad y confidencialidad crees que son necesarias en una aplicación de salud mental?
+- ¿Cómo te sentirías trabajando junto a un chatbot de inteligencia artificial que ofrece pre-diagnósticos?
+- ¿Qué tipo de soporte técnico y administrativo te gustaría recibir de la aplicación?
+- ¿Cómo prefieres gestionar tus horarios y reservas de citas en una aplicación?
+- ¿Qué importancia le das a la opción de recibir comentarios y valoraciones de los pacientes?
+- ¿Qué tipo de recursos educativos te gustaría compartir con tus pacientes a través de la aplicación?
+- ¿Cómo crees que la tecnología puede mejorar la calidad de los servicios de salud mental?
+- ¿Qué barreras o desafíos ves en la implementación de una aplicación de salud mental?
+- ¿Cómo te gustaría que se gestionen las emergencias o situaciones de crisis a través de la aplicación?
+
+### 7.3.2. Registro de entrevistas
+
+**Entrevista 1**
+
+NOMBRE: SEBASTIAN ORTEGA
+EDAD: 22 AÑOS
+DISTRITO: SAN ISIDRO
+USUARIO: PACIENTE
+DURACIÓN: 14 MIN
+LINK: https://drive.google.com/file/d/1_ZMnhOLlnpqOY9_1hBKkPxJSucOA731h/view?usp=drive_link
+ 
+<div align="center">
+ <img src="/Images/Sebastian Ortega.png">
+</div>
+
+La entrevista confirma que la aplicación es útil. En cuanto al apartado de reserva de citas, se comenta que es muy práctico, pero podría mejorarse con una sección de valoraciones para psicólogos y psiquiatras. Respecto al apartado de farmacia en línea, se menciona que la funcionalidad es muy buena. Finalmente, sobre el chatbot con inteligencia artificial, se destaca que es un punto muy importante e innovador. Sin embargo, debido a que es nuevo y no es un ser humano, podría generar cierta inquietud sobre sus respuestas. No obstante, se considera que con el tiempo se tendría confianza en el chatbot si las respuestas son claras y útiles.
+
+**Entrevista 2**
+
+NOMBRE: ALONSO LIPA
+EDAD: 22 AÑOS
+DISTRITO: SAN ISIDRO
+USUARIO: PACIENTE
+DURACIÓN: 5 MIN
+LINK: https://drive.google.com/file/d/13shL-Zm6WbzBU7HpZLMUjUzGV0FZIhN_/view?usp=drive_link
+
+ 
+<div align="center">
+ <img src="/Images/Alonso Lipa.png">
+</div>
+
+Durante la entrevista, se resaltó la utilidad de la aplicación. El sistema de reservas de citas fue destacado como muy práctico, aunque se sugirió que se mejoraría significativamente si se incluyera una sección de evaluaciones para psicólogos y psiquiatras. La funcionalidad de la farmacia en línea recibió comentarios positivos por su eficacia. En cuanto al chatbot con inteligencia artificial, se reconoció su innovación y relevancia. No obstante, al ser una herramienta nueva y no humana, algunos usuarios podrían sentir cierta inquietud respecto a sus respuestas. Aun así, se cree que con el tiempo y si las respuestas son claras y útiles, la confianza en el chatbot aumentará.
+
+### 7.3.3. Evaluaciones según heurísticas
+
+A continuación, se mostrará el proceso de validación en base a heurísticas de nuestra aplicación de salud mental.
+
+**Tabla Resumen**
+
+| #  | Problema                                                                 | Escala de severidad | Heurística/Principio violada(o)                    |
+|----|--------------------------------------------------------------------------|---------------------|---------------------------------------------------|
+| 1  | No hay una opción para valorar a los especialistas después de una cita   | 3                   | Usability: Libertad y control de uso              |
+| 2  | Las instrucciones del chatbot no son claras                              | 2                   | Usability: Ayuda y documentación                  |
+| 3  | No hay confirmación después de reservar una cita                         | 3                   | Usabilidad: Retroalimentación                     |
+| 4  | Falta información detallada sobre los especialistas                      | 2                   | Information Architecture: Is it findable?         |
+| 5  | El botón de emergencia no es fácilmente visible                          | 3                   | Usability: Visibilidad de estado del sistema      |
+| 6  | No hay un apartado para gestionar la privacidad de los datos             | 3                   | Usability: Control y libertad del usuario         |
+| 7  | La navegación es inconsistente entre diferentes secciones                | 2                   | Usability: Consistencia y estándares              |
+| 8  | El chatbot no explica cómo usa los datos del usuario                     | 3                   | Usability: Transparencia                          |
+| 9  | No hay opción para cambiar el idioma de la aplicación                    | 2                   | Usability: Flexibilidad y eficiencia de uso       |
+| 10 | No se puede acceder fácilmente a los términos y condiciones              | 2                   | Usability: Ayuda y documentación                  |
+| 11 | La opción de farmacia no muestra detalles sobre los medicamentos         | 2                   | Information Architecture: Is it findable?         |
+| 12 | El sistema de notificaciones no es configurable                           | 2                   | Usability: Control y libertad del usuario         |
+
+**Descripción de Problemas**
+
+**PROBLEMA #1: No hay una opción para valorar a los especialistas después de una cita**
+- **Severidad:** 3
+- **Heurística violada:** Usability: Libertad y control de uso
+- **Problema:** Los usuarios no pueden dejar comentarios o valoraciones sobre los especialistas después de una consulta, lo cual limita la retroalimentación y mejora continua de los servicios.
+
+**PROBLEMA #2: Las instrucciones del chatbot no son claras**
+- **Severidad:** 2
+- **Heurística violada:** Usability: Ayuda y documentación
+- **Problema:** Los usuarios encuentran confusas las instrucciones proporcionadas por el chatbot, lo que puede llevar a una mala experiencia y uso incorrecto de la funcionalidad.
+
+**PROBLEMA #3: No hay confirmación después de reservar una cita**
+- **Severidad:** 3
+- **Heurística violada:** Usability: Retroalimentación
+- **Problema:** Los usuarios no reciben una confirmación clara después de reservar una cita, lo que genera incertidumbre sobre si la acción se completó correctamente.
+
+**PROBLEMA #4: Falta información detallada sobre los especialistas**
+- **Severidad:** 2
+- **Heurística violada:** Information Architecture: Is it findable?
+- **Problema:** Los perfiles de los especialistas no proporcionan suficiente información sobre sus credenciales, experiencia y especialidades, lo que dificulta a los usuarios tomar decisiones informadas.
+
+**PROBLEMA #5: El botón de emergencia no es fácilmente visible**
+- **Severidad:** 3
+- **Heurística violada:** Usability: Visibilidad de estado del sistema
+- **Problema:** En situaciones de emergencia, los usuarios no pueden encontrar rápidamente el botón de emergencia, lo que puede ser crítico en momentos de crisis.
+
+**PROBLEMA #6: No hay un apartado para gestionar la privacidad de los datos**
+- **Severidad:** 3
+- **Heurística violada:** Usability: Control y libertad del usuario
+- **Problema:** Los usuarios no pueden acceder fácilmente a opciones para gestionar la privacidad de sus datos, lo que afecta la confianza y percepción de seguridad en la aplicación.
+
+**PROBLEMA #7: La navegación es inconsistente entre diferentes secciones**
+- **Severidad:** 2
+- **Heurística violada:** Usability: Consistencia y estándares
+- **Problema:** La navegación varía entre secciones de la aplicación, lo que puede confundir a los usuarios y dificultar el uso eficiente de la plataforma.
+
+**PROBLEMA #8: El chatbot no explica cómo usa los datos del usuario**
+- **Severidad:** 3
+- **Heurística violada:** Usability: Transparencia
+- **Problema:** El chatbot no proporciona información clara sobre el uso y manejo de los datos del usuario, lo que puede generar desconfianza.
+
+**PROBLEMA #9: No hay opción para cambiar el idioma de la aplicación**
+- **Severidad:** 2
+- **Heurística violada:** Usability: Flexibilidad y eficiencia de uso
+- **Problema:** La falta de una opción para cambiar el idioma de la aplicación limita su accesibilidad a usuarios que hablan diferentes idiomas.
+
+**PROBLEMA #10: No se puede acceder fácilmente a los términos y condiciones**
+- **Severidad:** 2
+- **Heurística violada:** Usability: Ayuda y documentación
+- **Problema:** Los términos y condiciones de uso no son fácilmente accesibles, lo que dificulta que los usuarios comprendan sus derechos y obligaciones.
+
+**PROBLEMA #11: La opción de farmacia no muestra detalles sobre los medicamentos**
+- **Severidad:** 2
+- **Heurística violada:** Information Architecture: Is it findable?
+- **Problema:** Los detalles sobre los medicamentos disponibles en la opción de farmacia son insuficientes, lo que afecta la capacidad de los usuarios para tomar decisiones informadas sobre su tratamiento.
+
+**PROBLEMA #12: El sistema de notificaciones no es configurable**
+- **Severidad:** 2
+- **Heurística violada:** Usability: Control y libertad del usuario
+- **Problema:** Los usuarios no pueden personalizar las notificaciones de la aplicación, lo que puede resultar en una sobrecarga de información o en la falta de alertas importantes.
+
 # Conclusiones y Recomendaciones 
 
 - La especificación de nuestro problema a partir de los 5w y 2H nos permitió reconocer e identificar la problemática que abordamos en general. Nos ayudó a implementar acciones estratégicas con el fin de que nuestra solución de software sea eficiente y abarque en todos los sentidos el problema identificado.
@@ -2124,5 +2286,15 @@ Enlace de prototipo: https://www.figma.com/proto/bawPJSl86jxfSe5wjnlSia/MedPro?n
 - En nuestra primera etapa, los criterios de éxito especificados en nuestro Lean UX canvas nos permitieron establecer estrategias a aprovechar y a la vez featueres de la app como administrativas importantes para que nuestra solución sea completa en todos sus campos.
   
 - Asimismo, los Requeriments Specification nos ayudó a analizar la información obtenida en las entrevistas. El resultado que obtuvimos fue mucho más allegado a las necesidades de nuestros usuarios ya que se describió en su totalidad las características necesarias que nuestra app necesita. 
+
+- La claridad en la comunicación es crucial, especialmente cuando se trata de instrucciones de uso proporcionadas por el chatbot. Los usuarios deben entender fácilmente cómo interactuar con las funcionalidades de la aplicación para evitar confusiones y mejorar su experiencia general.
+
+- La seguridad y la gestión de la privacidad de los datos son aspectos fundamentales que afectan la confianza de los usuarios en la aplicación. Sin opciones claras para gestionar la privacidad, los usuarios pueden sentirse inseguros sobre el uso de sus datos personales.
+
+- La inconsistencia en la navegación entre diferentes secciones de la aplicación puede resultar en una experiencia de usuario deficiente. La uniformidad y coherencia en el diseño de la interfaz son vitales para que los usuarios puedan utilizar la aplicación de manera intuitiva y sin obstáculos.
+
+- Se deben revisar y mejorar las instrucciones proporcionadas por el chatbot para que sean más claras y fáciles de entender. Considerar el uso de lenguaje sencillo y la incorporación de guías visuales puede ser beneficioso.
+
+- Incluir un apartado específico donde los usuarios puedan gestionar la privacidad de sus datos. Esto aumentará la confianza y la percepción de seguridad en la aplicación.
 
 - Finalmente, con las validaciones de nuestra solución confirmamos que las especificaciones descritas anteriormente a manera de posibles soluciones son las eficientes para satisfacer el problema. Específicamente, a partir de la implementación de las pruebas de aceptación pudimos conocer más a fondo que la app Revia sí cumple con el objetivo de mitigar el estrés de los jóvenes, nos permitió reconocer que nuestro aplicativo contiene una buena eficiencia tanto en contenido como en features no funcionales. Es decir, completa y dispuesta al usuario cuando lo necesite.
