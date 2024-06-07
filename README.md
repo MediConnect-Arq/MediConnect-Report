@@ -2163,12 +2163,17 @@ Enlace de prototipo: https://www.figma.com/proto/bawPJSl86jxfSe5wjnlSia/MedPro?n
 
 **Entrevista 1**
 
-NOMBRE: SEBASTIAN ORTEGA
-EDAD: 22 AÑOS
-DISTRITO: SAN ISIDRO
-USUARIO: PACIENTE
-DURACIÓN: 14 MIN
-LINK: https://drive.google.com/file/d/1_ZMnhOLlnpqOY9_1hBKkPxJSucOA731h/view?usp=drive_link
+**Nombre**: Sebastian Ortega
+
+**Edad**: 22 años
+
+**Distrito**: San Isidro
+
+**Usuario**: Paciente
+
+**Duraicion**: 14 min
+
+**Enlace de la entrevista**: https://drive.google.com/file/d/1_ZMnhOLlnpqOY9_1hBKkPxJSucOA731h/view?usp=drive_link
  
 <div align="center">
  <img src="/Images/Sebastian Ortega.png">
@@ -2178,17 +2183,19 @@ La entrevista confirma que la aplicación es útil. En cuanto al apartado de res
 
 **Entrevista 2**
 
-NOMBRE: ALONSO LIPA
-EDAD: 22 AÑOS
-DISTRITO: SAN ISIDRO
-USUARIO: PACIENTE
-DURACIÓN: 5 MIN
-LINK: https://drive.google.com/file/d/13shL-Zm6WbzBU7HpZLMUjUzGV0FZIhN_/view?usp=drive_link
+**Nombre**: Alonso Lipa
 
- 
-<div align="center">
- <img src="/Images/Alonso Lipa.png">
-</div>
+**Edad**: 22 años
+
+**Distrito**: San Isidro
+
+**Usuario**: Paciente
+
+**Duracion**: 5 min
+
+**Link**: https://drive.google.com/file/d/13shL-Zm6WbzBU7HpZLMUjUzGV0FZIhN_/view?usp=drive_link
+
+![entrevista2](/Images/Alonso%20Lipa.png)
 
 Durante la entrevista, se resaltó la utilidad de la aplicación. El sistema de reservas de citas fue destacado como muy práctico, aunque se sugirió que se mejoraría significativamente si se incluyera una sección de evaluaciones para psicólogos y psiquiatras. La funcionalidad de la farmacia en línea recibió comentarios positivos por su eficacia. En cuanto al chatbot con inteligencia artificial, se reconoció su innovación y relevancia. No obstante, al ser una herramienta nueva y no humana, algunos usuarios podrían sentir cierta inquietud respecto a sus respuestas. Aun así, se cree que con el tiempo y si las respuestas son claras y útiles, la confianza en el chatbot aumentará.
 
