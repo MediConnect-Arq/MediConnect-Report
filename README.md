@@ -2221,20 +2221,174 @@ Para la creación del Backend de MediConnect se utilizó la estructura de DDD en
 
 #### 7.2.1.1. Sprint Planning 1
 
+  * Sprint Planning Background
+  
+    | **Date** | 22/05/2024 |
+    | -- | -- |
+    |  **Time** | 7pm |
+    | **Location** | Planificación mediante WhatsApp | 
+    | **Prepared By** | Gabriela Nomberto |
+    | **Attendees** | Dennis Quevedo, Diego Osorio, Sofia Alfaro | 
+
+  * Sprint Goal &  User Stories
+
+    | Sprint Goal # | Desarrollo de Front End - Backend e Itegracion |
+    | -- | -- | 
+    | Sprint 1 Velocity |  |
+    | Sprint of Story Points |  |
+
 #### 7.2.1.2. Sprint Backlog 1
+
+|Sprint #|Sprint 1||||||
+| :- | :- | :- | :- | :- | :- | :- |
+|User Story|Work-Item / Task||||||
+|<p>US</p><p>Id</p>|Title|Task Id|Description|Estimation (Hours)|Assigned To|<p>Status (To do / In – Process / To – Review / Done)</p><p></p>|
+|**US12**|Disponibilidad de la aplicación|ST0012|Ingreso y Registro de Usuarios|2 hours|Dennis Quevedo|Done|
+|**US14**|Usabilidad de la app|ST014|Inicio de sesión y acciones realizadas por médico y paciente|8 hours|Gabriela Nomberto|Done|
+|**US26**|Guia de chatbot para ansiedad y depresion|ST026|El chatbot responde de forma natural sobre lo que siente el paciente|5 hours|Diego Osorio|Done|
+|**US27**|Deteccion de burnout con asistencia de chatbot|ST027|Identificacion de sintomas|3 hours|Dennis Quevedo|In - Process|
+|**US29**|Apoyo de chatbot para estudiantes universitarios	|ST029|Chatbot de ayuda psicológica|15 hours|Gabriela Nomberto|Done|
+|**US19**|Gestión de usuarios|ST019|Base de datos sólida para un mejor manejo|3 hours|Sofia alfaro|Done|
 
 #### 7.2.1.3. Development Evidence for Sprint Review
 
+|Repository|Branch|Commit Id|Commit Message|Commit on Date|
+| :- | :- | :- | :- | :- |
+|Backend-MedPro|origin/master|0b4c8d6c6db93b9ee806c045cc6b23147724261c|inicio|May 29 2024|
+||bc-account|5c01336c90864cc6edab9a50a16217d63ebcc37b|bc-account|May 30 2024|
+|Backend-MedPro|bc-chatbot|3f74bd2c688a82b0c7dec0ee43f112c6989d6735|chatbot|May 30 2024|
+|Backend-MedPro|bc-schedule|1fb568d5b87c19eeff805c1c1ba78bc1368668e3|specialty-medic complete|May 31 2024|
+|Backend-MedPro|bc-schedule|cb720f86bf41633b444f2f3d492c9ffbee1515a0|specialty-medic complete 1.1|May 31 2024|
+|Backend-MedPro|bc-schedule|cc03487be7ad2769272b96c32ee786987caf2829|table schedule complete|May 31 2024|
+|Backend-MedPro|<p>bc-appointment</p><p></p>|7d24bae28a81eb5949454e863ac5577d081176d5|appointment complete|Jun 02 2024|
+|Backend-MedPro|bc-appointment|a27a454028120514319665680e27b0bf5e5e8778|diagnoses complete|Jun 03 2024|
+|Backend-MedPro|origin/master|20e18c5ec71cb8ed772f37c3303ad12238c8e1f7|Api complete|Jun 03 2024|
+|MediConnect-Landing|origin/master|076cd7d66b7051b8d810377dcc33a8f309015a2a|Add files via upload|Sep 28, 2023|
+|MediConnect-Landing|origin/master|f9801d113884f9375265659c064a5a7ea3655bd9|Update index.html|May 16, 2024|
+|MediConnect-Landing|origin/master|cfdb65762e6819c6358cf2f0efc99e605f8d9b12|Update index.html|May 16, 2024|
+|MediConnect-Landing|origin/master|39ffbb65c22eee19526f6a196400519cc4920c4d|Update index.html|May 16, 2024|
+|MediConnect-Landing|origin/master|7efee0e04cf3ea65b420df4d220b55e7994ea9be|Update index.html|May 16, 2024|
+|MediConnect-Landing|origin/master|721b30f14432d022f089a2f7571be1db0b699583|Update index.html|May 17, 2024|
+|MediConnect-Landing|origin/master|98adacf451c7da61b1b8fb1e95f387fc6f38b597|Update index.html|May 17, 2024|
+
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+
+Para el testing utilizamos el back donde vemos las respuestas de la forma HTTP que nos pueda dar
+
+![test](/Images/rptasback.jpg)
 
 #### 7.2.1.5. Execution Evidence for Sprint Review.
 
+Para esta parte del sprint presentamos las evidencias del Landing Page, Front end y Back end
+
+**Landing Page**
+
+Mostramos el landing page de nuestro sitio que es MediConnect donde podemos presentar varias secciones de las cuales presentamos a continuacion
+
+![evidence](/Images/evidencelanding.jpg)
+![evidence1](/Images/evidencelanding1.jpg)
+
+**Backend**
+
+Para el Backend utilizamos un tipo de enlace que apunte a nuestro localhost para poder probarlo de forma pública 
+
+![evidence2](/Images/evidencebackend.jpg)
+
+**Front end**
+   
+   * Inicio de Sesion
+
+      ![evidence3](/Images/iniciosesion.jpg)
+
+   * Registro
+
+      ![evidence4](/Images/registro.jpg)
+
+   * Vista del Paciente
+  
+      ![evidence5](/Images/paciente.jpg)
+
+   * Vistal del Medico
+
+      ![evidence6](/Images/vistamedico.jpg)
+
+   * Ver a los doctores
+  
+      ![evidence7](/Images/getallmedicos.jpg)
+
+   * Ver informacion de un doctor
+
+      ![evidence8](/Images/infmedic.jpg)
+
+   * Añadir Especialidad
+
+      ![evidence9](/Images/especialidad.jpg)
+
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Para este sprint nuestra documentacion de endpoints se encuentra todavia en formato localhost
+
+|Endpoint|HTTP verb|Action|
+| :- | :- | :- |
+|<http://localhost:3000/users> |GET|Llama a todos los usuarios registrados en la aplicacion|
+|<http://localhost:3000/users> |POST|Registra un nuevo usuario|
+|[http://localhost:3000/users/{id}](http://localhost:3000/users/%7bid%7d) |GET BY ID|Llama a un usuario en especifico|
+|[http://localhost:3000/users/{id}](http://localhost:3000/users/%7bid%7d)|PUT|Editar atributos del usuario|
+|[http://localhost:3000/users/{id}](http://localhost:3000/users/%7bid%7d)|DELETE|Eliminar el usuario|
+|<http://localhost:3000/appointments> |GET|Llama una cita registrada|
+|<http://localhost:3000/appointments>|POST|Crear una cita|
+|[http://localhost:3000/appointments/{Id}](http://localhost:3000/appointments/%7bId%7d) |GET BY ID|Ver una cita especifica|
+|[http://localhost:3000/appointments/{Id}](http://localhost:3000/appointments/%7bId%7d)|PUT|Editar una cita especifica|
+|[http://localhost:3000/appointments/{Id}](http://localhost:3000/appointments/%7bId%7d)|DELETE|Eliminar una cita|
+|<http://localhost:3000/diagnoses> |GET|Ver los diagnósticos de los pacientes|
+|<http://localhost:3000/diagnoses>|POST|Crear un nuevo diagnostico|
+|[http://localhost:3000/diagnoses/{id}](http://localhost:3000/diagnoses/%7bid%7d) |GET BY ID|Ver un diagnostico en especifico|
+|[http://localhost:3000/diagnoses/{id}](http://localhost:3000/diagnoses/%7bid%7d)|PUT|Editar un diagnostico|
+|[http://localhost:3000/diagnoses/{id}](http://localhost:3000/diagnoses/%7bid%7d)|DELETE|Eliminar un diagnostico|
+|<http://localhost:3000/prescriptions> |GET|Ver todas las recetas|
+|<http://localhost:3000/prescriptions>|POST|Crear una nueva receta|
+|[http://localhost:3000/prescriptions/{id}](http://localhost:3000/prescriptions/%7bid%7d) |GET BY ID|Ver una receta especifica|
+|[http://localhost:3000/prescriptions/{id}](http://localhost:3000/prescriptions/%7bid%7d)|PUT|Editar una receta|
+|[http://localhost:3000/prescriptions/{id}](http://localhost:3000/prescriptions/%7bid%7d)|DELETE|Eliminar una receta|
+|<http://localhost:3000/schedules> |GET|Ver todos los horarios de los doctores|
+|<http://localhost:3000/schedules>|POST|Crear un nuevo horario|
+|[http://localhost:3000/schedules/{id}](http://localhost:3000/schedules/%7bid%7d) |GET BY ID|Ver un horario en especifico|
+|[http://localhost:3000/schedules/{id}](http://localhost:3000/schedules/%7bid%7d)|PUT|Editar un horario|
+|[http://localhost:3000/schedules/{id}](http://localhost:3000/schedules/%7bid%7d)|DELETE|Eliminar un horario|
+|<http://localhost:3000/smedic>|GET|Ver a todos los médicos registrados en la aplicación|
+|<http://localhost:3000/smedic>|POST|Editar datos del medico|
+|[http://localhost:3000/smedic/{id}](http://localhost:3000/smedic/%7bid%7d) |GET BY ID|Ver un medico en especifico|
+|[http://localhost:3000/smedic/{id}](http://localhost:3000/smedic/%7bid%7d)|PUT|Editar datos del medico|
+|[http://localhost:3000/smedic/{id}](http://localhost:3000/smedic/%7bid%7d) |DELETE|Eliminar al medico|
+
+
 
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 
+**Landin Page**
+
+Para este sprint consideramos solo deployar el landing page por medio de GitHub Pages por el motivo de que es ideal para los sitios web estáticos
+
+![deploy](/Images/deploylandingevidence.jpg)
+![deploy](/Images/deploylanding.png)
+
+**Enlace Web**: https://mediconnect-arq.github.io/MediConnect-Landing/ 
+
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
 
+Mostraremos los insights y colaboracion de nuestros integrantes tanto en el back, front y landing page
+
+**Landin Page**
+
+![insight](/Images/insightlanding.jpg)
+
+**Backend**
+
+![insight1](/Images/insightback.jpg)
+
+**Repositorio**
+
+![insight2](/Images/insightreport.jpg)
 
 ## 7.3. Validation Interviews
 
@@ -2245,6 +2399,13 @@ Para la creación del Backend de MediConnect se utilizó la estructura de DDD en
 ### 7.3.3. Evaluaciones según heurísticas
 
 ## 7.4. Video About-the-Product
+
+Tenemos una presentacion de nuestro producto y como lo presentariamos al publico general, donde se mostrara las principales funciones para llamar la atención de nuestros principales usuarios
+
+**Enlace de Youtube**: https://youtu.be/Y5o20feuTtM 
+
+![about](/Images/about%20the%20product.jpg)
+
 
 # Conclusiones y Recomendaciones 
 
