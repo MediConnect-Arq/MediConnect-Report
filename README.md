@@ -2559,6 +2559,155 @@ Mostraremos los insights y colaboracion de nuestros integrantes tanto en el back
 
 ![insight2](/Images/insightreport.jpg)
 
+### 7.2.2 Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2
+
+  * Sprint Planning Background
+  
+    | **Date** | 10/06/2024 |
+    | -- | -- |
+    |  **Time** | 8pm |
+    | **Location** | Planificación mediante WhatsApp | 
+    | **Prepared By** | Gabriela Nomberto |
+    | **Attendees** | Dennis Quevedo, Diego Osorio, Sofia Alfaro | 
+
+  * Sprint Goal &  User Stories
+
+    | Sprint Goal # | Desarrollo de Front End - Backend e Itegracion |
+    | -- | -- | 
+    | Sprint 1 Velocity | 14 |
+    | Sprint of Story Points | 14 |
+
+#### 7.2.2.2. Sprint Backlog 2
+
+|Sprint #|Sprint 1||||||
+| :- | :- | :- | :- | :- | :- | :- |
+|User Story|Work-Item / Task||||||
+|<p>US</p><p>Id</p>|Title|Task Id|Description|Estimation (Hours)|Assigned To|<p>Status (To do / In – Process / To – Review / Done)</p><p></p>|
+|**US20**|Seguimiento de progreso del paciente|ST0020|Seguimiento de las consultas de un paciente registrado|2 hours|Dennis Quevedo|Done|
+|**US23**|Registrar satisfactoriamente la cita.|ST023|Registro correcto de una cita de un paciente|4 hours|Gabriela Nomberto|Done|
+|**US25**|Evaluacion de salud mental a traves de un chatbot|ST025|El chatbot evalua la información brindada por el paciente|5 hours|Diego Osorio|Done|
+|**US31**|Gestionar crisis y emergencias con chatbot|ST031|Identificacion de sintomas|3 hours|Sofia alfaro|Done|
+
+#### 7.2.2.3. Development Evidence for Sprint Review
+
+(imagenes del power app pq no hay commits)
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+Durante el Sprint 2, nos enfocamos en la validación de nuestras implementaciones a través de pruebas exhaustivas utilizando nuestro backend para asegurar la correcta funcionalidad y respuestas esperadas de nuestras APIs.
+
+![test](/Images/rptasback.jpg)
+
+#### 7.2.2.5. Execution Evidence for Sprint Review.
+
+Durante la revisión del Sprint, presentamos evidencias detalladas del Frontend y el funcionamiento de los chatbots implementados.
+
+**Front end**
+   
+   * Inicio de Sesion
+
+      ![evidence3](/Images/iniciosesion.jpg)
+
+   * Registro
+
+      ![evidence4](/Images/registro.jpg)
+
+   * Vista del Paciente
+  
+      ![evidence5](/Images/paciente.jpg)
+
+   * Vistal del Medico
+
+      ![evidence6](/Images/vistamedico.jpg)
+
+   * Ver a los doctores
+  
+      ![evidence7](/Images/getallmedicos.jpg)
+
+   * Ver informacion de un doctor
+
+      ![evidence8](/Images/infmedic.jpg)
+
+   * Añadir Especialidad
+
+      ![evidence9](/Images/especialidad.jpg)
+
+**Chatbot para pacientes**
+
+(insertar img)
+
+**Chatbot para medicos**
+
+(insertar img)
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Se presenta la documentación de los endpoints desarrollados para nuestra aplicación, se aprecia la separación por bounded context.
+
+|Endpoint|HTTP verb|Action|
+| :- | :- | :- |
+|<http://localhost:3000/users> |GET|Llama a todos los usuarios registrados en la aplicacion|
+|<http://localhost:3000/users> |POST|Registra un nuevo usuario|
+|[http://localhost:3000/users/{id}](http://localhost:3000/users/%7bid%7d) |GET BY ID|Llama a un usuario en especifico|
+|[http://localhost:3000/users/{id}](http://localhost:3000/users/%7bid%7d)|PUT|Editar atributos del usuario|
+|[http://localhost:3000/users/{id}](http://localhost:3000/users/%7bid%7d)|DELETE|Eliminar el usuario|
+|<http://localhost:3000/appointments> |GET|Llama una cita registrada|
+|<http://localhost:3000/appointments>|POST|Crear una cita|
+|[http://localhost:3000/appointments/{Id}](http://localhost:3000/appointments/%7bId%7d) |GET BY ID|Ver una cita especifica|
+|[http://localhost:3000/appointments/{Id}](http://localhost:3000/appointments/%7bId%7d)|PUT|Editar una cita especifica|
+|[http://localhost:3000/appointments/{Id}](http://localhost:3000/appointments/%7bId%7d)|DELETE|Eliminar una cita|
+|<http://localhost:3000/diagnoses> |GET|Ver los diagnósticos de los pacientes|
+|<http://localhost:3000/diagnoses>|POST|Crear un nuevo diagnostico|
+|[http://localhost:3000/diagnoses/{id}](http://localhost:3000/diagnoses/%7bid%7d) |GET BY ID|Ver un diagnostico en especifico|
+|[http://localhost:3000/diagnoses/{id}](http://localhost:3000/diagnoses/%7bid%7d)|PUT|Editar un diagnostico|
+|[http://localhost:3000/diagnoses/{id}](http://localhost:3000/diagnoses/%7bid%7d)|DELETE|Eliminar un diagnostico|
+|<http://localhost:3000/prescriptions> |GET|Ver todas las recetas|
+|<http://localhost:3000/prescriptions>|POST|Crear una nueva receta|
+|[http://localhost:3000/prescriptions/{id}](http://localhost:3000/prescriptions/%7bid%7d) |GET BY ID|Ver una receta especifica|
+|[http://localhost:3000/prescriptions/{id}](http://localhost:3000/prescriptions/%7bid%7d)|PUT|Editar una receta|
+|[http://localhost:3000/prescriptions/{id}](http://localhost:3000/prescriptions/%7bid%7d)|DELETE|Eliminar una receta|
+|<http://localhost:3000/schedules> |GET|Ver todos los horarios de los doctores|
+|<http://localhost:3000/schedules>|POST|Crear un nuevo horario|
+|[http://localhost:3000/schedules/{id}](http://localhost:3000/schedules/%7bid%7d) |GET BY ID|Ver un horario en especifico|
+|[http://localhost:3000/schedules/{id}](http://localhost:3000/schedules/%7bid%7d)|PUT|Editar un horario|
+|[http://localhost:3000/schedules/{id}](http://localhost:3000/schedules/%7bid%7d)|DELETE|Eliminar un horario|
+|<http://localhost:3000/smedic>|GET|Ver a todos los médicos registrados en la aplicación|
+|<http://localhost:3000/smedic>|POST|Editar datos del medico|
+|[http://localhost:3000/smedic/{id}](http://localhost:3000/smedic/%7bid%7d) |GET BY ID|Ver un medico en especifico|
+|[http://localhost:3000/smedic/{id}](http://localhost:3000/smedic/%7bid%7d)|PUT|Editar datos del medico|
+|[http://localhost:3000/smedic/{id}](http://localhost:3000/smedic/%7bid%7d) |DELETE|Eliminar al medico|
+
+
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+**Landin Page**
+
+Para este sprint consideramos solo deployar el landing page por medio de GitHub Pages por el motivo de que es ideal para los sitios web estáticos
+
+![deploy](/Images/deploylandingevidence.jpg)
+![deploy](/Images/deploylanding.png)
+
+**Enlace Web**: https://mediconnect-arq.github.io/MediConnect-Landing/ 
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint.
+
+Mostraremos los insights y colaboracion de nuestros integrantes tanto en el back, front y landing page
+
+**Landin Page**
+
+![insight](/Images/insightlanding.jpg)
+
+**Backend**
+
+![insight1](/Images/insightback.jpg)
+
+**Repositorio**
+
+![insight2](/Images/insightreport.jpg)
+
 
 ## 7.3. Validation Interviews
 
