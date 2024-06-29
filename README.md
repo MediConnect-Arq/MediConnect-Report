@@ -23,7 +23,7 @@
   - Diego Enrique Osorio Horna (U201913822)
   - Andrea Sofia Alfaro Salinas (U202115862)
 
-**Mes y Año:** Mayo 2024
+**Mes y Año:** Junio 2024
 
 **Ciclo:** 2024-1   
 
@@ -43,134 +43,193 @@
 | 3.1  | 23/05/2024 | Andrea Alfaro | Correcciones y edición del capítulo VI | 
 
 ## Project Report Collaboration Insights 
+
 **Enlace del Project Report:** [https://github.com/MediConnect-Arq/MediConnect-Report/tree/main] 
 
 ## Contenido 
 
 ### [Tabla de Contenidos](#tabla-de-contenidos)
 
-### Student Outcome
+- [Student Outcome](#student-outcome)
 
-### Capítulo I: Introducción
-  - #### 1.1. Startup Profile
-    - 1.1.1. Descripción de la Startup
-    - 1.1.2. Perfiles de Integrantes del equipo
-  - #### 1.2. Solution Profile
-    - 1.2.1. Antecedentes y problemática
-    - 1.2.2. Lean UX Process
-      - 1.2.2.1 Lean UX Problem Statements
-      - 1.2.2.2 Lean UX Assumptions
-      - 1.2.2.3 Lean UX Hypothesis Statements
-      - 1.2.2.4 Lean UX Canvas
-  - #### 1.3. Segmentos Objetivos
+- [Capítulo I: Introducción](#capítulo-i-introducción)
 
-### Capítulo II: Requirements Elicitation & Analysis
-  - #### 2.1. Competidores
-    - 2.1.1. Análisis competitivo
-    - 2.1.2. Estrategias y tácticas frente a competidores
-  - #### 2.2. Entrevistas
-    - 2.2.1. Diseño de entrevistas
-    - 2.2.2. Registro de entrevistas
-    - 2.2.3. Análisis de entrevistas
-  - #### 2.3. Needfinding
-    - 2.3.1. User Personas
-    - 2.3.2. User Task Matrix
-    - 2.3.3. Empathy Mapping
-    - 2.3.4. As-is Scenario Mapping
-  - #### 2.4. Ubiquitous Language
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de Integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos Objetivos](#13-segmentos-objetivos)
 
-### Capítulo III: Requirements Specification
-  - #### 3.1. To-Be Scenario Mapping
-  - #### 3.2. User Stories
-  - #### 3.3. Impact Mapping
-  - #### 3.4. Product Backlog
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+    - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
-### Capítulo IV: Strategic-Level Software Design
-  - #### 4.1. Strategic-Level Attribute-Driven Design
-    - 4.1.1. Design Purpose
-    - 4.1.2. Attribute-Driven Design Inputs
-      - 4.1.2.1. Primary Functionality (Primary User Stories)
-      - 4.1.2.2. Quality attribute Scenarios
-      - 4.1.2.3. Constraints
-    - 4.1.3. Architectural Drivers Backlog
-    - 4.1.4. Architectural Design Decisions
-    - 4.1.5. Quality Attribute Scenario Refinements
-  - #### 4.2. Strategic-Level Domain-Driven Design
-    - 4.2.1. EventStorming
-    - 4.2.2. Candidate Context Discovery
-    - 4.2.3. Domain Message Flows Modeling
-    - 4.2.4. Bounded Context Canvases
-    - 4.2.5. Context Mapping
-  - #### 4.3. Software Architecture
-    - 4.3.1. Software Architecture System Landscape Diagram
-    - 4.3.2. Software Architecture Context Level Diagrams
-    - 4.3.3. Software Architecture Container Level Diagrams
-    - 4.3.4. Software Architecture Deployment Diagrams
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
 
-### Capítulo V: Tactical-Level Software Design.
-- #### 5.X. Bounded Context: <Bounded Context Name>
-  - 5.X.1. Domain Layer.
-  - 5.X.2. Interface Layer.
-  - 5.X.3. Application Layer.
-  - 5.X.4. Infrastructure Layer.
-  - 5.X.6. Bounded Context Software Architecture Component Level Diagrams.
-  - 5.X.7. Bounded Context Software Architecture Code Level Diagrams.
-      - 5.X.7.1. Bounded Context Domain Layer Class Diagrams.
-      - 5.X.7.2. Bounded Context Database Design Diagram.
-
-### Capítulo VI: Solution UX Design.
-- #### 6.1. Style Guidelines.
-  - 6.1.1. General Style Guidelines.
-  - 6.1.2. Web, Mobile & Devices Style Guidelines.
-- #### 6.2. Information Architecture.
-  - 6.2.2. Labeling Systems.
-  - 6.2.3. Searching Systems.
-  - 6.2.4. SEO Tags and Meta Tags.
-  - 6.2.5. Navigation Systems.
-- #### 6.3. Landing Page UI Design.
-  - 6.3.1. Landing Page Wireframe.
-  - 6.3.2. Landing Page Mock-up.
-- #### 6.4. Applications UX/UI Design.
-  - 6.4.1. Applications Wireframes.
-  - 6.4.2. Applications Wireflow Diagrams.
-
-### Capítulo VII: Product Implementation, Validation & Deployment
-- #### 7.1. Software Configuration Management
-    - 7.1.1. Software Development Environment Configuration
-    - 7.1.2. Source Code Management
-    - 7.1.3. Source Code Style Guide & Conventions
-    - 7.1.4. Software Deployment Configuration
-- ### 7.2. Solution Implementation
-    - 7.2.1. Sprint 1
-      - 7.2.1.1. Sprint Planning 1
-      - 7.2.1.2. Sprint Backlog 1
-      - 7.2.1.3. Development Evidence for Sprint Review
-      - 7.2.1.4. Testing Suite Evidence for Sprint Review
-      - 7.2.1.5. Execution Evidence for Sprint Review
-      - 7.2.1.6. Services Documentation Evidence for Sprint Review
-      - 7.2.1.7. Software Deployment Evidence for Sprint Review
-      - 7.2.1.8. Team Collaboration Insights during Sprint
-- ### 7.3. Validation Interviews
-    - 7.3.1. Diseño de Entrevistas
-    - 7.3.2. Registro de Entrevistas
-    - 7.3.3. Evaluaciones según heurísticas
-- ### 7.4. Video About-the-Product
-
-### Conclusiones 
-  - #### Conclusiones y Recomendaciones
-  - #### Video About-the-Team
-  
-### Bibliografía
-
-### Anexos
+- [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
+  - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+    - [4.1.1. Design Purpose](#411-design-purpose)
+    - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+      - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+      - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+      - [4.1.2.3. Constraints](#4123-constraints)
+    - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+    - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+    - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+  - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+    - [4.2.1. EventStorming](#421-eventstorming)
+    - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+    - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+    - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+    - [4.2.5. Context Mapping](#425-context-mapping)
+  - [4.3. Software Architecture](#43-software-architecture)
+    - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+    - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+    - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+    - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+- [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
+  - [5.1. Bounded Context: Payment](#51-bounded-context-payment)
+    - [5.1.1. Domain Layer](#511-domain-layer)
+    - [5.1.2. Interface Layer](#512-interface-layer)
+    - [5.1.3. Application Layer](#513-application-layer)
+    - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+    - [5.1.6. Bounded Context Software Architecture Component Level Diagrams](#516-bounded-context-software-architecture-component-level-diagrams)
+    - [5.1.7. Bounded Context Software Architecture Code Level Diagrams](#517-bounded-context-software-architecture-code-level-diagrams)
+      - [5.1.7.1. Bounded Context Domain Layer Class Diagrams](#5171-bounded-context-domain-layer-class-diagrams)
+      - [5.1.7.2. Bounded Context Database Design Diagram](#5172-bounded-context-database-design-diagram)
+  - [5.2. Bounded Context: Appointment](#52-bounded-context-appointment)
+    - [5.2.1. Domain Layer](#521-domain-layer)
+    - [5.2.2. Interface Layer](#522-interface-layer)
+    - [5.2.3. Application Layer](#523-application-layer)
+    - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+    - [5.2.6. Bounded Context Software Architecture Component Level Diagrams](#526-bounded-context-software-architecture-component-level-diagrams)
+    - [5.2.7. Bounded Context Software Architecture Code Level Diagrams](#527-bounded-context-software-architecture-code-level-diagrams)
+      - [5.2.7.1. Bounded Context Domain Layer Class Diagrams](#5271-bounded-context-domain-layer-class-diagrams)
+      - [5.2.7.2. Bounded Context Database Design Diagram](#5272-bounded-context-database-design-diagram)
+  - [5.3. Bounded Context: Account](#53-bounded-context-account)
+    - [5.3.1. Domain Layer](#531-domain-layer)
+    - [5.3.2. Interface Layer](#532-interface-layer)
+    - [5.3.3. Application Layer](#533-application-layer)
+    - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+    - [5.3.6. Bounded Context Software Architecture Component Level Diagrams](#536-bounded-context-software-architecture-component-level-diagrams)
+    - [5.3.7. Bounded Context Software Architecture Code Level Diagrams](#537-bounded-context-software-architecture-code-level-diagrams)
+      - [5.3.7.1. Bounded Context Domain Layer Class Diagrams](#5371-bounded-context-domain-layer-class-diagrams)
+      - [5.3.7.2. Bounded Context Database Design Diagram](#5372-bounded-context-database-design-diagram)
+  - [5.4. Bounded Context: Monitoring](#54-bounded-context-monitoring)
+    - [5.4.1. Domain Layer](#541-domain-layer)
+    - [5.4.2. Interface Layer](#542-interface-layer)
+    - [5.4.3. Application Layer](#543-application-layer)
+    - [5.4.4. Infrastructure Layer](#544-infrastructure-layer)
+    - [5.4.6. Bounded Context Software Architecture Component Level Diagrams](#546-bounded-context-software-architecture-component-level-diagrams)
+    - [5.4.7. Bounded Context Software Architecture Code Level Diagrams](#547-bounded-context-software-architecture-code-level-diagrams)
+      - [5.4.7.1. Bounded Context Domain Layer Class Diagrams](#5471-bounded-context-domain-layer-class-diagrams)
+      - [5.4.7.2. Bounded Context Database Design Diagram](#5472-bounded-context-database-design-diagram)
+  - [5.5. Bounded Context: Support group](#55-bounded-context-support-group)
+    - [5.5.1. Domain Layer](#551-domain-layer)
+    - [5.5.2. Interface Layer](#552-interface-layer)
+    - [5.5.3. Application Layer](#553-application-layer)
+    - [5.5.4. Infrastructure Layer](#554-infrastructure-layer)
+    - [5.5.6. Bounded Context Software Architecture Component Level Diagrams](#556-bounded-context-software-architecture-component-level-diagrams)
+    - [5.5.7. Bounded Context Software Architecture Code Level Diagrams](#557-bounded-context-software-architecture-code-level-diagrams)
+      - [5.5.7.1. Bounded Context Domain Layer Class Diagrams](#5571-bounded-context-domain-layer-class-diagrams)
+      - [5.5.7.2. Bounded Context Database Design Diagram](#5572-bounded-context-database-design-diagram)
+  - [5.6. Bounded Context: Chatbot](#56-bounded-context-chatbot)
+    - [5.6.1. Domain Layer](#561-domain-layer)
+    - [5.6.2. Interface Layer](#562-interface-layer)
+    - [5.6.3. Application Layer](#563-application-layer)
+    - [5.6.4. Infrastructure Layer](#564-infrastructure-layer)
+    - [5.6.6. Bounded Context Software Architecture Component Level Diagrams](#566-bounded-context-software-architecture-component-level-diagrams)
+    - [5.6.7. Bounded Context Software Architecture Code Level Diagrams](#567-bounded-context-software-architecture-code-level-diagrams)
+      - [5.6.7.1. Bounded Context Domain Layer Class Diagrams](#5671-bounded-context-domain-layer-class-diagrams)
+      - [5.6.7.2. Bounded Context Database Design Diagram](#5672-bounded-context-database-design-diagram)
+  - [5.7. Bounded Context: Notifications](#57-bounded-context-notifications)
+    - [5.7.1. Domain Layer](#571-domain-layer)
+    - [5.7.2. Interface Layer](#572-interface-layer)
+    - [5.7.3. Application Layer](#573-application-layer)
+    - [5.7.4. Infrastructure Layer](#574-infrastructure-layer)
+    - [5.7.6. Bounded Context Software Architecture Component Level Diagrams](#576-bounded-context-software-architecture-component-level-diagrams)
+    - [5.7.7. Bounded Context Software Architecture Code Level Diagrams](#577-bounded-context-software-architecture-code-level-diagrams)
+      - [5.7.7.1. Bounded Context Domain Layer Class Diagrams](#5771-bounded-context-domain-layer-class-diagrams)
+      - [5.7.7.2. Bounded Context Database Design Diagram](#5772-bounded-context-database-design-diagram)
+- [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
+  - [6.1. Style Guidelines](#61-style-guidelines)
+    - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+    - [6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+  - [6.2. Information Architecture](#62-information-architecture)
+    - [6.2.2. Labeling Systems](#622-labeling-systems)
+    - [6.2.3. Searching Systems](#623-searching-systems)
+    - [6.2.4. SEO Tags and Meta Tags](#624-seo-tags-and-meta-tags)
+    - [6.2.5. Navigation Systems](#625-navigation-systems)
+  - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+    - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+    - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+  - [6.4. Applications UX/UI Design](#64-applications-uxui-design)
+    - [6.4.1. Applications Wireframes](#641-applications-wireframes)
+    - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+- [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
+  - [7.1. Software Configuration Management](#71-software-configuration-management)
+    - [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
+    - [7.1.2. Source Code Management](#712-source-code-management)
+    - [7.1.3. Source Code Style Guide & Conventions](#713-source-code-style-guide--conventions)
+    - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+  - [7.2. Solution Implementation](#72-solution-implementation)
+    - [7.2.1. Sprint 1](#721-sprint-1)
+      - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+      - [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+      - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+      - [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+      - [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+      - [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+      - [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+      - [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
+    - [7.2.2. Sprint 2](#722-sprint-2)
+      - [7.2.2.1. Sprint Planning 2](#7211-sprint-planning-2)
+      - [7.2.2.2. Sprint Backlog 2](#7212-sprint-backlog-2)
+      - [7.2.2.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+      - [7.2.2.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+      - [7.2.2.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+      - [7.2.2.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+      - [7.2.2.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+      - [7.2.2.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
+  - [7.3. Validation Interviews](#73-validation-interviews)
+    - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
+    - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
+    - [7.3.3. Evaluaciones según heurísticas](#733-evaluaciones-según-heurísticas)
+  - [7.4. Video About-the-Product](#74-video-about-the-product)
+- [Conclusiones](#conclusiones)
+  - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
+  - [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
   
 # Student Outcome
 
 | Criterio Especíico | Acciones Realizadas | Conclusiones|
 | ------------------ | ------------------- | ----------- |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería | **TB1** <br/> Andrea Alfaro <br/> Colaboré activamente en reuniones donde se discutían aspectos técnicos y estratégicos del proyecto con profesionales de diversas áreas de especialización <br/><br/> Gabriela Nomberto <br/> Participe y dividí las partes para que cada uno de los integrantes del grupo dando plazos y mejorando la comunicacion <br/><br/> Dennis Quevedo <br/> Realicé y agendé las reuniones así como aplicar mejoras al trabajo para que tenga el alcance del curso <br/><br/> Diego Osorio <br/> Participé en las reuniones para las mejoras y para consultar y mejorar las partes repartidas para cada uno <br> **TP** <br> Andrea Alfaro <br> Colaboré activamente en el avance del trabajo y expuse los resultados del avance de nuestra solución. | Concluimos que las reuniones y las mejoras continuas entre todos nos ayuda a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa | 
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br/> Andrea Alfaro <br/> Participé en la revisión y edición de documentos técnicos escritos por otros miembros del equipo, brindando retroalimentación constructiva para mejorar la claridad y objetividad de la comunicación escrita. <br/><br/> Gabriela Nomberto <br> Participé en la construccion de las arquitecturas de la aplicacion web, asi como el desarrollo del reporte en R Markdown <br/><br/> Dennis Quevedo <br/> Realicé mejoras en los capítulos 1, 2 y 3 para que cumpla con el alcance del curso <br/><br/> Diego Osorio <br/> Realicé tecnicas y clasificacion para obtener una mejor vision del startup presentado<br> **TP** <br> Andrea Alfaro <br> Realicé la corrección y avances solicitados para la entrega y el análisis de Tactical-Level Software Design| Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos  entre todos | 
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería | **TB1** <br/> Andrea Alfaro <br/> Colaboré activamente en reuniones donde se discutían aspectos técnicos y estratégicos del proyecto con profesionales de diversas áreas de especialización <br/><br/> Gabriela Nomberto <br/> Participe y dividí las partes para que cada uno de los integrantes del grupo dando plazos y mejorando la comunicacion <br/><br/> Dennis Quevedo <br/> Realicé y agendé las reuniones así como aplicar mejoras al trabajo para que tenga el alcance del curso <br/><br/> Diego Osorio <br/> Participé en las reuniones para las mejoras y para consultar y mejorar las partes repartidas para cada uno <br/><br/> **TP** <br> Andrea Alfaro <br> Colaboré activamente en el avance del trabajo y expuse los resultados del avance de nuestra solución. <br/><br/> Gabriela Nomberto <br> Presenté el diseño final de la arquitectura de la aplicación web y las mejoras implementadas. <br/><br/> Dennis Quevedo <br> Coordiné y expuse la revisión final del proyecto asegurando que se cumplieran todos los objetivos del curso. <br/><br/> Diego Osorio <br> Expuse el análisis y las mejoras implementadas en la sección de Tactical-Level Software Design. <br/><br/> **TB2**  <br> Andrea Alfaro <br> Presenté los resultados del primer sprint y los discutí con el equipo para ajustar la planificación del siguiente sprint. <br/><br/> Gabriela Nomberto <br> Coordiné la presentación de los avances de diseño y usabilidad ante los stakeholders. <br/><br/> Dennis Quevedo <br> Llevé a cabo una sesión de feedback con el equipo para mejorar la calidad de nuestras entregas. <br/><br/> Diego Osorio <br> Realicé presentaciones internas para asegurar la alineación del equipo con los objetivos del proyecto. <br/><br/> **TF** <br> Andrea Alfaro <br> Coordiné la presentación final y expuse las conclusiones y aprendizajes del proyecto. <br/><br/> Gabriela Nomberto <br> Realicé la exposición final, destacando las mejoras y los resultados obtenidos. <br/><br/> Dennis Quevedo <br> Expuse los resultados finales del proyecto, resaltando la importancia de cada entrega y los aprendizajes. <br/><br/> Diego Osorio <br> Realicé la presentación final, destacando el impacto del proyecto y las recomendaciones para futuros trabajos. | Concluimos que las reuniones y las mejoras continuas entre todos nos ayuda a mejorar el reporte de trabajo y poder colaborar todo de forma equitativa | 
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | **TB1** <br/> Andrea Alfaro <br/> Participé en la revisión y edición de documentos técnicos escritos por otros miembros del equipo, brindando retroalimentación constructiva para mejorar la claridad y objetividad de la comunicación escrita. <br/><br/> Gabriela Nomberto <br> Participé en la construccion de las arquitecturas de la aplicacion web, asi como el desarrollo del reporte en R Markdown <br/><br/> Dennis Quevedo <br/> Realicé mejoras en los capítulos 1, 2 y 3 para que cumpla con el alcance del curso <br/><br/> Diego Osorio <br/> Realicé tecnicas y clasificacion para obtener una mejor vision del startup presentado <br/><br/> **TP** <br> Andrea Alfaro <br> Realicé la corrección y avances solicitados para la entrega y el análisis de Tactical-Level Software Design <br/><br/> Gabriela Nomberto <br> Redacté la sección final del informe, integrando las conclusiones y recomendaciones. <br/><br/> Dennis Quevedo <br> Consolidé todas las secciones del informe en un documento cohesivo y revisé su coherencia. <br/><br/> Diego Osorio <br> Finalicé y revisé las secciones técnicas del reporte asegurando la precisión de la información. <br/><br/> **TB2** <br> Andrea Alfaro <br> Documenté los resultados de nuestras pruebas de usabilidad y los cambios propuestos para el siguiente sprint. <br/><br/> Gabriela Nomberto <br> Redacté la sección de impacto de las mejoras implementadas en la arquitectura del proyecto. <br/><br/> Dennis Quevedo <br> Revisé y mejoré la claridad de las secciones técnicas del informe final. <br/><br/> Diego Osorio <br> Realicé el análisis comparativo de los resultados con los objetivos iniciales del proyecto. <br/><br/> **TF** <br> Andrea Alfaro <br> Redacté la sección de conclusiones del informe final, integrando los aportes de todos los miembros del equipo. <br/><br/> Gabriela Nomberto <br> Realicé la revisión final del informe, asegurando que cumpliera con los requisitos del curso. <br/><br/> Dennis Quevedo <br> Escribí la sección de recomendaciones para futuros proyectos, basándome en nuestra experiencia. <br/><br/> Diego Osorio <br> Realicé la edición final del documento, asegurando la coherencia y calidad del contenido.| Para este apartado, todos aportamos en la estructuracion y llenado del reporte, trabajando asi en grupo y entendiendonos  entre todos | 
 
 # Capítulo I: Introducción
 
@@ -2485,6 +2544,155 @@ Para este sprint consideramos solo deployar el landing page por medio de GitHub 
 **Enlace Web**: https://mediconnect-arq.github.io/MediConnect-Landing/ 
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+Mostraremos los insights y colaboracion de nuestros integrantes tanto en el back, front y landing page
+
+**Landin Page**
+
+![insight](/Images/insightlanding.jpg)
+
+**Backend**
+
+![insight1](/Images/insightback.jpg)
+
+**Repositorio**
+
+![insight2](/Images/insightreport.jpg)
+
+### 7.2.2 Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2
+
+  * Sprint Planning Background
+  
+    | **Date** | 10/06/2024 |
+    | -- | -- |
+    |  **Time** | 8pm |
+    | **Location** | Planificación mediante WhatsApp | 
+    | **Prepared By** | Gabriela Nomberto |
+    | **Attendees** | Dennis Quevedo, Diego Osorio, Sofia Alfaro | 
+
+  * Sprint Goal &  User Stories
+
+    | Sprint Goal # | Desarrollo de Front End - Backend e Itegracion |
+    | -- | -- | 
+    | Sprint 1 Velocity | 14 |
+    | Sprint of Story Points | 14 |
+
+#### 7.2.2.2. Sprint Backlog 2
+
+|Sprint #|Sprint 1||||||
+| :- | :- | :- | :- | :- | :- | :- |
+|User Story|Work-Item / Task||||||
+|<p>US</p><p>Id</p>|Title|Task Id|Description|Estimation (Hours)|Assigned To|<p>Status (To do / In – Process / To – Review / Done)</p><p></p>|
+|**US20**|Seguimiento de progreso del paciente|ST0020|Seguimiento de las consultas de un paciente registrado|2 hours|Dennis Quevedo|Done|
+|**US23**|Registrar satisfactoriamente la cita.|ST023|Registro correcto de una cita de un paciente|4 hours|Gabriela Nomberto|Done|
+|**US25**|Evaluacion de salud mental a traves de un chatbot|ST025|El chatbot evalua la información brindada por el paciente|5 hours|Diego Osorio|Done|
+|**US31**|Gestionar crisis y emergencias con chatbot|ST031|Identificacion de sintomas|3 hours|Sofia alfaro|Done|
+
+#### 7.2.2.3. Development Evidence for Sprint Review
+
+(imagenes del power app pq no hay commits)
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+Durante el Sprint 2, nos enfocamos en la validación de nuestras implementaciones a través de pruebas exhaustivas utilizando nuestro backend para asegurar la correcta funcionalidad y respuestas esperadas de nuestras APIs.
+
+![test](/Images/rptasback.jpg)
+
+#### 7.2.2.5. Execution Evidence for Sprint Review.
+
+Durante la revisión del Sprint, presentamos evidencias detalladas del Frontend y el funcionamiento de los chatbots implementados.
+
+**Front end**
+   
+   * Inicio de Sesion
+
+      ![evidence3](/Images/iniciosesion.jpg)
+
+   * Registro
+
+      ![evidence4](/Images/registro.jpg)
+
+   * Vista del Paciente
+  
+      ![evidence5](/Images/paciente.jpg)
+
+   * Vistal del Medico
+
+      ![evidence6](/Images/vistamedico.jpg)
+
+   * Ver a los doctores
+  
+      ![evidence7](/Images/getallmedicos.jpg)
+
+   * Ver informacion de un doctor
+
+      ![evidence8](/Images/infmedic.jpg)
+
+   * Añadir Especialidad
+
+      ![evidence9](/Images/especialidad.jpg)
+
+**Chatbot para pacientes**
+
+(insertar img)
+
+**Chatbot para medicos**
+
+(insertar img)
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Se presenta la documentación de los endpoints desarrollados para nuestra aplicación, se aprecia la separación por bounded context.
+
+|Endpoint|HTTP verb|Action|
+| :- | :- | :- |
+|<http://localhost:3000/users> |GET|Llama a todos los usuarios registrados en la aplicacion|
+|<http://localhost:3000/users> |POST|Registra un nuevo usuario|
+|[http://localhost:3000/users/{id}](http://localhost:3000/users/%7bid%7d) |GET BY ID|Llama a un usuario en especifico|
+|[http://localhost:3000/users/{id}](http://localhost:3000/users/%7bid%7d)|PUT|Editar atributos del usuario|
+|[http://localhost:3000/users/{id}](http://localhost:3000/users/%7bid%7d)|DELETE|Eliminar el usuario|
+|<http://localhost:3000/appointments> |GET|Llama una cita registrada|
+|<http://localhost:3000/appointments>|POST|Crear una cita|
+|[http://localhost:3000/appointments/{Id}](http://localhost:3000/appointments/%7bId%7d) |GET BY ID|Ver una cita especifica|
+|[http://localhost:3000/appointments/{Id}](http://localhost:3000/appointments/%7bId%7d)|PUT|Editar una cita especifica|
+|[http://localhost:3000/appointments/{Id}](http://localhost:3000/appointments/%7bId%7d)|DELETE|Eliminar una cita|
+|<http://localhost:3000/diagnoses> |GET|Ver los diagnósticos de los pacientes|
+|<http://localhost:3000/diagnoses>|POST|Crear un nuevo diagnostico|
+|[http://localhost:3000/diagnoses/{id}](http://localhost:3000/diagnoses/%7bid%7d) |GET BY ID|Ver un diagnostico en especifico|
+|[http://localhost:3000/diagnoses/{id}](http://localhost:3000/diagnoses/%7bid%7d)|PUT|Editar un diagnostico|
+|[http://localhost:3000/diagnoses/{id}](http://localhost:3000/diagnoses/%7bid%7d)|DELETE|Eliminar un diagnostico|
+|<http://localhost:3000/prescriptions> |GET|Ver todas las recetas|
+|<http://localhost:3000/prescriptions>|POST|Crear una nueva receta|
+|[http://localhost:3000/prescriptions/{id}](http://localhost:3000/prescriptions/%7bid%7d) |GET BY ID|Ver una receta especifica|
+|[http://localhost:3000/prescriptions/{id}](http://localhost:3000/prescriptions/%7bid%7d)|PUT|Editar una receta|
+|[http://localhost:3000/prescriptions/{id}](http://localhost:3000/prescriptions/%7bid%7d)|DELETE|Eliminar una receta|
+|<http://localhost:3000/schedules> |GET|Ver todos los horarios de los doctores|
+|<http://localhost:3000/schedules>|POST|Crear un nuevo horario|
+|[http://localhost:3000/schedules/{id}](http://localhost:3000/schedules/%7bid%7d) |GET BY ID|Ver un horario en especifico|
+|[http://localhost:3000/schedules/{id}](http://localhost:3000/schedules/%7bid%7d)|PUT|Editar un horario|
+|[http://localhost:3000/schedules/{id}](http://localhost:3000/schedules/%7bid%7d)|DELETE|Eliminar un horario|
+|<http://localhost:3000/smedic>|GET|Ver a todos los médicos registrados en la aplicación|
+|<http://localhost:3000/smedic>|POST|Editar datos del medico|
+|[http://localhost:3000/smedic/{id}](http://localhost:3000/smedic/%7bid%7d) |GET BY ID|Ver un medico en especifico|
+|[http://localhost:3000/smedic/{id}](http://localhost:3000/smedic/%7bid%7d)|PUT|Editar datos del medico|
+|[http://localhost:3000/smedic/{id}](http://localhost:3000/smedic/%7bid%7d) |DELETE|Eliminar al medico|
+
+
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+**Landin Page**
+
+Para este sprint consideramos solo deployar el landing page por medio de GitHub Pages por el motivo de que es ideal para los sitios web estáticos
+
+![deploy](/Images/deploylandingevidence.jpg)
+![deploy](/Images/deploylanding.png)
+
+**Enlace Web**: https://mediconnect-arq.github.io/MediConnect-Landing/ 
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint.
 
 Mostraremos los insights y colaboracion de nuestros integrantes tanto en el back, front y landing page
 
